@@ -1,0 +1,74 @@
+{
+  "expo": {
+    "name": "Hippo Brands",
+    "slug": "hipposlug",
+    "scheme": "hipposcheme",
+    "version": "1.0",
+    "icon": "./AppIcons/hippo/hippo1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/hippo/hippo1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/hippo/hippo1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.hippo",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/hippo-google-services.json",
+      "package": "com.tabex.series.hippo",
+      "icon": "./AppIcons/hippo/hippo512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/hippo/hippo512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65634a327e8ae",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "eas": {
+        "projectId": "5d892588-09f3-43b9-ba93-c9352a427713"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/5d892588-09f3-43b9-ba93-c9352a427713"
+    }
+  }
+}

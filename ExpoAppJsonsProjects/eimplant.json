@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "IMPLANTOPIA By R.H",
+    "slug": "eimplantslug",
+    "scheme": "eimplantscheme",
+    "version": "3.0",
+    "icon": "./AppIcons/eimplant/eimplant1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/eimplant/eimplant1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/eimplant/eimplantsplashscreen.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.eimplant",
+      "buildNumber": "3",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/eimplantapp-google-services.json",
+      "package": "com.tabex.series.eimplantapp",
+      "icon": "./AppIcons/eimplant/eimplant512.png",
+      "versionCode": 3,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/eimplant/eimplant512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "6537861acf226",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "cover",
+      "iossdk": "49",
+      "androidsdk": "51",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "firebaseaccount2": "14tbdex@gmail.com",
+      "eas": {
+        "projectId": "59fea037-936b-4d9a-9529-b9002a6123dc"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/59fea037-936b-4d9a-9529-b9002a6123dc"
+    }
+  }
+}

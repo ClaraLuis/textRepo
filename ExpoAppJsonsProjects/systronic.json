@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "Systronic",
+    "slug": "systronicslug",
+    "scheme": "systronicscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/systronic/systronic1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/systronic/systronic1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/systronic/systroniclogo.png",
+      "backgroundColor": "#FCFDFC",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.systronic",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/systronic-google-services.json",
+      "package": "com.tabex.series.systronic",
+      "icon": "./AppIcons/systronic/systronic512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/systronic/systronic512.png",
+        "backgroundColor": "#FCFDFC"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65e8826190113",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "devitabex2@gmail.com",
+      "eas": {
+        "projectId": "65dce646-898f-4497-b223-627c56624cbb"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/65dce646-898f-4497-b223-627c56624cbb"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "742600707260",
+    "project_id": "joe-s-diner",
+    "storage_bucket": "joe-s-diner.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742600707260:android:aa034451933fcd0d31d4b9",
+        "android_client_info": {
+          "package_name": "com.tabex.series.joesdiner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "742600707260-0tmc9sg9countc0s5ln07kb6ge09j5sq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5GxqEHOuKZXj1I9f4Sf1yKOK3OBq815g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "742600707260-0tmc9sg9countc0s5ln07kb6ge09j5sq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

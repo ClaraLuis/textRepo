@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "628298758744",
+    "project_id": "bis-91846",
+    "storage_bucket": "bis-91846.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628298758744:android:6089fa339da43273fae82d",
+        "android_client_info": {
+          "package_name": "com.tabex.series.bis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628298758744-tsj484rueg5i00lrest2ft08jh2m04i8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOUR8HYwOzNirc3wKjKAzOVvkKe8KiF9k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628298758744-tsj484rueg5i00lrest2ft08jh2m04i8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "409136520781",
+    "project_id": "lotus-a200e",
+    "storage_bucket": "lotus-a200e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409136520781:android:17f27cc9be4bcdd9200604",
+        "android_client_info": {
+          "package_name": "com.tabex.series.lotus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6li82roRaM5M2-66C8RUnphXHtP1kLyE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

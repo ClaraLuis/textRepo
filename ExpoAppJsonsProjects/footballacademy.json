@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "UV Egypt",
+    "slug": "footballacademyslug",
+    "scheme": "footballacademyscheme",
+    "version": "2.0",
+    "icon": "./AppIcons/footballacademy/footballacademy1024.png",
+    "notification": {
+      "icon": "./AppIcons/footballacademy/footballacademy1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/footballacademy/footballacademy1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.footballacademy",
+      "buildNumber": "2",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/footballacademy-google-services.json",
+      "package": "com.tabex.series.footballacademy",
+      "icon": "./AppIcons/footballacademy/footballacademy512.png",
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/footballacademy/footballacademy512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "648843e3a0c6a",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "a4fceab6-2ba1-4b20-97a4-ee2f5a3b8aed"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

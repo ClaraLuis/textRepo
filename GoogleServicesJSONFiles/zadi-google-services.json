@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "683301324364",
+    "project_id": "zadi-cd142",
+    "storage_bucket": "zadi-cd142.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:683301324364:android:d8ff24e4c1339ffffdd6e9",
+        "android_client_info": {
+          "package_name": "com.tabex.series.zadi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgTv6xqDFbjsvpPrexmWRoD1e6c-wG2us"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "714687676061",
+    "project_id": "rti-life-coach",
+    "storage_bucket": "rti-life-coach.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714687676061:android:9e3186b40a36e84f311e74",
+        "android_client_info": {
+          "package_name": "com.tabex.series.rti"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAItkdGIEv_qbqU8MIOII-WTm5Ht7Qi_DM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

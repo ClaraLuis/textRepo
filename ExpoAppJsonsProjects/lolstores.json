@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "LOL Stores",
+    "slug": "lolstoresslug",
+    "scheme": "lolstoresscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/lolstores/lolstores1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/lolstores/lolstores1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/lolstores/lolstores1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.lolstores",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/lolstores-google-services.json",
+      "package": "com.tabex.series.lolstores",
+      "icon": "./AppIcons/lolstores/lolstores512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/lolstores/lolstores512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "6582bae25da05",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "firebaseaccount": "tabexdevinfo22@gmail.com",
+      "eas": {
+        "projectId": "30540c26-e369-46bb-bdd5-2b1fefda716e"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/30540c26-e369-46bb-bdd5-2b1fefda716e"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "870366645491",
+    "project_id": "print-shop-32741",
+    "storage_bucket": "print-shop-32741.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870366645491:android:ac1ee238d2dc21c8123b86",
+        "android_client_info": {
+          "package_name": "com.tabex.series.printshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870366645491-jub9hpqqile66ij65917ks89m903vloh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTuaVUZZrUMvlXkg8P_8qjxhKcHaCPB5w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "870366645491-jub9hpqqile66ij65917ks89m903vloh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

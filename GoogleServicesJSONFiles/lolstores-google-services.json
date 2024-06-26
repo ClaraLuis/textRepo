@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "992482348696",
+    "project_id": "lol-stores",
+    "storage_bucket": "lol-stores.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992482348696:android:47671f9aeba26d99984aed",
+        "android_client_info": {
+          "package_name": "com.tabex.series.lolstores"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnggnjMnu3nXyBR8mlSDSBAVvbhZNqGHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

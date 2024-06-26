@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "576655347814",
+    "project_id": "the-hostel-2d029",
+    "storage_bucket": "the-hostel-2d029.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576655347814:android:910ab2ea72716f52d85da7",
+        "android_client_info": {
+          "package_name": "com.tabex.series.thehostel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "576655347814-c9jm476a19k5c3kkfpiqkq28oif1cj5e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdU9yXOUZTSAMMDfehC28MWGexLrIZriU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "576655347814-c9jm476a19k5c3kkfpiqkq28oif1cj5e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

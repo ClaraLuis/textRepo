@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "719179041848",
+    "project_id": "champions-league-ecc21",
+    "storage_bucket": "champions-league-ecc21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719179041848:android:0f95635404e3a86b96eacd",
+        "android_client_info": {
+          "package_name": "com.tabex.series.championsleague"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlH4hr9moauYxJ2A5_P26Wa-jbXkp0PI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

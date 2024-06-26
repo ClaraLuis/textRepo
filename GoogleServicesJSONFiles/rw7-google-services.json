@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "971673966224",
+    "project_id": "rw7-96bb1",
+    "storage_bucket": "rw7-96bb1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971673966224:android:5df896e1227382f7b5aa15",
+        "android_client_info": {
+          "package_name": "com.tabex.series.rw7"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOPND2o760-zCe3uyxFH4hhF4VpFye4kQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

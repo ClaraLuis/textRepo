@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "246163708171",
+    "project_id": "volt-14005",
+    "storage_bucket": "volt-14005.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:246163708171:android:4b23b61a54c73a9bf02a0e",
+        "android_client_info": {
+          "package_name": "com.tabex.series.volt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKDFJpn67XmP0JE_tdn5T-QMl0oKRHscA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

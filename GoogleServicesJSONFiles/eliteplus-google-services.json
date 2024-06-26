@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "357162301501",
+    "project_id": "elite-plus",
+    "storage_bucket": "elite-plus.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357162301501:android:bdc795326cc51ba71d1254",
+        "android_client_info": {
+          "package_name": "com.tabex.series.eliteplus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_vghP9pDn6GLVnDbWSec88fnURLP1Blc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "553620828062",
+    "project_id": "tedbeer-e3062",
+    "storage_bucket": "tedbeer-e3062.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553620828062:android:1c5fef3be01f506e4c308f",
+        "android_client_info": {
+          "package_name": "com.tabex.series.tedbeeralmostaqbal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553620828062-0pljn8stpj8hetk05a9h7bqbj4olpf54.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXMeUxTNcxYEVDdWJpYV2mweNgntljlnY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "553620828062-0pljn8stpj8hetk05a9h7bqbj4olpf54.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

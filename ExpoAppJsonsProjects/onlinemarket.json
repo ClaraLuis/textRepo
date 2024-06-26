@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "Online Market EG",
+    "slug": "onlinemarketslug",
+    "scheme": "onlinemarketscheme",
+    "version": "2.0",
+    "icon": "./AppIcons/onlinemarket/onlinemarket1024.png",
+    "notification": {
+      "icon": "./AppIcons/onlinemarket/onlinemarket1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/onlinemarket/onlinemarket1024.png",
+      "backgroundColor": "#1207EA",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.onlinemarket",
+      "buildNumber": "2",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/onlinemarket-google-services.json",
+      "package": "com.tabex.series.onlinemarket",
+      "icon": "./AppIcons/onlinemarket/onlinemarket512.png",
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/onlinemarket/onlinemarket512.png",
+        "backgroundColor": "#1207EA"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "643fa659685e5",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "1a67bbf1-c3c4-44b2-9bbe-24c638413c79"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "360580653792",
+    "project_id": "al-azhar-curtains",
+    "storage_bucket": "al-azhar-curtains.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360580653792:android:207acea4944050357f2685",
+        "android_client_info": {
+          "package_name": "com.tabex.series.alazharcurtains"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrKCf6cZ64UN6W6Rz82rE6mEAWm0_U9rw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,63 @@
+{
+  "expo": {
+    "name": "Netjry",
+    "slug": "netjryslug",
+    "scheme": "netjryscheme",
+    "version": "5.0",
+    "icon": "./AppIcons/Netjry/netjry1024.png",
+    "notification": {
+      "icon": "./AppIcons/Netjry/netjry1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/Netjry/netjry1024.png",
+      "backgroundColor": "#f7f7f7",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.netjry",
+      "buildNumber":"5",
+      "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/netjry-google-services.json",
+      "package": "com.tabex.series.netjry",
+      "icon": "./AppIcons/Netjry/netjry512.png",
+      "versionCode": 5,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/Netjry/netjry512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "iossdk":"48",
+      "androidsdk":"48",
+      "instapikey": "63ac2fa68ab71",
+      "projectsrctype": "subdomain",
+      "eas": {
+        "projectId": "cdec1469-b8ba-4d96-a6d7-509a53b2042d"
+      }
+    }
+    ,
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

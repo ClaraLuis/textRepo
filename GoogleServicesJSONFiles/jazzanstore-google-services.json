@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "5258831844",
+    "project_id": "jazzanstore-10235",
+    "storage_bucket": "jazzanstore-10235.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5258831844:android:af31374ed39c06c58509f1",
+        "android_client_info": {
+          "package_name": "com.tabex.series.jazzanstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "5258831844-67vkp43nd6kau1mcvfmk2ulaqnp764fb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEkGdvnUJUSzfBeDFWTW-jh_gXJ6yKqck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "5258831844-67vkp43nd6kau1mcvfmk2ulaqnp764fb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

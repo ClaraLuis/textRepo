@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "320160700564",
+    "project_id": "computer-palace",
+    "storage_bucket": "computer-palace.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320160700564:android:b520fa529d7f48a91bfc81",
+        "android_client_info": {
+          "package_name": "com.tabex.series.computerpalace"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAo3Nf-N9oUxaBD3TYW0Om2frO4RNMrE0M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

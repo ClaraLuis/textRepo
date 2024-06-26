@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "376691693791",
+    "project_id": "tajin-8ccf1",
+    "storage_bucket": "tajin-8ccf1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376691693791:android:9667fb8e6c2a4be204716a",
+        "android_client_info": {
+          "package_name": "com.tabex.series.tajin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "376691693791-aopo1tq5783mojahk4sc733ph94gphu0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_QJzyNE7IsKSqh3EzPI5DpaWO7xWUXos"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "376691693791-aopo1tq5783mojahk4sc733ph94gphu0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

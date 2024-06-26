@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "746788166810",
+    "project_id": "daloos",
+    "storage_bucket": "daloos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746788166810:android:be72fa5d82756444cfd323",
+        "android_client_info": {
+          "package_name": "com.tabex.series.daloos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746788166810-lr4b5rdamosn3shv9s59k76gp63s91lv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUsTC04hhsCvf6TIGbydwjSmznerE6enM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746788166810-lr4b5rdamosn3shv9s59k76gp63s91lv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

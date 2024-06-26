@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1097930751314",
+    "project_id": "fpl-winner",
+    "storage_bucket": "fpl-winner.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097930751314:android:32bb3ac25cd8ff24f6ce8b",
+        "android_client_info": {
+          "package_name": "com.tabex.series.fplwinner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe_Tad0RL6JVsMjPWTUXCeqn9t1-fQxXk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

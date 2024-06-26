@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1085887220610",
+    "project_id": "somaraceway",
+    "storage_bucket": "somaraceway.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085887220610:android:e5d911f1e7dd3bb0425d9b",
+        "android_client_info": {
+          "package_name": "com.tabex.series.somaraceway"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_S9ITYYxTBHwgHn0HqK940RObeQfp5nk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

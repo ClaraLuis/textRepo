@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "345388266454",
+    "project_id": "leaders-14d99",
+    "storage_bucket": "leaders-14d99.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345388266454:android:2e8d25ecfd0e65e978ea77",
+        "android_client_info": {
+          "package_name": "com.tabex.series.leaders"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyZ4Vkw3xFLyM5oHeLdqKvblI1bhR0Rn0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "66847159331",
+    "project_id": "expauto-d5234",
+    "storage_bucket": "expauto-d5234.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66847159331:android:16cb9753204984aa8f2d96",
+        "android_client_info": {
+          "package_name": "com.tabex.series.expauto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5GFXYlJVvD7gTX7OdHk-ram7dIXa1TD8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

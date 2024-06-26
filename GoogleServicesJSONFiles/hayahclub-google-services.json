@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "533494549618",
+    "project_id": "hayah-club",
+    "storage_bucket": "hayah-club.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533494549618:android:99140f748daf6eaecf46eb",
+        "android_client_info": {
+          "package_name": "com.tabex.series.hayahclub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW2OSfeO329eVBHi9mvC9x2LI6acTQBiw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

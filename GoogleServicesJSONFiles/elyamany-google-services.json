@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "673231964926",
+    "project_id": "yamany-88459",
+    "storage_bucket": "yamany-88459.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673231964926:android:910eb43cdbdae6dc65b3af",
+        "android_client_info": {
+          "package_name": "com.tabex.series.elyamany"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-VPeknsKhdM_19un-q7tSjNayCNQ0kf8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

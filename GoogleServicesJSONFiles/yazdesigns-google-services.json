@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "787283405249",
+    "project_id": "yazdesigns-feada",
+    "storage_bucket": "yazdesigns-feada.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787283405249:android:34d52f04ad6c8c2dac6740",
+        "android_client_info": {
+          "package_name": "com.tabex.series.yazdesgins"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787283405249-29caav1d23e6hbhbo85ld61toemt81v0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIw-6801TGb4U5PHbgmDP04O5QgZ2eCe4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787283405249-29caav1d23e6hbhbo85ld61toemt81v0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

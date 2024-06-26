@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "PS5 HUB",
+    "slug": "ps5hubslug",
+    "scheme": "ps5hubscheme",
+    "version": "2.0",
+    "icon": "./AppIcons/ps5hub/ps5hub1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/ps5hub/ps5hub1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/ps5hub/ps5hub1024.png",
+      "backgroundColor": "#000000",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.ps5hub",
+      "buildNumber": "2",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/ps5hub-google-services.json",
+      "package": "com.tabex.series.ps5hub",
+      "icon": "./AppIcons/ps5hub/ps5hub512.png",
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/ps5hub/ps5hub512.png",
+        "backgroundColor": "#000000"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65f61694ef80d",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "devitabex@gmail.com",
+      "eas": {
+        "projectId": "a11a5ebe-35dc-46ce-a287-368541f43aff"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/a11a5ebe-35dc-46ce-a287-368541f43aff"
+    }
+  }
+}

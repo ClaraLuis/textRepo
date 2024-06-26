@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "Sahla",
+    "slug": "sahlaslug",
+    "scheme": "sahlaappscheme",
+    "version": "4.0",
+    "icon": "./AppIcons/Sahla/sahla1024.png",
+    "notification": {
+      "icon": "./AppIcons/Sahla/sahla1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/Sahla/sahla1024.png",
+      "backgroundColor": "#ffdf5a",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.sahla",
+      "buildNumber":"4",
+      "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/sahla-google-services.json",
+      "package": "com.tabex.series.sahla",
+      "icon": "./AppIcons/Sahla/sahla512.png",
+      "versionCode": 4,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/Sahla/sahla512.png",
+        "backgroundColor": "#ffdf5a"
+      }
+    },
+    "description": "",
+    "extra": {
+      "iossdk": "48",
+      "androidsdk": "48",
+      "instapikey": "63a2fdb84217e",
+      "projectsrctype": "subdomain",
+      "eas": {
+        "projectId": "c24c9f8d-374a-40a5-8c69-9fc9b7d67399"
+      }
+    }
+    ,
+    "plugins": [
+      "expo-tracking-transparency"
+    ]
+  }
+}

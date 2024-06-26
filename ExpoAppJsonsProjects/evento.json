@@ -1,0 +1,67 @@
+{
+  "expo": {
+    "name": "Evento - إيڤنتو",
+    "slug": "eventoslug",
+    "scheme": "eventoscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/evento/evento1024.png",
+   
+    "notification": {
+      "icon": "./AppIcons/evento/evento1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/evento/eventosplashscreen.png",
+      "backgroundColor": "#FEFBF3",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.evento",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/evento-google-services.json",
+      "package": "com.tabex.series.evento",
+      "icon": "./AppIcons/evento/evento512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/evento/evento512.png",
+        "backgroundColor": "#FEFBF3"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "660e576c00f7c",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "cover",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "devitabex4@gmail.com"
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

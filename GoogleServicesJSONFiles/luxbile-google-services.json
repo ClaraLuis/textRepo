@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "64535235178",
+    "project_id": "luxbile-b1cc7",
+    "storage_bucket": "luxbile-b1cc7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64535235178:android:6cf3b3dfee89d2a3b81813",
+        "android_client_info": {
+          "package_name": "com.tabex.series.luxbile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsh2ECSaBxdJfDFaVrAayU4ZrG3ZXVexM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

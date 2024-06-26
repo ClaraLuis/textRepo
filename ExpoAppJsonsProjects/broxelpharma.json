@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "B Pharma 4.0",
+    "slug": "broxelpharmaslug",
+    "scheme": "broxelpharmascheme",
+    "version": "1.0",
+    "icon": "./AppIcons/broxelpharma/broxelpharma1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/broxelpharma/broxelpharma1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/broxelpharma/broxelpharmalogo.png",
+      "backgroundColor": "#F4F6F5",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.broxelpharma",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/broxelpharma-google-services.json",
+      "package": "com.tabex.series.broxelpharma",
+      "icon": "./AppIcons/broxelpharma/broxelpharma512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/broxelpharma/broxelpharma512.png",
+        "backgroundColor": "#F4F6F5"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "6571a5d0c6ce6",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "firebaseaccount": "tabexdevinfo22@gmail.com",
+      "eas": {
+        "projectId": "f5e9612d-6b88-42e1-ab14-87d8f779e86f"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/f5e9612d-6b88-42e1-ab14-87d8f779e86f"
+    }
+  }
+}

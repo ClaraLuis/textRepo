@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "157122038311",
+    "project_id": "be-fluent-82c99",
+    "storage_bucket": "be-fluent-82c99.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157122038311:android:6100299be84169e1c3dc02",
+        "android_client_info": {
+          "package_name": "com.tabex.series.befluent"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCafE74xCE-IwzjeWfiKaoXUqEY05YTmKY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "Dili Bee",
+    "slug": "dilibeeslug",
+    "scheme": "dilibeescheme",
+    "version": "2.0",
+    "icon": "./AppIcons/dilibee/dilibee1024.png",
+    "notification": {
+      "icon": "./AppIcons/dilibee/dilibee1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/dilibee/dilibee1024.png",
+      "backgroundColor": "#0E0E0E",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.dilibee",
+      "buildNumber": "2",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/dilibee-google-services.json",
+      "package": "com.tabex.series.dilibee",
+      "icon": "./AppIcons/dilibee/dilibee512.png",
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/dilibee/dilibee512.png",
+        "backgroundColor": "#0E0E0E"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "64621804d9b0b",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "932660ab-113e-457a-ba6b-126e58d5f31a"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

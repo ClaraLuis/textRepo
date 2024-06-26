@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "Bearing EG",
+    "slug": "bearingslug",
+    "scheme": "bearingscheme",
+    "version": "3.0",
+    "icon": "./AppIcons/bearing/bearing1024.png",
+    "notification": {
+      "icon": "./AppIcons/bearing/bearing1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/bearing/bearing1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.bearing",
+      "buildNumber":"3",
+      "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/bearing-google-services.json",
+      "package": "com.tabex.series.bearing",
+      "icon": "./AppIcons/bearing/bearing512.png",
+      "versionCode": 3,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/bearing/bearing512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "iossdk": "48",
+      "androidsdk": "48",
+      "instapikey": "63e361d9629a0",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "eas": {
+        "projectId": "bbe8ad05-6920-4761-afa8-86ed4f61661d"
+      }
+    }
+    ,
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

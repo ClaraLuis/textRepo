@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "461036550916",
+    "project_id": "wellness-wallet-44c40",
+    "storage_bucket": "wellness-wallet-44c40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461036550916:android:16bf41d062d2b826a8ee51",
+        "android_client_info": {
+          "package_name": "com.tabex.series.wellnesswallet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZLwYBvC0EgKX2Bh08th5TGuCNXdhDeHQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

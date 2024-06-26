@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "Bears Road",
+    "slug": "bearsroadslug",
+    "scheme": "bearsroadscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/bearsroad/bearsroad1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/bearsroad/bearsroad1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/bearsroad/bearsroad1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.bearsroad",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/bearsroad-google-services.json",
+      "package": "com.tabex.series.bearsroad",
+      "icon": "./AppIcons/bearsroad/bearsroad512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/bearsroad/bearsroad512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65671fc7d1298",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "firebaseaccount": "tabexdevinfo23@gmail.com",
+      "eas": {
+        "projectId": "7692e09b-54b1-4cad-b5e3-c99155b6bf26"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/7692e09b-54b1-4cad-b5e3-c99155b6bf26"
+    }
+  }
+}

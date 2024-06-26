@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "444303505546",
+    "project_id": "asancirco",
+    "storage_bucket": "asancirco.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444303505546:android:ce45a8b79f51c786491573",
+        "android_client_info": {
+          "package_name": "com.tabex.series.asancirco"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg3fw4plC4w8UX5AnFhLW-Hpcv5k5ipuo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

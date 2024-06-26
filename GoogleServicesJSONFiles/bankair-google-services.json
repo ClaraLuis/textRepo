@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1075401340098",
+    "project_id": "bankair-328eb",
+    "storage_bucket": "bankair-328eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075401340098:android:1b58498fa0f73047f9775b",
+        "android_client_info": {
+          "package_name": "com.tabex.series.bankair"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8p0pMTHdfzmvlrX3eTgeM5a-HI4MzlxQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "818256030148",
+    "project_id": "vero-4ebc3",
+    "storage_bucket": "vero-4ebc3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:818256030148:android:27600c565ad8791c0a9c91",
+        "android_client_info": {
+          "package_name": "com.tabex.series.vero"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "818256030148-q040psoqsbabo3qldvtv1536jjptce5p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqsQxNeS7QAp-1Tz1BZbQ0wbUXARY5-JY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "818256030148-q040psoqsbabo3qldvtv1536jjptce5p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "296148790661",
+    "project_id": "arkab-lab",
+    "storage_bucket": "arkab-lab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296148790661:android:3a448ba59ff6ade3a728ec",
+        "android_client_info": {
+          "package_name": "com.tabex.series.arkanlab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "296148790661-loe0lmfupi296sthtqvmi2djidgk272t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAT4aRb33uNBGFhyYEhjgWtP_Z3KF5015c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "296148790661-loe0lmfupi296sthtqvmi2djidgk272t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

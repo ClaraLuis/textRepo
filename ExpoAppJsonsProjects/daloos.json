@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "Daloos",
+    "slug": "daloosslug",
+    "scheme": "daloosscheme",
+    "version": "3.0",
+    "icon": "./AppIcons/daloos/daloos1024.png",
+    "notification": {
+      "icon": "./AppIcons/daloos/daloos1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/daloos/daloos1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.daloos",
+      "buildNumber":"3",
+      "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/daloos-google-services.json",
+      "package": "com.tabex.series.daloos",
+      "icon": "./AppIcons/daloos/daloos512.png",
+      "versionCode": 3,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/daloos/daloos512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "iossdk": "48",
+      "androidsdk": "48",
+      "instapikey": "63cd4fd3349e2",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "eas": {
+        "projectId": "e9f2988e-581f-46f2-93c7-b52fe60a464f"
+      }
+    }
+    ,
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

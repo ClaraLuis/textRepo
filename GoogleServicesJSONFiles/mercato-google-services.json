@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "531819878188",
+    "project_id": "mercato-c92e8",
+    "storage_bucket": "mercato-c92e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531819878188:android:d63cf6fe8d9c3b900f3e89",
+        "android_client_info": {
+          "package_name": "com.tabex.series.mercato"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZ4gVyNAwp4ML0UCUVPg-iUrcPFC9BNfo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

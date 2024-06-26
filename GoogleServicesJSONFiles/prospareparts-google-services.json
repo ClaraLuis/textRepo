@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "309521556580",
+    "project_id": "pro-spareparts",
+    "storage_bucket": "pro-spareparts.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309521556580:android:e2d5f5da132ed7a1b86b71",
+        "android_client_info": {
+          "package_name": "com.tabex.series.prospareparts"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5loRnxjKjyGOAvfCg1x6FNau6min7Wbk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

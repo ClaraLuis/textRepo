@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "Vero FMCG",
+    "slug": "veroslug",
+    "scheme": "veroscheme",
+    "version": "3.0",
+    "icon": "./AppIcons/vero/vero1024.png",
+    "notification": {
+      "icon": "./AppIcons/vero/vero1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/vero/vero1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.vero",
+      "buildNumber": "3",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/vero-google-services.json",
+      "package": "com.tabex.series.vero",
+      "icon": "./AppIcons/vero/vero512.png",
+      "versionCode": 3,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/vero/vero512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "646f2185de426",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "444cc993-2d09-4849-a323-163ec01a2710"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

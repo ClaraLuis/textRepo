@@ -1,0 +1,74 @@
+{
+  "expo": {
+    "name": "Start Homes Real Estate",
+    "slug": "starthomesslug",
+    "scheme": "starthomesscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/starthomes/starthomes1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/starthomes/starthomes1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/starthomes/starthomes1024.png",
+      "backgroundColor": "#000000",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.starthomes",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/starthomes-google-services.json",
+      "package": "com.tabex.series.starthomes",
+      "icon": "./AppIcons/starthomes/starthomes512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/starthomes/starthomes512.png",
+        "backgroundColor": "#000000"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "654a0161c0d39",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "eas": {
+        "projectId": "85007238-0b72-471c-bec8-fe9dd8ec307d"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/85007238-0b72-471c-bec8-fe9dd8ec307d"
+    }
+  }
+}

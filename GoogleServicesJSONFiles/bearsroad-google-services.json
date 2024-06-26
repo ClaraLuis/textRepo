@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "367368533378",
+    "project_id": "bears-road",
+    "storage_bucket": "bears-road.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367368533378:android:47151aaca2734338870b9b",
+        "android_client_info": {
+          "package_name": "com.tabex.series.bearsroad"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaJyC3x55YXRJ7Vg27OvYNVDDgAZnbSuE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

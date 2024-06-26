@@ -1,0 +1,65 @@
+{
+  "expo": {
+    "name": "Chapati & Karak",
+    "slug": "chapatikarakslug",
+    "scheme": "chapatikarakscheme",
+    "version": "2.0",
+    "icon": "./AppIcons/chapatikarak/chapatikarak1024.png",
+    "notification": {
+      "icon": "./AppIcons/chapatikarak/chapatikarak1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/chapatikarak/chapatikarak1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.chapatikarak",
+      "buildNumber":"2",
+      "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/chaptikarakgoogle-services.json",
+      "package": "com.tabex.series.chapatikarak",
+      "icon": "./AppIcons/chapatikarak/chapatikarak412.png",
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/chapatikarak/chapatikarak412.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "63ff18b4ddf19",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "aec2d8c8-2542-498e-90a0-69b70f491142"
+      }
+    }
+    ,
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

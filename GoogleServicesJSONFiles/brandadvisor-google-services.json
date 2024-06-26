@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1006175800639",
+    "project_id": "brand-advisor-b3bed",
+    "storage_bucket": "brand-advisor-b3bed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006175800639:android:9e4826ddd2987afe73978a",
+        "android_client_info": {
+          "package_name": "com.tabex.series.brandadvisor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4n5lxFVXbNuGUK8g4fjT7fa5zhwyBjes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

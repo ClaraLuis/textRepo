@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "975668921680",
+    "project_id": "meraki-interiors",
+    "storage_bucket": "meraki-interiors.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975668921680:android:687e1aa775070d2b63d855",
+        "android_client_info": {
+          "package_name": "com.tabex.series.merakiinteriors"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2_p7hYdZqtuvptTqzlPxwjaTYi5rzk6Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

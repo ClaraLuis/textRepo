@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "415589600684",
+    "project_id": "samah-s-kitchen",
+    "storage_bucket": "samah-s-kitchen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:415589600684:android:67f8875c413f839545fe09",
+        "android_client_info": {
+          "package_name": "com.tabex.series.samahkitchen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "415589600684-k3g77h3atbjfnjehp7cbinidi7ncs7f0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbqCX1Z5sIV95NsawX87zWHcprKT4fv94"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "415589600684-k3g77h3atbjfnjehp7cbinidi7ncs7f0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

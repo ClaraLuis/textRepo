@@ -1,0 +1,74 @@
+{
+  "expo": {
+    "name": "Home @ Garden",
+    "slug": "homeandgardenslug",
+    "scheme": "homeandgardenscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/homeandgarden/homeandgarden1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/homeandgarden/homeandgarden1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/homeandgarden/homeandgarden1024.png",
+      "backgroundColor": "#213222",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.homeandgarden",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/homeandgarden-google-services.json",
+      "package": "com.tabex.series.homeandgarden",
+      "icon": "./AppIcons/homeandgarden/homeandgarden512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/homeandgarden/homeandgarden512.png",
+        "backgroundColor": "#213222"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "651a95c39050b",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "eas": {
+        "projectId": "e0881dee-2f13-490d-9ce3-790707ec8947"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/e0881dee-2f13-490d-9ce3-790707ec8947"
+    }
+  }
+}

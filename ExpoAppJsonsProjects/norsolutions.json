@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "NOR SOLUTIONS",
+    "slug": "norsolutionsslug",
+    "scheme": "norsolutionsscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/norsolutions/norsolutions1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/norsolutions/norsolutions1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/norsolutions/norsolutionssplashscreen.png",
+      "backgroundColor": "#010001",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.norsolutions",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/norsolutions-google-services.json",
+      "package": "com.tabex.series.norsolutions",
+      "icon": "./AppIcons/norsolutions/norsolutions512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/norsolutions/norsolutions512.png",
+        "backgroundColor": "#010001"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "6601e99b016d8",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "cover",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "devitabex4@gmail.com",
+      "eas": {
+        "projectId": "ee3574a8-5461-4bc2-972a-965882dad07d"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/ee3574a8-5461-4bc2-972a-965882dad07d"
+    }
+  }
+}

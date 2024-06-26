@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "106606915871",
+    "project_id": "terranova-8bc88",
+    "storage_bucket": "terranova-8bc88.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106606915871:android:0af75cf9b3fe5886ca802a",
+        "android_client_info": {
+          "package_name": "com.tabex.series.terranova"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYVu_x4MQ1oLTQqyzqsgh8XaUPsV0lxG4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

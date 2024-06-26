@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "727428621737",
+    "project_id": "rehabilitation-28100",
+    "storage_bucket": "rehabilitation-28100.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727428621737:android:46eb46bc8f71489f8dd0b8",
+        "android_client_info": {
+          "package_name": "com.tabex.series.rehabilitation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "727428621737-6adn7iavothlu95kaolvvphekauseefs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEK-aaoM5VdgMOwYCwRqwJ61wMr4E5zDo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "727428621737-6adn7iavothlu95kaolvvphekauseefs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

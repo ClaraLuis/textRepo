@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "54600077164",
+    "project_id": "brando-660a7",
+    "storage_bucket": "brando-660a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:54600077164:android:39e6e7fe91a2daa9cd6d49",
+        "android_client_info": {
+          "package_name": "com.tabex.series.brandooooo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "54600077164-cestgc3ilsolhdjqljvcid1r5oht9prs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAogLvySsATptWre6OH4mGFnvLfbu25Syg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "54600077164-cestgc3ilsolhdjqljvcid1r5oht9prs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

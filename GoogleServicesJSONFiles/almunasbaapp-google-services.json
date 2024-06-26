@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "935905620031",
+    "project_id": "almunasbaapp",
+    "storage_bucket": "almunasbaapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935905620031:android:dc864c2ed287137b32488a",
+        "android_client_info": {
+          "package_name": "com.tabex.series.almunasbaapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHMh6M4YhZ_l-i0IlWof4_i9PKPhC7kUE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

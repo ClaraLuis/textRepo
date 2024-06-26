@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "Dandy Kids",
+    "slug": "dandykidsslug",
+    "scheme": "dandykidsscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/dandykids/dandykids1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/dandykids/dandykids1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/dandykids/dandykidslogo.png",
+      "backgroundColor": "#FEFEFE",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.dandykids",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/dandykids-google-services.json",
+      "package": "com.tabex.series.dandykids",
+      "icon": "./AppIcons/dandykids/dandykids512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/dandykids/dandykids512.png",
+        "backgroundColor": "#FEFEFE"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65e43a1254428",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "devitabex@gmail.com",
+      "eas": {
+        "projectId": "bf30d495-7e43-4312-90b2-e8b861b3d0c9"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/bf30d495-7e43-4312-90b2-e8b861b3d0c9"
+    }
+  }
+}

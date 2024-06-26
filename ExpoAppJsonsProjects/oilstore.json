@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "Oil Store EG",
+    "slug": "oilstoreslug",
+    "scheme": "oilstorescheme",
+    "version": "2.0",
+    "icon": "./AppIcons/oilstore/oilstore1024.png",
+    "notification": {
+      "icon": "./AppIcons/oilstore/oilstore1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/oilstore/oilstore1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.oilstore",
+      "buildNumber": "2",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/oilstore-google-services.json",
+      "package": "com.tabex.series.oilstore",
+      "icon": "./AppIcons/oilstore/oilstore512.png",
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/oilstore/oilstore512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "645b641a1c1e7",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "f6bb3509-bf54-4d26-b425-03efa8bc273c"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

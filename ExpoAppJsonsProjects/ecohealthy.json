@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "Eco Healthy",
+    "slug": "ecohealthyslug",
+    "scheme": "ecohealthyscheme",
+    "version": "4.0",
+    "orientation": "portrait",
+    "icon": "./AppIcons/ecohealthy/ecohealthy1024.png",
+    "notification": {
+      "icon": "./AppIcons/ecohealthy/ecohealthy1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/ecohealthy/ecohealthysplashscreen.jpg",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.ecohealthy",
+      "buildNumber": "4",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/ecohealthyapp-google-services.json",
+      "package": "com.tabex.series.ecohealthyapp",
+      "icon": "./AppIcons/ecohealthy/ecohealthy512.png",
+      "versionCode": 4,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/ecohealthy/ecohealthy512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "64d21e8a233bb",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "51",
+      "androidsdk": "51",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "firebaseaccount2": "14tbdex@gmail.com",
+      "loadercontain": "cover",
+      "eas": {
+        "projectId": "da44edb6-41a1-4986-a856-9328d6072fe8"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/da44edb6-41a1-4986-a856-9328d6072fe8"
+    }
+  }
+}

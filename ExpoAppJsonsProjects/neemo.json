@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "Neemo Store",
+    "slug": "neemostoreslug",
+    "scheme": "neemostorescheme",
+    "version": "4.0",
+    "icon": "./AppIcons/neemo/neemo1024.png",
+    "notification": {
+      "icon": "./AppIcons/neemo/neemo1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/neemo/neemo1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.neemostore",
+      "buildNumber":"4",
+      "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/neemostore-google-services.json",
+      "package": "com.tabex.series.neemostore",
+      "icon": "./AppIcons/neemo/neemo412.png",
+      "versionCode": 4,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/neemo/neemo412.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "63eb6a56078ac",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk":"48",
+      "androidsdk":"48",
+      "eas": {
+        "projectId": "0c96dd21-2d14-4bf2-933c-2a7c18cc06f2"
+      }
+    }
+    ,
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

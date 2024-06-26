@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "Via & Bon Life",
+    "slug": "viaandbonlifeslug",
+    "scheme": "viaandbonlifescheme",
+    "version": "1.0",
+    "icon": "./AppIcons/viaandbonlife/viaandbonlife1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/viaandbonlife/viaandbonlife1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/viaandbonlife/viaandbonlife1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.viaandbonlife",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/viaandbonlife-google-services.json",
+      "package": "com.tabex.series.viaandbonlife",
+      "icon": "./AppIcons/viaandbonlife/viaandbonlife512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/viaandbonlife/viaandbonlife512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "659d1a9ccca43",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "firebaseaccount": "tabexdevinfo23@gmail.com",
+      "eas": {
+        "projectId": "6705b802-f096-4a70-93bc-5e85f878fc14"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/6705b802-f096-4a70-93bc-5e85f878fc14"
+    }
+  }
+}

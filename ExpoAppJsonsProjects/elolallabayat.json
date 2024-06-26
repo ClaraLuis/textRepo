@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "العلا للعبايات",
+    "slug": "elolallabayatslug",
+    "scheme": "elolallabayatscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/elolallabayat/elolallabayat1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/elolallabayat/elolallabayat1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/elolallabayat/elolallabayat1024.png",
+      "backgroundColor": "#fefefe",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.elolallabayat",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/elolallabayat-google-services.json",
+      "package": "com.tabex.series.elolallabayat",
+      "icon": "./AppIcons/elolallabayat/elolallabayat512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/elolallabayat/elolallabayat512.png",
+        "backgroundColor": "#fefefe"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65f173ed5a450",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "contain",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "devitabex3@gmail.com",
+      "eas": {
+        "projectId": "d76a493b-03b1-4960-abdf-35e8477666c7"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/d76a493b-03b1-4960-abdf-35e8477666c7"
+    }
+  }
+}

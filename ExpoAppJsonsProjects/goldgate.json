@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "GOLD GATE - بوابة ذهب الكويت",
+    "slug": "goldgateslug",
+    "scheme": "goldgatescheme",
+    "version": "1.0",
+    "icon": "./AppIcons/goldgate/goldgate1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/goldgate/goldgate1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/goldgate/goldgatelogo.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.goldgate",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/goldgate-google-services.json",
+      "package": "com.tabex.series.goldgate",
+      "icon": "./AppIcons/goldgate/goldgate512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/goldgate/goldgate512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "659129e26c71d",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "firebaseaccount": "tabexdevinfo23@gmail.com",
+      "eas": {
+        "projectId": "be3f236d-2110-47a9-822b-4d15c0ed7958"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/be3f236d-2110-47a9-822b-4d15c0ed7958"
+    }
+  }
+}

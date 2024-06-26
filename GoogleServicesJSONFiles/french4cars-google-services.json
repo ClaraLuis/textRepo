@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1055442270993",
+    "project_id": "french4cars-6c551",
+    "storage_bucket": "french4cars-6c551.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1055442270993:android:07a40f3f62792a0697eab0",
+        "android_client_info": {
+          "package_name": "com.tabex.series.french4cars"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1055442270993-8ub3bo28mor037gkpqif8japoq39p7ak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5V6dU6SsgkMct1kmlpblKRSnn6TcQ9mc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1055442270993-8ub3bo28mor037gkpqif8japoq39p7ak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

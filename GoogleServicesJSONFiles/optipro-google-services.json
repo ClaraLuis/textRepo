@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "821581927083",
+    "project_id": "optipro-a4f27",
+    "storage_bucket": "optipro-a4f27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821581927083:android:52f357499bde3acfb09dee",
+        "android_client_info": {
+          "package_name": "com.tabex.series.optipro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEP9VaXRaFDfpbJnlfNUxzv67by9C9j8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

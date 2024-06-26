@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "El Order | الاوردر",
+    "slug": "elorderslug",
+    "scheme": "elorderscheme",
+    "version": "3.0",
+    "icon": "./AppIcons/elorder/elorder1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/elorder/elorder1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/elorder/elorder1024.png",
+      "backgroundColor": "#3BB44A",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.elorder",
+      "buildNumber": "3",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/elorderapp-google-services.json",
+      "package": "com.tabex.series.elorderapp",
+      "icon": "./AppIcons/elorder/elorder512.png",
+      "versionCode": 3,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/elorder/elorder512.png",
+        "backgroundColor": "#3BB44A"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65563913f2e84",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "51",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "firebaseaccount": "tabexdevinfo21@gmail.com",
+      "firebaseaccount2": "13tbdex@gmail.com",
+      "eas": {
+        "projectId": "a3357b7f-834e-42a3-9d9d-d55272d96eeb"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/a3357b7f-834e-42a3-9d9d-d55272d96eeb"
+    }
+  }
+}

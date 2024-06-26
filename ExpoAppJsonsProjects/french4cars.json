@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "French 4 Cars",
+    "slug": "french4carsslug",
+    "scheme": "french4carsappscheme",
+    "version": "2.0",
+    "icon": "./AppIcons/French4Cars/french4cars1024.png",
+    
+    "notification": {
+      "icon": "./AppIcons/French4Cars/french4cars1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/French4Cars/french4cars1024.png",
+     "backgroundColor": "#0f2157",
+     "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.french4cars",
+       "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode" : "pan",
+
+      "googleServicesFile": "./GoogleServicesJSONFiles/french4cars-google-services.json",
+      "package": "com.tabex.series.french4cars",
+      "icon": "./AppIcons/French4Cars/french4cars512.png",
+      "useNextNotificationsApi": true,
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/French4Cars/french4cars512.png",
+        "backgroundColor": "#0f2157"
+      }
+    },
+    "description": "",
+    "extra":{
+      "instapikey":"63a1f1b855331",
+      "projectsrctype":"subdomain"
+      
+    }
+  }
+}

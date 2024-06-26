@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "707390035939",
+    "project_id": "bela-store",
+    "storage_bucket": "bela-store.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707390035939:android:7e510ec5a2fa6cb1ceb2d6",
+        "android_client_info": {
+          "package_name": "com.tabex.series.belastore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-q3D0cy-ix7Ui-hIS55CxR1ooFYbMmvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

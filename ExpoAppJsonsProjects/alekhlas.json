@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "Alekhlas",
+    "slug": "alekhlasslug",
+    "scheme": "alekhlasscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/alekhlas/alekhlas1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/alekhlas/alekhlas1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/alekhlas/alekhlassplashscreen.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.alekhlas",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/alekhlas-google-services.json",
+      "package": "com.tabex.series.alekhlas",
+      "icon": "./AppIcons/alekhlas/alekhlas512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/alekhlas/alekhlas512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65f7f38ef3a31",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "cover",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "devitabex3@gmail.com",
+      "eas": {
+        "projectId": "5cd875c2-83b5-42f5-b197-b26baa80181f"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/5cd875c2-83b5-42f5-b197-b26baa80181f"
+    }
+  }
+}

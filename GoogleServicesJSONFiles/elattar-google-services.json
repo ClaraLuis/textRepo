@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "117635035754",
+    "project_id": "elattar-b75f2",
+    "storage_bucket": "elattar-b75f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117635035754:android:89da81fe1c0ff6042bd013",
+        "android_client_info": {
+          "package_name": "com.tabex.series.elattar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMTna7ASjIxONUgPEBG5ANIY9iahJhchw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

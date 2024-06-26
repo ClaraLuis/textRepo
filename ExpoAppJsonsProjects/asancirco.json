@@ -1,0 +1,74 @@
+{
+  "expo": {
+    "name": "Asancirco",
+    "slug": "asancircoslug",
+    "scheme": "asancircoscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/asancirco/asancirco1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/asancirco/asancirco1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/asancirco/asancirco1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.asancirco",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/asancirco-google-services.json",
+      "package": "com.tabex.series.asancirco",
+      "icon": "./AppIcons/asancirco/asancirco512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/asancirco/asancirco512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "656ae889ef5b8",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "eas": {
+        "projectId": "a5005d03-5e12-4ad6-9cda-a16b0e410778"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/a5005d03-5e12-4ad6-9cda-a16b0e410778"
+    }
+  }
+}

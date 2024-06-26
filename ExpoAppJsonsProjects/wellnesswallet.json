@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "Wellness Wallet EG",
+    "slug": "wellnesswalletslug",
+    "scheme": "wellnesswalletscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/wellnesswallet/wellnesswallet1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/wellnesswallet/wellnesswallet1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/wellnesswallet/wellnesswallet1024.png",
+      "backgroundColor": "#1F2F61",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.wellnesswallet",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/wellnesswallet-google-services.json",
+      "package": "com.tabex.series.wellnesswallet",
+      "icon": "./AppIcons/wellnesswallet/wellnesswallet512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/wellnesswallet/wellnesswallet512.png",
+        "backgroundColor": "#1F2F61"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65847060f3f3d",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "firebaseaccount": "tabexdevinfo22@gmail.com",
+      "eas": {
+        "projectId": "add2bb85-b543-4759-9810-c5361bbc146d"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/add2bb85-b543-4759-9810-c5361bbc146d"
+    }
+  }
+}

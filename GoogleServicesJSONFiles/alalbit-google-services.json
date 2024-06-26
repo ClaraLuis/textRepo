@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "679639430127",
+    "project_id": "alalbit-2a2df",
+    "storage_bucket": "alalbit-2a2df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679639430127:android:e32ea4ceea26e705693c1a",
+        "android_client_info": {
+          "package_name": "com.tabex.series.alalbit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5NdCbeqSm3KzczZlItEgmJ2yYctPxQ90"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

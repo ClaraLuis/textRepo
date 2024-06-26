@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "Be3a - بيعه",
+    "slug": "be3aslug",
+    "scheme": "be3ascheme",
+    "version": "1.0",
+    "icon": "./AppIcons/be3a/be3a1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/be3a/be3a1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/be3a/be3a1024.png",
+      "backgroundColor": "#077BA7",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.be3a",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/be3a-google-services.json",
+      "package": "com.tabex.series.be3a",
+      "icon": "./AppIcons/be3a/be3a512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/be3a/be3a512.png",
+        "backgroundColor": "#077BA7"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65b231e878dfc",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "tabexdevinfo25@gmail.com",
+      "eas": {
+        "projectId": "0ac6a988-35d7-45fa-b70e-673375627a44"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/0ac6a988-35d7-45fa-b70e-673375627a44"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "La7za",
+    "slug": "la7zaslug",
+    "scheme": "la7zascheme",
+    "version": "1.0",
+    "icon": "./AppIcons/la7za/la7za1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/la7za/la7za1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/la7za/la7zasplashscreen.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.la7za",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/la7za-google-services.json",
+      "package": "com.tabex.series.la7za",
+      "icon": "./AppIcons/la7za/la7za512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/la7za/la7za512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65ef3c581c691",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "cover",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "devitabex3@gmail.com",
+      "eas": {
+        "projectId": "f9e490c0-dd7f-4129-bc32-67c4c231b37c"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/f9e490c0-dd7f-4129-bc32-67c4c231b37c"
+    }
+  }
+}

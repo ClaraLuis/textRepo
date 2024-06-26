@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "DARRAH'S TREASURES",
+    "slug": "darrahstreasureslug",
+    "scheme": "darrahstreasurescheme",
+    "version": "1.0",
+    "icon": "./AppIcons/darrahstreasure/darrahstreasure1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/darrahstreasure/darrahstreasure1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/darrahstreasure/darrahstreasurelogo.png",
+      "backgroundColor": "#647265",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.darrahstreasure",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/darrahstreasure-google-services.json",
+      "package": "com.tabex.series.darrahstreasure",
+      "icon": "./AppIcons/darrahstreasure/darrahstreasure512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/darrahstreasure/darrahstreasure512.png",
+        "backgroundColor": "#647265"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65952a26cff60",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "firebaseaccount": "tabexdevinfo23@gmail.com",
+      "eas": {
+        "projectId": "13550a53-2f01-4390-9ea3-ae12a0bfe91a"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/13550a53-2f01-4390-9ea3-ae12a0bfe91a"
+    }
+  }
+}

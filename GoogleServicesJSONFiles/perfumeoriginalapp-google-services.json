@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "905380446469",
+    "project_id": "perfume-original-app",
+    "storage_bucket": "perfume-original-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905380446469:android:3c7f2475311f6cb61b776c",
+        "android_client_info": {
+          "package_name": "com.tabex.series.perfumeoriginalapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALPCA93w8SLw_nh-CwwsEjO0aFxKCenQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

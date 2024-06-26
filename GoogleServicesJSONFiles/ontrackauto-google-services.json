@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "514466462737",
+    "project_id": "ontrackauto-1ec64",
+    "storage_bucket": "ontrackauto-1ec64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514466462737:android:d44e864faef6dd5161c5b0",
+        "android_client_info": {
+          "package_name": "com.tabex.series.ontrackauto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkIS1lR1iieFuJ-Qh85tBSr4p04IsBZz4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

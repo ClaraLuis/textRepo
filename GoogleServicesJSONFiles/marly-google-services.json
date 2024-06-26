@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "435467046046",
+    "project_id": "marly-9bf84",
+    "storage_bucket": "marly-9bf84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435467046046:android:e777e9177765e01194ff8f",
+        "android_client_info": {
+          "package_name": "com.tabex.series.marlygiftshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "435467046046-7j9smmnrm13vr4usfiold98a1ag8dsd6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt72SmLPJVdsUdB0br1IE_m7GXadyNITQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "435467046046-7j9smmnrm13vr4usfiold98a1ag8dsd6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

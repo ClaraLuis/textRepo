@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "NNO",
+    "slug": "nnoslug",
+    "scheme": "nnoscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/nno/nno1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/nno/nno1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/nno/nnosplashscreen.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.nno",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/nno-google-services.json",
+      "package": "com.tabex.series.nno",
+      "icon": "./AppIcons/nno/nno512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/nno/nno512.png",
+        "backgroundColor": "#F4AEC9"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "6620dd3b471d0",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "cover",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "expoaccountwhoami": "youssefriadsobhy1@gmail.com",
+      "firebaseaccount": "7tbdex@gmail.com",
+      "eas": {
+        "projectId": "c9585d0f-de92-4f0f-8821-4c16857de2db"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/c9585d0f-de92-4f0f-8821-4c16857de2db"
+    }
+  }
+}

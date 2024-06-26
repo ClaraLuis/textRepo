@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "551147167431",
+    "project_id": "r7-mall",
+    "storage_bucket": "r7-mall.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551147167431:android:dad59078a6902e119f28e2",
+        "android_client_info": {
+          "package_name": "com.tabex.series.r7mall"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBI_MqG_R7sln_BrAm1DZ12g9Hg-JZg-H0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

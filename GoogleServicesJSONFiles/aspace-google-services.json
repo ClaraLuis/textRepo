@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "731657595585",
+    "project_id": "aspacce-8fe03",
+    "storage_bucket": "aspacce-8fe03.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:731657595585:android:a1d494829e139a7a4c0240",
+        "android_client_info": {
+          "package_name": "com.tabex.series.aspaceeg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "731657595585-12dp1bhisddep1qn131t2thm1oagbkjr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLFkBjmmC5Tw09t4RDcBbvedS895ZanMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "731657595585-12dp1bhisddep1qn131t2thm1oagbkjr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

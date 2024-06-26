@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "828102254621",
+    "project_id": "one1-c93fc",
+    "storage_bucket": "one1-c93fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828102254621:android:878405980b10a7e10226f4",
+        "android_client_info": {
+          "package_name": "com.tabex.series.one1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828102254621-7kkgl8543kkvdfgf3o9fke10nnj3hkid.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD8CundgMos7TlYLzeYGYSIEV2M9n97uo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828102254621-7kkgl8543kkvdfgf3o9fke10nnj3hkid.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

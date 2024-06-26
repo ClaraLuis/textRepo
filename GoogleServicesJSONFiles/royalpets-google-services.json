@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "679187208182",
+    "project_id": "royalpets-df070",
+    "storage_bucket": "royalpets-df070.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679187208182:android:1256326c94fd19a92819d7",
+        "android_client_info": {
+          "package_name": "com.tabex.series.royalpets"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679187208182-1996bkcnpv26rcerbsb8ko4stnh5tbs4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6h3MwtCvw-PwW4KV7g8bWt8AjIDcYUB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "679187208182-1996bkcnpv26rcerbsb8ko4stnh5tbs4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

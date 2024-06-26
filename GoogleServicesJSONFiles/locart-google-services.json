@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1084983482883",
+    "project_id": "locart-6f9be",
+    "storage_bucket": "locart-6f9be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1084983482883:android:f4fea9ec55a617fb2c0c36",
+        "android_client_info": {
+          "package_name": "com.tabex.series.locart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4yqmJTq7yBpt3LBsUkJGCldw-xoQPom8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "MK7",
+    "slug": "mk7slug",
+    "scheme": "mk7scheme",
+    "version": "2.0",
+    "icon": "./AppIcons/mk7/mk71024.png",
+    "notification": {
+      "icon": "./AppIcons/mk7/mk71024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/mk7/mk71024.png",
+      "backgroundColor": "#000000",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.mk7",
+      "buildNumber": "2",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/mk7-google-services.json",
+      "package": "com.tabex.series.mk7",
+      "icon": "./AppIcons/mk7/mk7512.png",
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/mk7/mk7512.png",
+        "backgroundColor": "#000000"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "645b652215549",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "b7446c18-4271-4f29-a879-a7e9d8352f3a"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

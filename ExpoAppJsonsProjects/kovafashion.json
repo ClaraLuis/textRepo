@@ -1,0 +1,63 @@
+{
+  "expo": {
+    "name": "Kova Fashion",
+    "slug": "kovafashionslug",
+    "scheme": "kovafashionscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/kovafashion/kovafashion1024.png",
+    "notification": {
+      "icon": "./AppIcons/kovafashion/kovafashion1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/kovafashion/kovafashion1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.kovafashion",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/kovafashion-google-services.json",
+      "package": "com.tabex.series.kovafashion",
+      "icon": "./AppIcons/kovafashion/kovafashion512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/kovafashion/kovafashion512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "646b2f92bc63c",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48"
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

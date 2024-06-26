@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "388514728528",
+    "project_id": "coaches-crew-appp",
+    "storage_bucket": "coaches-crew-appp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388514728528:android:66a0ed6f133c60397d5f55",
+        "android_client_info": {
+          "package_name": "com.tabex.series.coachescrewappp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyln4TNmvZcG3ECZOeSjQv2dqUi7HwWeg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

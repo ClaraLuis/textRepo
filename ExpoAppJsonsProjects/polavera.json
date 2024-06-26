@@ -1,0 +1,73 @@
+{
+  "expo": {
+    "name": "Polavera",
+    "slug": "polaveraslug",
+    "scheme": "polaverascheme",
+    "version": "2.0",
+    "icon": "./AppIcons/polavera/polavera1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/polavera/polavera1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/polavera/polavera1024.png",
+      "backgroundColor": "#000000",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.polavera",
+      "buildNumber": "2",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/polavera-google-services.json",
+      "package": "com.tabex.series.polavera",
+      "icon": "./AppIcons/polavera/polavera512.png",
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/polavera/polavera512.png",
+        "backgroundColor": "#000000"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "64e46ed1251f9",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "61ff501d-a8e6-48d2-9f75-059bbb00432a"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/61ff501d-a8e6-48d2-9f75-059bbb00432a"
+    }
+  }
+}

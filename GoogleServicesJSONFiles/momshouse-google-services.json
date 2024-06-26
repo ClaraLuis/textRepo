@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "740140810563",
+    "project_id": "momshouse-2299d",
+    "storage_bucket": "momshouse-2299d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740140810563:android:0bf39df4b9cb2652f3aff6",
+        "android_client_info": {
+          "package_name": "com.tabex.series.momshouse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740140810563-l3e5i8l2fpuqq87ak47745lgub9l759b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2y4th7aWfFa5GDMZwGGIxN1yqJxSuk1s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "740140810563-l3e5i8l2fpuqq87ak47745lgub9l759b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "362488143736",
+    "project_id": "miralab-1af54",
+    "storage_bucket": "miralab-1af54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362488143736:android:2a3cdf9869895f632bf28d",
+        "android_client_info": {
+          "package_name": "com.tabex.series.miralab"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcG8xCtBrrOV1yMbwH6J3_5R5xJ-zed4M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

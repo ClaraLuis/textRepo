@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "850459661695",
+    "project_id": "crater-66699",
+    "storage_bucket": "crater-66699.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:850459661695:android:8f7c25d2418677d524f64a",
+        "android_client_info": {
+          "package_name": "com.tabex.series.crater"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbSYkiizzUuWswnCX_CqpJpXqFxaCF3yw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

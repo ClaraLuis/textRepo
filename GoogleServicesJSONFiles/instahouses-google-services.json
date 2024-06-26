@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "834379462397",
+    "project_id": "instahouses-4b1bf",
+    "storage_bucket": "instahouses-4b1bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834379462397:android:2ef2fb6aa6ed95f7003094",
+        "android_client_info": {
+          "package_name": "com.tabex.series.instahouses"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7Q6O4jDBOXmW-BEUipJyW-XqsFKScV0o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

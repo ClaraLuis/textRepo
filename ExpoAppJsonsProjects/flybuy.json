@@ -1,0 +1,74 @@
+{
+  "expo": {
+    "name": "Fly Buy",
+    "slug": "flybuyslug",
+    "scheme": "flybuyscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/flybuy/flybuy1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/flybuy/flybuy1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/flybuy/flybuy1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.flybuy",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/flybuy-google-services.json",
+      "package": "com.tabex.series.flybuy",
+      "icon": "./AppIcons/flybuy/flybuy512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/flybuy/flybuy512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "650aa296b89c4",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "eas": {
+        "projectId": "56782497-2cdd-4149-8b1f-838edd32435f"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/56782497-2cdd-4149-8b1f-838edd32435f"
+    }
+  }
+}

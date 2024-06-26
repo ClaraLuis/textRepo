@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "Planets EG",
+    "slug": "planetsegslug",
+    "scheme": "planetsscheme",
+    "version": "3.0",
+    "icon": "./AppIcons/planets/planets1024.png",
+    "notification": {
+      "icon": "./AppIcons/planets/planets1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/planets/planets1024.png",
+      "backgroundColor": "#191919",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.planetseg",
+      "buildNumber":"3",
+      "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/planetseggoogle-services.json",
+      "package": "com.tabex.series.planetseg",
+      "icon": "./AppIcons/planets/planets412.png",
+      "versionCode": 3,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/planets/planets412.png",
+        "backgroundColor": "#191919"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "63f21882c39c5",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "636a180e-f213-483c-a132-9a3021930eb6"
+      }
+    }
+    ,
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

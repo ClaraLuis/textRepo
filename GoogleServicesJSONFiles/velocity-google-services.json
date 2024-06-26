@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "212441955423",
+    "project_id": "velocity-6d591",
+    "storage_bucket": "velocity-6d591.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212441955423:android:3cfb1d26dfd7982a25efea",
+        "android_client_info": {
+          "package_name": "com.tabex.series.velocity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_1aMYxMc258Ufq24U_uazEGpog8VErcY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

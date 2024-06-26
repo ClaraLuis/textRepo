@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "885706273333",
+    "project_id": "carnova-d4192",
+    "storage_bucket": "carnova-d4192.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885706273333:android:6c10ae4a3d804a210c377c",
+        "android_client_info": {
+          "package_name": "com.tabex.series.carnova"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885706273333-2jt2obd28n1v2l0jr8qiu2apkvfbj70p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4b5frOH1SWCWbTRF03pIzybB1SLMBwLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "885706273333-2jt2obd28n1v2l0jr8qiu2apkvfbj70p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

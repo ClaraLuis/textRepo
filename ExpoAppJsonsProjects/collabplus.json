@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "Collab Plus",
+    "slug": "collabplusslug",
+    "scheme": "collabplusscheme",
+    "version": "6.0",
+    "icon": "./AppIcons/collabplus/collabplus1024.png",
+    "notification": {
+      "icon": "./AppIcons/collabplus/collabplus1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/collabplus/collabplus1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.collabplus",
+      "buildNumber":"6",
+      "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/collabplus-google-services.json",
+      "package": "com.tabex.series.collabplus",
+      "icon": "./AppIcons/collabplus/collabplus412.png",
+      "versionCode": 6,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/collabplus/collabplus412.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "63ea069d3f33d",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk":"48",
+      "androidsdk":"48",
+      "eas": {
+        "projectId": "f21915a8-80e5-4572-9213-3ab52baf76cc"
+      }
+    }
+    ,
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

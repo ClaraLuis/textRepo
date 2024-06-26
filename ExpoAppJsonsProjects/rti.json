@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "Life Coach | لايف كوتش",
+    "slug": "rtislug",
+    "scheme": "rtischeme",
+    "version": "1.0",
+    "icon": "./AppIcons/rti/rti1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/rti/rti1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/rti/rti1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.rti",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/rti-google-services.json",
+      "package": "com.tabex.series.rti",
+      "icon": "./AppIcons/rti/rti512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/rti/rti512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "6565daa431066",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "firebaseaccount": "tabexdevinfo21@gmail.com",
+      "eas": {
+        "projectId": "19cc94f5-d080-4144-a6f6-59306857ee44"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/19cc94f5-d080-4144-a6f6-59306857ee44"
+    }
+  }
+}

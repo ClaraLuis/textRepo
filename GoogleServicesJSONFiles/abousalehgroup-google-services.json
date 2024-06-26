@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "582553345566",
+    "project_id": "abousalehgroup",
+    "storage_bucket": "abousalehgroup.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:582553345566:android:d529b463ff8ccabef7980f",
+        "android_client_info": {
+          "package_name": "com.tabex.series.abousalehgroup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXsvkNKLqqyz_S3GvaEpSCnEAtskmo6QM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

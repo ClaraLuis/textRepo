@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "218916155432",
+    "project_id": "shamshom-club",
+    "storage_bucket": "shamshom-club.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218916155432:android:274456731b29aa3082451d",
+        "android_client_info": {
+          "package_name": "com.tabex.series.shamshonclub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUikJ0sMFbQeHxRmuiH-f9WGLWPDfVWUs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

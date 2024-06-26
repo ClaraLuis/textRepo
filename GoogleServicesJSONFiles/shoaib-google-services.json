@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "621672292875",
+    "project_id": "shoaib-ea297",
+    "storage_bucket": "shoaib-ea297.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621672292875:android:3224bf2651017cdc10dd0e",
+        "android_client_info": {
+          "package_name": "com.tabex.series.shoaib"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfIROAvt05TFX3GoquzsE4TojtV9fXO-I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

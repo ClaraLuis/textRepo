@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "Central Trading",
+    "slug": "centraltradingslug",
+    "scheme": "centraltradingscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/centraltrading/centraltrading1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/centraltrading/centraltrading1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/centraltrading/centraltrading1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.centraltrading",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/centraltrading-google-services.json",
+      "package": "com.tabex.series.centraltrading",
+      "icon": "./AppIcons/centraltrading/centraltrading512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/centraltrading/centraltrading512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "6584127a06f91",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "firebaseaccount": "tabexdevinfo23@gmail.com",
+      "eas": {
+        "projectId": "db972dfe-7f86-4b7a-a3fc-7767a65922ab"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/db972dfe-7f86-4b7a-a3fc-7767a65922ab"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "155323125263",
+    "project_id": "pure-mind-67b5d",
+    "storage_bucket": "pure-mind-67b5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155323125263:android:e1449a1bab63721b66dd7a",
+        "android_client_info": {
+          "package_name": "com.tabex.series.puremind"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "155323125263-dcqvctkos9n21h1em5topu53v9br3hmq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpfZigMRJgtKKX0iCi7DrOfin6Vv5GGvw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "155323125263-dcqvctkos9n21h1em5topu53v9br3hmq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

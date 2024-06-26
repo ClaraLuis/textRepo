@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "Hollivee",
+    "slug": "holliveeslug",
+    "scheme": "holliveescheme",
+    "version": "1.0",
+    "icon": "./AppIcons/hollivee/hollivee1024.png",
+    "notification": {
+      "icon": "./AppIcons/hollivee/hollivee1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/hollivee/hollivee1024.png",
+      "backgroundColor": "#DDC269",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.hollivee",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/hollivee-google-services.json",
+      "package": "com.tabex.series.hollivee",
+      "icon": "./AppIcons/hollivee/hollivee512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/hollivee/hollivee512.png",
+        "backgroundColor": "#DDC269"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "6460ec1dd7ae4",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "28e157ea-e07f-48f5-b3b7-ef243ca1cdcc"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

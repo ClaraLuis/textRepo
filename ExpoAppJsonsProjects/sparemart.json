@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "Sparemart",
+    "slug": "sparemartslug",
+    "scheme": "sparemartscheme",
+    "version": "2.0",
+    "icon": "./AppIcons/sparemart/sparemart1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/sparemart/sparemart1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/sparemart/sparemartloader.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.sparemart",
+      "buildNumber": "2",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/sparemartapp-google-services.json",
+      "package": "com.tabex.series.sparemartapp",
+      "icon": "./AppIcons/sparemart/sparemart512.png",
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/sparemart/sparemart512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "652fc5e139652",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "51",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "firebaseaccount2": "14tbdex@gmail.com",
+      "eas": {
+        "projectId": "f78362a6-3c13-43df-96b6-4bc170aa719a"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/f78362a6-3c13-43df-96b6-4bc170aa719a"
+    }
+  }
+}

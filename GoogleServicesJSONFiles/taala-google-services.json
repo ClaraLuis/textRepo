@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "314625108094",
+    "project_id": "taala-66038",
+    "storage_bucket": "taala-66038.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314625108094:android:1b2516565eb40be783d02f",
+        "android_client_info": {
+          "package_name": "com.tabex.series.taala"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPJw1UOiYixxwYMsZY8KIMRrfMTdM958E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

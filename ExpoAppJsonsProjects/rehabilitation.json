@@ -1,0 +1,73 @@
+{
+  "expo": {
+    "name": "Ahillney | أهلني",
+    "slug": "rehabilitationslug",
+    "scheme": "rehabilitationscheme",
+    "version": "4.0",
+    "orientation": "portrait",
+    "icon": "./AppIcons/rehabilitation/rehabilitation1024.png",
+    "notification": {
+      "icon": "./AppIcons/rehabilitation/rehabilitation1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/rehabilitation/rehabilitation1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.rehabilitation",
+      "buildNumber": "4",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/rehabilitation-google-services.json",
+      "package": "com.tabex.series.rehabilitation",
+      "icon": "./AppIcons/rehabilitation/rehabilitation512.png",
+      "versionCode": 4,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/rehabilitation/rehabilitation512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "64b65751d3904",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "796eff22-ba9d-477f-940b-546d788eae94"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/796eff22-ba9d-477f-940b-546d788eae94"
+    }
+  }
+}

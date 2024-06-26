@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "315655174799",
+    "project_id": "haus-de-core",
+    "storage_bucket": "haus-de-core.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315655174799:android:b35daee50dd965f91f4efa",
+        "android_client_info": {
+          "package_name": "com.tabex.series.hausdecore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2SKtUGyyUoA8IBohHfy4Qb4TeV6MRHgM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

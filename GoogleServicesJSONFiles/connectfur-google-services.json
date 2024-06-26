@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "365693608633",
+    "project_id": "connect-fur",
+    "storage_bucket": "connect-fur.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365693608633:android:20620af62345983c4a3168",
+        "android_client_info": {
+          "package_name": "com.tabex.series.connectfur"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFIo610GM0exKVKfDOkGSOTWrLRaI45r8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

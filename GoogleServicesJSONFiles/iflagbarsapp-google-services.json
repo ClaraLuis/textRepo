@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1098209235057",
+    "project_id": "iflag-bars-app",
+    "storage_bucket": "iflag-bars-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098209235057:android:d98ff8dafef10d7effcbd0",
+        "android_client_info": {
+          "package_name": "com.tabex.series.iflagbarsapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHdthizCrdNzt5WTrjKYCiLvF4E4fo22Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "428521869284",
+    "project_id": "triplem-85bc4",
+    "storage_bucket": "triplem-85bc4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428521869284:android:e0d3571f984f40ffd301f1",
+        "android_client_info": {
+          "package_name": "com.tabex.series.triplem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "428521869284-nsie68jl6rjj74q0h5n1cvi4fe9gko4j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWuO_c2K1gDfdkq8cY6BBmHhc7J6SI4uY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "428521869284-nsie68jl6rjj74q0h5n1cvi4fe9gko4j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

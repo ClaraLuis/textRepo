@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "305318309681",
+    "project_id": "nor-solutions",
+    "storage_bucket": "nor-solutions.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305318309681:android:7e6287d78adac37a0bca10",
+        "android_client_info": {
+          "package_name": "com.tabex.series.norsolutions"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDusX8exwcquLYRjOzV8RrClL-JNI6dhYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

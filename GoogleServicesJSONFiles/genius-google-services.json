@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "719744175760",
+    "project_id": "genius-c3823",
+    "storage_bucket": "genius-c3823.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719744175760:android:b3b149e0098e3536fa5215",
+        "android_client_info": {
+          "package_name": "com.tabex.series.genius"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKe4QHSV1RMd23xGDidHclioJ1vvMGSXU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

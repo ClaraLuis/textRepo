@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1042529944072",
+    "project_id": "gadedly",
+    "storage_bucket": "gadedly.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042529944072:android:e2ab94f0cc11cdf3c447bd",
+        "android_client_info": {
+          "package_name": "com.tabex.series.gadedly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1042529944072-nlknfgd7jaojofnpiqahfuloi8t6t0ko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVYk25RtctGn3NPHeaKUU8wua-CzxvgIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1042529944072-nlknfgd7jaojofnpiqahfuloi8t6t0ko.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

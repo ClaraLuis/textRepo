@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "Rate Education",
+    "slug": "rateeducationslug",
+    "scheme": "rateeducationscheme",
+    "version": "4.0",
+    "icon": "./AppIcons/rateeducation/rate1024.png",
+    "notification": {
+      "icon": "./AppIcons/rateeducation/rate1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/rateeducation/rate1024.png",
+      "backgroundColor": "#171a23",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.rateeducation",
+      "buildNumber":"4",
+      "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/rateeducation-google-services.json",
+      "package": "com.tabex.series.rateeducation",
+      "icon": "./AppIcons/rateeducation/rate412.png",
+      "versionCode": 4,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/rateeducation/rate412.png",
+        "backgroundColor": "#171a23"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "63e8d4a749351",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "d511d380-4c1e-406c-bc2c-d437d437431a"
+      }
+    }
+    ,
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

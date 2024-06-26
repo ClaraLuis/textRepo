@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "مدارس جيل الحضارة الاهلية للبنات",
+    "slug": "madaresgeelelhadaraslug",
+    "scheme": "madaresgeelelhadarascheme",
+    "version": "1.0",
+    "icon": "./AppIcons/madaresgeelelhadara/madaresgeelelhadara1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/madaresgeelelhadara/madaresgeelelhadara1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/madaresgeelelhadara/madaresgeelelhadarasplashscreen.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.madaresgeelelhadara",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/madaresgeelelhadara-google-services.json",
+      "package": "com.tabex.series.madaresgeelelhadara",
+      "icon": "./AppIcons/madaresgeelelhadara/madaresgeelelhadara512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/madaresgeelelhadara/madaresgeelelhadara512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "661e380fdff37",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "cover",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "devitabex6@gmail.com",
+      "eas": {
+        "projectId": "8f22060b-1570-48f1-9eb4-7f9c292f167b"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/8f22060b-1570-48f1-9eb4-7f9c292f167b"
+    }
+  }
+}

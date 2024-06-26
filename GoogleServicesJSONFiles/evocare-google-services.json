@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "86018814732",
+    "project_id": "evocare-2b5ac",
+    "storage_bucket": "evocare-2b5ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86018814732:android:aaece9c8cdb90279c3cf29",
+        "android_client_info": {
+          "package_name": "com.tabex.series.evocare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAd-6zZUXjCDBqGpz80_z9nKSqTE-HjEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

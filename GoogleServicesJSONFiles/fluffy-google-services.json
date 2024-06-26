@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "470828774329",
+    "project_id": "fluffy-ff738",
+    "storage_bucket": "fluffy-ff738.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470828774329:android:92d80b674acb3aaf52bc68",
+        "android_client_info": {
+          "package_name": "com.tabex.series.fluffy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo2RfFwvnYUe3bIZ6jBzLJnpAQLZpZn7A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

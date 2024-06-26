@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1059447529489",
+    "project_id": "hot-shopping-c3d07",
+    "storage_bucket": "hot-shopping-c3d07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059447529489:android:c66bb9b4b0d57afdbe91b0",
+        "android_client_info": {
+          "package_name": "com.tabex.series.hotshopping"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdnBd9ndu8VYESa0lQ28boVOXuOkqtLpU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

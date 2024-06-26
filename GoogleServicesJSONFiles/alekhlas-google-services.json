@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "18551558530",
+    "project_id": "alekhlas-7a3a2",
+    "storage_bucket": "alekhlas-7a3a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:18551558530:android:f14d28609ebd2e5585bf9b",
+        "android_client_info": {
+          "package_name": "com.tabex.series.alekhlas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMKT109FBJqWRRIT67XEpnOdAqva6r6qQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "178197039944",
+    "project_id": "hypelife-d6129",
+    "storage_bucket": "hypelife-d6129.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178197039944:android:0eca7daa6c898651e5817d",
+        "android_client_info": {
+          "package_name": "com.tabex.series.hypelife"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178197039944-n3ppgtet40vjjk8012h5apmtuue1v2e0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyS_9RgLnJG9BfYKnK6fwo1gKg4CFHvPQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178197039944-n3ppgtet40vjjk8012h5apmtuue1v2e0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "166927340488",
+    "project_id": "e-cash-a54fa",
+    "storage_bucket": "e-cash-a54fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166927340488:android:d1340f9c40d392df53e6fd",
+        "android_client_info": {
+          "package_name": "com.tabex.series.ecash"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5q3eCyuYex4pUtwEsXN13As0wgeNO0jg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

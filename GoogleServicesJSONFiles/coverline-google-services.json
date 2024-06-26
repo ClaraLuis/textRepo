@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "398909341187",
+    "project_id": "cover-line",
+    "storage_bucket": "cover-line.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398909341187:android:a384912992f2ce785b9836",
+        "android_client_info": {
+          "package_name": "com.tabex.series.coverline"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcre43J_DJqikAzU4myminmc9AqykYePk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

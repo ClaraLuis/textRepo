@@ -1,0 +1,74 @@
+{
+  "expo": {
+    "name": "Lotus_eg",
+    "slug": "lotusslug",
+    "scheme": "lotusscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/lotus/lotus1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/lotus/lotus1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/lotus/lotus1024.png",
+      "backgroundColor": "#000000",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.lotus",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/lotus-google-services.json",
+      "package": "com.tabex.series.lotus",
+      "icon": "./AppIcons/lotus/lotus512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/lotus/lotus512.png",
+        "backgroundColor": "#000000"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "6508058eb949e",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "eas": {
+        "projectId": "d456ae9d-8c47-4dbd-8056-351f1ee1537e"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/d456ae9d-8c47-4dbd-8056-351f1ee1537e"
+    }
+  }
+}

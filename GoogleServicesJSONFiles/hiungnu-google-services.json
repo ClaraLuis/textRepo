@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "194501848414",
+    "project_id": "hiungnu-bb4d7",
+    "storage_bucket": "hiungnu-bb4d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194501848414:android:0ce6ee2faa93943b47f3cf",
+        "android_client_info": {
+          "package_name": "com.tabex.series.hiungnu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAP2AH9qWoT1Xcamjdj4UaDdnpVSBrJ6AI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

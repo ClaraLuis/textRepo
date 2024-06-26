@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "In The Pink-Store",
+    "slug": "inthepinkslug",
+    "scheme": "inthepinkscheme",
+    "version": "3.0",
+    "icon": "./AppIcons/inthepink/inthepink1024.png",
+    "notification": {
+      "icon": "./AppIcons/inthepink/inthepink1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/inthepink/inthepink1024.png",
+      "backgroundColor": "#E3CABE",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.inthepink",
+      "buildNumber": "3",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/inthepink-google-services.json",
+      "package": "com.tabex.series.inthepink",
+      "icon": "./AppIcons/inthepink/inthepink512.png",
+      "versionCode": 3,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/inthepink/inthepink512.png",
+        "backgroundColor": "#E3CABE"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "6450dd3207c0a",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "b16cf0cd-0884-474f-91fc-dfa48c547cdb"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

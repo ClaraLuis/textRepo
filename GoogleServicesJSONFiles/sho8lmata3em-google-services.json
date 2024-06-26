@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "66850506240",
+    "project_id": "sho8l-mata3em",
+    "storage_bucket": "sho8l-mata3em.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66850506240:android:13051875a0f709f4853ae5",
+        "android_client_info": {
+          "package_name": "com.tabex.series.sho8lmata3em"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66850506240-ab1df4ghjdnkqrdqhm50leu052fn33m9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkuG8T2ATw0LmIKWc0mKESL7OWbEZH-sI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66850506240-ab1df4ghjdnkqrdqhm50leu052fn33m9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

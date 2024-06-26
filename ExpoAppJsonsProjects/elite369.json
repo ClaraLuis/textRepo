@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "Elite 369",
+    "slug": "elite369slug",
+    "scheme": "elite369scheme",
+    "version": "1.0",
+    "icon": "./AppIcons/elite369/elite369-1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/elite369/elite369-1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/elite369/elite369-1024.png",
+      "backgroundColor": "#010101",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.elite369",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/elite369-google-services.json",
+      "package": "com.tabex.series.elite369",
+      "icon": "./AppIcons/elite369/elite369-512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/elite369/elite369-512.png",
+        "backgroundColor": "#010101"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "658855f47f593",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "firebaseaccount": "tabexdevinfo23@gmail.com",
+      "eas": {
+        "projectId": "2715d496-4d66-49c2-865d-315d36b0d87b"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/2715d496-4d66-49c2-865d-315d36b0d87b"
+    }
+  }
+}

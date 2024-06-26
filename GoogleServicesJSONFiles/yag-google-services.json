@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "980577435594",
+    "project_id": "yag-manahil-el-yemen",
+    "storage_bucket": "yag-manahil-el-yemen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980577435594:android:a20674407728ba0e86d933",
+        "android_client_info": {
+          "package_name": "com.tabex.series.yag"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIHg_MeDLywRfQQMRPnpQ0Lf5w7o8g38I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

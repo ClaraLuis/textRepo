@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Fame Art Production",
+    "slug": "fameproductionslug",
+    "scheme": "fameproductionschemeapp",
+    "version": "4.0",
+    "icon": "./AppIcons/FameProduction/fameproduction1024.png",
+    "notification": {
+      "icon": "./AppIcons/FameProduction/fameproduction1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/FameProduction/fameproduction1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.fameproduction",
+      "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/fameproduction-google-services.json",
+      "package": "com.tabex.series.fameproduction",
+      "icon": "./AppIcons/FameProduction/fameproduction512.png",
+      "versionCode": 4,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/FameProduction/fameproduction512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "iossdk": "48",
+      "androidsdk": "48",
+      "instapikey": "636673debe95e",
+      "projectsrctype": "subdomain",
+      "eas": {
+        "projectId": "16ab8604-4630-4046-ba8b-cd63313a9868"
+      }
+    }
+  }
+}

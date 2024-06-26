@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "مصراوي",
+    "slug": "masrawyappslug",
+    "scheme": "masrawyappscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/masrawy/masrawy1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/masrawy/masrawy1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/masrawy/masrawy1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.masrawy",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/masrawyapp-google-services.json",
+      "package": "com.tabex.series.masrawyapp",
+      "icon": "./AppIcons/masrawy/masrawy512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/masrawy/masrawy512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65f0432717822",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "contain",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "devitabex6@gmail.com",
+      "eas": {
+        "projectId": "6ca34342-3700-4ab2-9ad5-8480015926e5"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/6ca34342-3700-4ab2-9ad5-8480015926e5"
+    }
+  }
+}

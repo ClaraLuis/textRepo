@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "860383116977",
+    "project_id": "ali-baba-53750",
+    "storage_bucket": "ali-baba-53750.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860383116977:android:9a335fdddfdbd5e1ce2c90",
+        "android_client_info": {
+          "package_name": "com.tabex.series.alibabaegypt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDv3hd0nmzxvwXRds3uwExaFx7JT1sk1IM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

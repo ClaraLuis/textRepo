@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "521852200776",
+    "project_id": "its-me-595a2",
+    "storage_bucket": "its-me-595a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521852200776:android:c873a06d4e9e6ef024f57d",
+        "android_client_info": {
+          "package_name": "com.tabex.series.itsme"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh4UILb5alQxHrIIOoKoBVKZP7-cHkqk0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

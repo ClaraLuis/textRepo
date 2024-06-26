@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "116241301218",
+    "project_id": "elmekkawy-8a466",
+    "storage_bucket": "elmekkawy-8a466.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116241301218:android:c859b90ebc4edb933528bb",
+        "android_client_info": {
+          "package_name": "com.tabex.series.elmekkawy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACaOFe00h5_7GDDDn0EIhAEoThEw7XvuE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

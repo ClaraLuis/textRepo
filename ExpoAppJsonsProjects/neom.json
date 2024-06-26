@@ -1,0 +1,73 @@
+{
+  "expo": {
+    "name": "Neom - نيوم",
+    "slug": "neomslug",
+    "scheme": "neomscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/neom/neom1024.png",
+    "notification": {
+      "icon": "./AppIcons/neom/neom1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/neom/neom1024.png",
+      "backgroundColor": "#010000",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.neom",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/neom-google-services.json",
+      "package": "com.tabex.series.neom",
+      "icon": "./AppIcons/neom/neom512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/neom/neom512.png",
+        "backgroundColor": "#010000"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "6540f1405c69d",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "eas": {
+        "projectId": "53875a55-2e7c-4305-8a4e-b8f92231672b"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/53875a55-2e7c-4305-8a4e-b8f92231672b"
+    }
+  }
+}

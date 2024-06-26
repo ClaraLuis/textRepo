@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "Agent47 Store",
+    "slug": "agent47slug",
+    "scheme": "agent47scheme",
+    "version": "3.0",
+    "icon": "./AppIcons/agent47/agent1024.png",
+    "notification": {
+      "icon": "./AppIcons/agent47/agent1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/agent47/agent1024.png",
+      "backgroundColor": "#000000",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.agent47",
+      "buildNumber":"3",
+      "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/agent47-google-services.json",
+      "package": "com.tabex.series.agent47",
+      "icon": "./AppIcons/agent47/agent412.png",
+      "versionCode": 3,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/agent47/agent412.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "iossdk": "48",
+      "androidsdk": "48",
+      "instapikey": "63c6f2afcdb7e",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "eas": {
+        "projectId": "59fa2fbf-3a78-4b89-a75d-5638b10721dc"
+      }
+    }
+    ,
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

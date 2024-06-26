@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "671731088789",
+    "project_id": "fay-eg",
+    "storage_bucket": "fay-eg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671731088789:android:3b93a9d7cf4ee2bd844a9c",
+        "android_client_info": {
+          "package_name": "com.tabex.series.fay"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsC-f4nTOXv4-w86YlKvR_It5nCSsy77A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "248811827945",
+    "project_id": "vape-mart-egy",
+    "storage_bucket": "vape-mart-egy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248811827945:android:536ec9bb5983d1fec7b678",
+        "android_client_info": {
+          "package_name": "com.tabex.series.vapemartegy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248811827945-msrv8si30q9dm2auqo7iedo0a3njn76r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQJpqkjXoImYPahkQJiTP194iUs17urDs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248811827945-msrv8si30q9dm2auqo7iedo0a3njn76r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

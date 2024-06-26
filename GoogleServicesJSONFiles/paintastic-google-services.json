@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "192972529735",
+    "project_id": "paintastic-b268d",
+    "storage_bucket": "paintastic-b268d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192972529735:android:5dbdc2be7a78d6f9ce1162",
+        "android_client_info": {
+          "package_name": "com.tabex.series.paintastic"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtHJVhileEN3qcvQtMpEOlPdoRCLbWodM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

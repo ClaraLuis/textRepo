@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "930828178213",
+    "project_id": "e-implant",
+    "storage_bucket": "e-implant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930828178213:android:0506eff3685e4b469cc0cc",
+        "android_client_info": {
+          "package_name": "com.tabex.series.eimplant"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAo2HMMjQgixLy6P-LAxWYCyd2GH8DXeck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

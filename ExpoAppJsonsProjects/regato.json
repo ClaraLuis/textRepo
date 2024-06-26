@@ -1,0 +1,65 @@
+{
+  "expo": {
+    "name": "Regato Pharma",
+    "slug": "regatopharmaslug",
+    "scheme": "regatopharmascheme",
+    "version": "3.0",
+    "icon": "./AppIcons/regato/regato1024.png",
+    "notification": {
+      "icon": "./AppIcons/regato/regato1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/regato/regato1024.png",
+      "backgroundColor": "#f7f7f7",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.regatopharma",
+      "buildNumber":"3",
+      "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/regato-google-services.json",
+      "package": "com.tabex.series.regatopharma",
+      "icon": "./AppIcons/regato/regato412.png",
+      "versionCode": 3,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/regato/regato412.png",
+        "backgroundColor": "#f7f7f7"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "63f3753664bbc",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "3c654439-3771-4739-a2f9-aba131b0c0a9"
+      }
+    }
+    ,
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "589415104098",
+    "project_id": "fadali-71463",
+    "storage_bucket": "fadali-71463.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589415104098:android:45816c398499b6d5415b3b",
+        "android_client_info": {
+          "package_name": "com.tabex.series.fadali"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaPIrtcI3L-7BLqYgsfJNQ3Am4GFL9FZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

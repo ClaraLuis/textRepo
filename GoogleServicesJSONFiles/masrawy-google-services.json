@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "536133495435",
+    "project_id": "masrawy-ac8d2",
+    "storage_bucket": "masrawy-ac8d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536133495435:android:9e57bb38a07dfc3dd9c28e",
+        "android_client_info": {
+          "package_name": "com.tabex.series.masrawy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7_g8-_56JmwYLbT_CQxDuVyTY201MnQY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "261746431391",
+    "project_id": "romantic-shopping",
+    "storage_bucket": "romantic-shopping.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261746431391:android:5a4809be397e988f90d9aa",
+        "android_client_info": {
+          "package_name": "com.tabex.series.romanticshopping"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzxrhPJExl4wCP19nzwNlNvuv0pJ_USxM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

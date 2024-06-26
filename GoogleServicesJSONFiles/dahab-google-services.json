@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "538749987882",
+    "project_id": "dahab-eb06f",
+    "storage_bucket": "dahab-eb06f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538749987882:android:7ea1a02f7fc79a60562753",
+        "android_client_info": {
+          "package_name": "com.tabex.series.dahab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538749987882-6n4e60h0uh5jgdnenritcso476s1t54g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpZwDt8otlZWf7S-uGB6e3UErWQvPUTHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "538749987882-6n4e60h0uh5jgdnenritcso476s1t54g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

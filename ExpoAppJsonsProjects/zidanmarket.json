@@ -1,0 +1,77 @@
+{
+  "expo": {
+    "name": "Zidan Market",
+    "slug": "zidanmarketslug",
+    "scheme": "zidanmarketscheme",
+    "version": "2.0",
+    "icon": "./AppIcons/zidanmarket/zidanmarket1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/zidanmarket/zidanmarket1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/zidanmarket/zidanmarket1024.png",
+      "backgroundColor": "#FCFDFB",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.zidanmarket",
+      "buildNumber": "2",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/zidanmarketapp-google-services.json",
+      "package": "com.tabex.series.zidanmarketapp",
+      "icon": "./AppIcons/zidanmarket/zidanmarket512.png",
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/zidanmarket/zidanmarket512.png",
+        "backgroundColor": "#FCFDFB"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65a5012638cb5",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "51",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "tabexdevinfo25@gmail.com",
+      "firebaseaccount2": "14tbdex@gmail.com",
+
+      "eas": {
+        "projectId": "1cc0376a-8a20-4028-83b0-4db381626c5d"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/1cc0376a-8a20-4028-83b0-4db381626c5d"
+    }
+  }
+}

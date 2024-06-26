@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "618317603794",
+    "project_id": "coach-nafsak",
+    "storage_bucket": "coach-nafsak.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618317603794:android:ded5ba5bb618237c745e0b",
+        "android_client_info": {
+          "package_name": "com.tabex.series.coachnafsak"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApqbgiae5ImhySXRGdcXvv50pdPBuoYpw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

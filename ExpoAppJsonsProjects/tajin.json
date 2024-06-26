@@ -1,0 +1,72 @@
+{
+  "expo": {
+    "name": "Tajin",
+    "slug": "tajinslug",
+    "scheme": "tajinscheme",
+    "version": "2.0",
+    "icon": "./AppIcons/tajin/tajin1024.png",
+    "notification": {
+      "icon": "./AppIcons/tajin/tajin1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/tajin/tajin1024.png",
+      "backgroundColor": "#FE9900",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.tajin",
+      "buildNumber": "2",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/tajin-google-services.json",
+      "package": "com.tabex.series.tajin",
+      "icon": "./AppIcons/tajin/tajin512.png",
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/tajin/tajin512.png",
+        "backgroundColor": "#FE9900"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "64d3a12b16e9a",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "34dd1ad4-83ac-432d-9f1b-5dcbf926fcea"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/34dd1ad4-83ac-432d-9f1b-5dcbf926fcea"
+    }
+  }
+}

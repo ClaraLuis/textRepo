@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "654782770601",
+    "project_id": "turky-cleaning-services",
+    "storage_bucket": "turky-cleaning-services.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654782770601:android:1947a68dc89f2b85b568b8",
+        "android_client_info": {
+          "package_name": "com.tabex.series.turkycleaning"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1RQpfPUIVeU7ZsHLxyIjMI8QaVw5c0LI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

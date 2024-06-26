@@ -1,0 +1,73 @@
+{
+  "expo": {
+    "name": "ADAMANT.BOX.EG",
+    "slug": "adamantslug",
+    "scheme": "adamantscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/adamant/adamant1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/adamant/adamant1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/adamant/adamant1024.png",
+      "backgroundColor": "#000000",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.adamant",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/adamant-google-services.json",
+      "package": "com.tabex.series.adamant",
+      "icon": "./AppIcons/adamant/adamant512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/adamant/adamant512.png",
+        "backgroundColor": "#000000"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "64b7aaf5f1678",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "30167f8a-0f03-4be2-9497-dbaf0551646d"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/30167f8a-0f03-4be2-9497-dbaf0551646d"
+    }
+  }
+}

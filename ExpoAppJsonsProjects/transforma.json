@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Transforma",
+    "slug": "transformaslug",
+    "scheme": "transformaappscheme",
+    "version": "2.0",
+    "icon": "./AppIcons/Transforma/transforma1024.png",
+    "notification": {
+      "icon": "./AppIcons/Transforma/transforma1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/Transforma/transforma1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.transforma",
+      "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/transforma-google-services.json",
+      "package": "com.tabex.series.transforma",
+      "icon": "./AppIcons/Transforma/transforma413.png",
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/Transforma/transforma413.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "iossdk": "48",
+      "androidsdk": "48",
+      "instapikey": "6354fefb3f40f",
+      "projectsrctype": "subdomain",
+      "eas": {
+        "projectId": "d82d11dc-2b56-404d-ba5c-d9a049ce78cc"
+      }
+    }
+  }
+}

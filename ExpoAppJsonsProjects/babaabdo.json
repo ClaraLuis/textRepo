@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Baba Abdo",
+    "slug": "babaabdoslug",
+    "scheme": "babaabdoappscheme",
+    "version": "2.0",
+    "icon": "./AppIcons/Babaabdo/babaabdo1024.png",
+    
+    "notification": {
+      "icon": "./AppIcons/Babaabdo/babaabdo1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/Babaabdo/babaabdo1024.png",
+     "backgroundColor": "#ffffff",
+     "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.babaabdo",
+       "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode" : "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/babaabdo-google-services.json",
+      "package": "com.tabex.series.babaabdo",
+      "icon": "./AppIcons/Babaabdo/babaabdo512.png",
+
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/Babaabdo/babaabdo512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra":{
+      "iossdk": "48",
+      "androidsdk": "48",
+      "instapikey":"6344167a3a93a",
+      "projectsrctype":"subdomain"
+      
+    }
+  }
+}

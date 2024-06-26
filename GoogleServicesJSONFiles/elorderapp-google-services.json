@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "986311458862",
+    "project_id": "elorderapp-b7993",
+    "storage_bucket": "elorderapp-b7993.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986311458862:android:7200e0d2005ba82660dfbf",
+        "android_client_info": {
+          "package_name": "com.tabex.series.elorderapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgowCNlSZ-XURQqCkAceu3pWB6-IM19uE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

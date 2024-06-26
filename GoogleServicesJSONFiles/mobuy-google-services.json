@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "738841878749",
+    "project_id": "mobuy-ddd8d",
+    "storage_bucket": "mobuy-ddd8d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738841878749:android:61215028ad04750b41bb34",
+        "android_client_info": {
+          "package_name": "com.tabex.series.mobuy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUDdElR1fdewYDeGHLkUeNcOv4BCi8iRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

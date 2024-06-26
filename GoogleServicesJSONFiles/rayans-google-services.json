@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "26563142480",
+    "project_id": "rayans-5bc54",
+    "storage_bucket": "rayans-5bc54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26563142480:android:4027954889473c9cea0255",
+        "android_client_info": {
+          "package_name": "com.tabex.series.rayans"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1fbDKkQ8Ykf47fw_ccaPjyCvcOfbQzmU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "743202659180",
+    "project_id": "dosy-48f06",
+    "storage_bucket": "dosy-48f06.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743202659180:android:94334e8f57962629c33149",
+        "android_client_info": {
+          "package_name": "com.tabex.series.dosy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFmQwxXx03A7DeS_peYigaZKvMvnJi6FM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,74 @@
+{
+  "expo": {
+    "name": "Paintastic Store",
+    "slug": "paintasticslug",
+    "scheme": "paintasticscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/paintastic/paintastic1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/paintastic/paintastic1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/paintastic/paintasticlogo.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.paintastic",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/paintastic-google-services.json",
+      "package": "com.tabex.series.paintastic",
+      "icon": "./AppIcons/paintastic/paintastic512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/paintastic/paintastic512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65523cd42a0d6",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "eas": {
+        "projectId": "5d111823-ba8f-489e-a0eb-27c070ba9df3"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/5d111823-ba8f-489e-a0eb-27c070ba9df3"
+    }
+  }
+}

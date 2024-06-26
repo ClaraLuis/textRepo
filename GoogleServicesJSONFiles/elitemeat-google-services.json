@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1080574766715",
+    "project_id": "elite-meat",
+    "storage_bucket": "elite-meat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080574766715:android:c3e40422813d0855573cde",
+        "android_client_info": {
+          "package_name": "com.tabex.series.elitemeat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL8nUFupg2EDMRrPRa0L3tOrx0QNXeHbw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

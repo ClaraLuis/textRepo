@@ -1,0 +1,67 @@
+{
+    "expo": {
+        "name": "ARCH",
+        "slug": "archslug",
+        "scheme": "archscheme",
+        "version": "1.0",
+        "icon": "./AppIcons/arch/arch1024.png",
+        "orientation": "portrait",
+        "notification": {
+            "icon": "./AppIcons/arch/arch1024.png"
+        },
+        "splash": {
+            "image": "./AppIcons/arch/archsplashscreen.png",
+            "backgroundColor": "#F5F5F5",
+            "resizeMode": "cover"
+        },
+        "assetBundlePatterns": ["**/*"],
+        "ios": {
+            "bundleIdentifier": "com.tabex.series.arch",
+            "buildNumber": "1",
+            "supportsTablet": true,
+            "infoPlist": {
+                "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+            }
+        },
+        "android": {
+            "softwareKeyboardLayoutMode": "pan",
+            "googleServicesFile": "./GoogleServicesJSONFiles/arch-google-services.json",
+            "package": "com.tabex.series.arch",
+            "icon": "./AppIcons/arch/arch512.png",
+            "versionCode": 1,
+            "permissions": ["INTERNET", "MODIFY_AUDIO_SETTINGS", "READ_EXTERNAL_STORAGE", "SYSTEM_ALERT_WINDOW", "VIBRATE", "WRITE_EXTERNAL_STORAGE", "com.google.android.gms.permission.AD_ID"],
+            "adaptiveIcon": {
+                "foregroundImage": "./AppIcons/arch/arch512.png",
+                "backgroundColor": "#F5F5F5"
+            }
+        },
+        "description": "",
+        "extra": {
+            "instapikey": "666982d54bbee",
+            "projectsrctype": "subdomain",
+            "hastrackingpermissions": "yes",
+            "loadercontain": "cover",
+            "iossdk": "51",
+            "androidsdk": "51",
+            "expoaccountwhoami": "youssefriadsobhy1@gmail.com",
+            "firebaseaccount": "15tbdex@gmail.com",
+            "eas": {
+                "projectId": "fbb02b3a-b58f-449a-b2cc-c7c68c82ed11"
+            }
+        },
+        "plugins": [
+            [
+                "expo-tracking-transparency",
+                {
+                    "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+                }
+            ]
+        ],
+        "runtimeVersion": {
+            "policy": "sdkVersion"
+        },
+        "updates": {
+            "url": "https://u.expo.dev/fbb02b3a-b58f-449a-b2cc-c7c68c82ed11"
+        }
+    }
+}

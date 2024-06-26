@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "631580295284",
+    "project_id": "vettib-5be96",
+    "storage_bucket": "vettib-5be96.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631580295284:android:33c7592c01e0ff0c569121",
+        "android_client_info": {
+          "package_name": "com.tabex.series.vettib"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD30TedELge7bKTm1GPv2pL6UT61zRFRvk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

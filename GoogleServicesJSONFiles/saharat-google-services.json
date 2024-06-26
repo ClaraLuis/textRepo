@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "871712691197",
+    "project_id": "saharat-3a15c",
+    "storage_bucket": "saharat-3a15c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871712691197:android:c4102ad4b2be2913fb7f94",
+        "android_client_info": {
+          "package_name": "com.tabex.series.sahraat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871712691197-obc6amg08t62g54lunqi60rei7msn6pa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_HDJzvBz48VeQrksrk1hzkFH-WT3p0lQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871712691197-obc6amg08t62g54lunqi60rei7msn6pa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,73 @@
+{
+  "expo": {
+    "name": "JimmiShop",
+    "slug": "jimmishopslug",
+    "scheme": "jimmishopscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/jimmishop/jimmishop1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/jimmishop/jimmishop1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/jimmishop/jimmishop1024.png",
+      "backgroundColor": "#000000",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.jimmishop",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/jimmishop-google-services.json",
+      "package": "com.tabex.series.jimmishop",
+      "icon": "./AppIcons/jimmishop/jimmishop512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/jimmishop/jimmishop512.png",
+        "backgroundColor": "#000000"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "64da45b6277d5",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "b4d28e9e-1c49-414e-90ae-19463a7b9433"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/b4d28e9e-1c49-414e-90ae-19463a7b9433"
+    }
+  }
+}

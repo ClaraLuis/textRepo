@@ -1,0 +1,74 @@
+{
+  "expo": {
+    "name": "Scrub Men",
+    "slug": "smmedicalservicesslug",
+    "scheme": "smmedicalservicesscheme",
+    "version": "2.0",
+    "icon": "./AppIcons/smmedicalservices/smmedicalservices1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/smmedicalservices/smmedicalservices1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/smmedicalservices/smmedicalservices1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.smmedicalservices",
+      "buildNumber": "2",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/smmedicalservices-google-services.json",
+      "package": "com.tabex.series.smmedicalservices",
+      "icon": "./AppIcons/smmedicalservices/smmedicalservices512.png",
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/smmedicalservices/smmedicalservices512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "654799254542a",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "49",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "eas": {
+        "projectId": "15896b3e-a544-42fc-ac19-f77090a020ad"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/15896b3e-a544-42fc-ac19-f77090a020ad"
+    }
+  }
+}

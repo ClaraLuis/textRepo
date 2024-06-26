@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "Compass Export",
+    "slug": "compassexportslug",
+    "scheme": "compassexportscheme",
+    "version": "4.0",
+    "icon": "./AppIcons/compassexport/compass1024.png",
+    "notification": {
+      "icon": "./AppIcons/compassexport/compass1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/compassexport/compass1024.png",
+      "backgroundColor": "#f7f9f7",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.compassexport",
+      "buildNumber":"4",
+      "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/compassexport-google-services.json",
+      "package": "com.tabex.series.compassexport",
+      "icon": "./AppIcons/compassexport/compass412.png",
+      "versionCode": 4,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/compassexport/compass412.png",
+        "backgroundColor": "#f7f9f7"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "63d67f1889da5",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk":"48",
+      "androidsdk":"48",
+      "eas": {
+        "projectId": "89c1262c-30bc-4fa7-be01-67f7568aa487"
+      }
+    }
+    ,
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

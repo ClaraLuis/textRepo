@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "Mocha Yemen",
+    "slug": "mochayemenslug",
+    "scheme": "mochayemenscheme",
+    "version": "2.0",
+    "icon": "./AppIcons/mochayemen/mochayemen1024.png",
+    "notification": {
+      "icon": "./AppIcons/mochayemen/mochayemen1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/mochayemen/mochayemen1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.mochayemen",
+      "buildNumber": "2",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/mochayemen-google-services.json",
+      "package": "com.tabex.series.mochayemen",
+      "icon": "./AppIcons/mochayemen/mochayemen512.png",
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/mochayemen/mochayemen512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "6447f67f507fe",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "f68ca750-b473-45b4-b6a5-8d9c795a5400"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

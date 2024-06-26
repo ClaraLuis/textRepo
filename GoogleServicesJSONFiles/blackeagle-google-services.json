@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "696294765214",
+    "project_id": "black-eagle-c4324",
+    "storage_bucket": "black-eagle-c4324.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696294765214:android:cdb686090b6f57ce8c018f",
+        "android_client_info": {
+          "package_name": "com.tabex.series.blackeagle"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBDaBesguGMbFNpt7Ew9GZGbFJjsrFc7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

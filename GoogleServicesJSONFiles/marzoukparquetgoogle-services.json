@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "555644725736",
+    "project_id": "marzoukparquet",
+    "storage_bucket": "marzoukparquet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555644725736:android:385569960b914385069c5d",
+        "android_client_info": {
+          "package_name": "com.tabex.series.marzoukparquet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "555644725736-ids2mqjr36vg7qh6l5p55e23q6qrqe6a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY4H-uyh01kP2CZ3cyZ7rglPhRNn4Uly8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "555644725736-ids2mqjr36vg7qh6l5p55e23q6qrqe6a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

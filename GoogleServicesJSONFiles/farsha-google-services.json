@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "892478152052",
+    "project_id": "farsha-4db09",
+    "storage_bucket": "farsha-4db09.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892478152052:android:0ce536dd884cfe6c0e6021",
+        "android_client_info": {
+          "package_name": "com.tabex.series.farsha"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXE3nsB5TdTJuCFq4Bq8NmjC4YaTIFevQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

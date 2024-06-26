@@ -1,0 +1,73 @@
+{
+  "expo": {
+    "name": "D.CAT",
+    "slug": "dcatslug",
+    "scheme": "dcatscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/dcat/dcat1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/dcat/dcat1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/dcat/dcat1024.png",
+      "backgroundColor": "#FEFFFF",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.dcat",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/dcat-google-services.json",
+      "package": "com.tabex.series.dcat",
+      "icon": "./AppIcons/dcat/dcat512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/dcat/dcat512.png",
+        "backgroundColor": "#FEFFFF"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "64e1cf252e199",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "69c1320e-5b15-4890-9dff-9037f758dc71"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/69c1320e-5b15-4890-9dff-9037f758dc71"
+    }
+  }
+}

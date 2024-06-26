@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "906812062268",
+    "project_id": "flower-empire",
+    "storage_bucket": "flower-empire.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906812062268:android:720e832ca2816a1321e139",
+        "android_client_info": {
+          "package_name": "com.tabex.series.flowerempire"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAhubsiiRm77fKs-DEqryI9FrjbG0XCpU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

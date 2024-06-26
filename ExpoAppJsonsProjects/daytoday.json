@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "Day To Day - داي تو داي",
+    "slug": "daytodayslug",
+    "scheme": "daytodayscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/daytoday/daytoday1024.png",
+    "notification": {
+      "icon": "./AppIcons/daytoday/daytoday1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/daytoday/daytoday1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.daytoday",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/daytoday-google-services.json",
+      "package": "com.tabex.series.daytoday",
+      "icon": "./AppIcons/daytoday/daytoday512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/daytoday/daytoday512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "643e582a26fe6",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "f0551616-dc2a-4e84-bf21-e8084a247b60"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

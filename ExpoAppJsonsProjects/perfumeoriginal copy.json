@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "Perfume Original",
+    "slug": "perfumeoriginalslug",
+    "scheme": "perfumeoriginalscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/perfumeoriginal/perfumeoriginal1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/perfumeoriginal/perfumeoriginal1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/perfumeoriginal/perfumeoriginalsplashscreen.png",
+      "backgroundColor": "#F7F7F7",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.perfumeoriginal",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/perfumeoriginal-google-services.json",
+      "package": "com.tabex.series.perfumeoriginal",
+      "icon": "./AppIcons/perfumeoriginal/perfumeoriginal512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/perfumeoriginal/perfumeoriginal512.png",
+        "backgroundColor": "#F7F7F7"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "660e52b37ea0f",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "cover",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "expoaccountwhoami": "youssefriadsobhy1@gmail.com",
+      "firebaseaccount": "devitabex6@gmail.com",
+      "eas": {
+        "projectId": "47fa38b6-5c0b-461d-bb4d-fe2f222970bc"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/47fa38b6-5c0b-461d-bb4d-fe2f222970bc"
+    }
+  }
+}

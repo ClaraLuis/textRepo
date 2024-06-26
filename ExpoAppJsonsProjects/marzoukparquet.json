@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "Marzouk Parquet",
+    "slug": "marzoukslug",
+    "scheme": "marzokscheme",
+    "version": "3.0",
+    "icon": "./AppIcons/marzoukparquet/marzouk1024.png",
+    "notification": {
+      "icon": "./AppIcons/marzoukparquet/marzouk1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/marzoukparquet/marzouk1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.marzoukparquet",
+      "buildNumber":"3",
+      "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/marzoukparquetgoogle-services.json",
+      "package": "com.tabex.series.marzoukparquet",
+      "icon": "./AppIcons/marzoukparquet/marzouk512.png",
+      "versionCode": 3,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/marzoukparquet/marzouk512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "iossdk": "48",
+      "androidsdk": "48",
+      "instapikey": "63d7ab26821b1",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "eas": {
+        "projectId": "e36a4d99-4d89-4739-b7bc-29275c667e3f"
+      }
+    }
+    ,
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

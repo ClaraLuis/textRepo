@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "Money Egypt",
+    "slug": "marlygroupslug",
+    "scheme": "marlygroupscheme",
+    "version": "4.0",
+    "icon": "./AppIcons/marlygroup/marlygroup1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/marlygroup/marlygroup1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/marlygroup/marlygroup1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.marlygroup",
+      "buildNumber": "4",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/marlygroupapp-google-services.json",
+      "package": "com.tabex.series.marlygroupapp",
+      "icon": "./AppIcons/marlygroup/marlygroup512.png",
+      "versionCode": 4,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/marlygroup/marlygroup512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "64f82dc7bfd2d",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "51",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "firebaseaccount2": "14tbdex@gmail.com",
+      "eas": {
+        "projectId": "2d1a1901-ee10-4c3c-abeb-3b3603074dd5"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/2d1a1901-ee10-4c3c-abeb-3b3603074dd5"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "177256831902",
+    "project_id": "moderntriangles",
+    "storage_bucket": "moderntriangles.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177256831902:android:5673e1e19b59e296dbd48f",
+        "android_client_info": {
+          "package_name": "com.tabex.series.moderntriangles"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7y4_h2vB754hdEymFthLfUZFF3zTVKck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

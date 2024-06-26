@@ -1,0 +1,77 @@
+{
+  "expo": {
+    "name": "SICA",
+    "slug": "sicaslug",
+    "scheme": "sicascheme",
+    "version": "1.0",
+    "icon": "./AppIcons/sica/sica1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/sica/sica1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/sica/sicasplashscreen.png",
+      "backgroundColor": "#FFE9E1",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.sica",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/sica-google-services.json",
+      "package": "com.tabex.series.sica",
+      "icon": "./AppIcons/sica/sica512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE",
+        "com.google.android.gms.permission.AD_ID"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/sica/sica512.png",
+        "backgroundColor": "#FFE9E1"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "665da663288dd",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "cover",
+      "iossdk": "51",
+      "androidsdk": "51",
+      "expoaccountwhoami": "youssefriadsobhy1@gmail.com",
+      "firebaseaccount": "12tbdex@gmail.com",
+      "eas": {
+        "projectId": "b298120c-92ab-42a4-8c61-b958200abb5a"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/b298120c-92ab-42a4-8c61-b958200abb5a"
+    }
+  }
+}

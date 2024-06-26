@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "International School Vacancies",
+    "slug": "internationalschoolvacanciesslug",
+    "scheme": "internationalschoolvacanciesscheme",
+    "version": "2.0",
+    "icon": "./AppIcons/internationalschoolvacancies/internationalschoolvacancies1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/internationalschoolvacancies/internationalschoolvacancies1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/internationalschoolvacancies/internationalschoolvacanciessplashscreen.png",
+      "backgroundColor": "#A568C7",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.internationalschoolvacancies",
+      "buildNumber": "2",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/internationalschoolvacancies-google-services.json",
+      "package": "com.tabex.series.internationalschoolvacancies",
+      "icon": "./AppIcons/internationalschoolvacancies/internationalschoolvacancies512.png",
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/internationalschoolvacancies/internationalschoolvacancies512.png",
+        "backgroundColor": "#A568C7"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "6602798638b3c",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "cover",
+      "iossdk": "51",
+      "androidsdk": "49",
+      "expoaccountwhoami": "youssefriadsobhy1@gmail.com",
+      "firebaseaccount": "devitabex5@gmail.com",
+      "eas": {
+        "projectId": "4c97b6f6-199b-49e9-acbc-5eaf98707795"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/4c97b6f6-199b-49e9-acbc-5eaf98707795"
+    }
+  }
+}

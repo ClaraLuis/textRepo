@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "Tools Hub EG",
+    "slug": "toolshubslug",
+    "scheme": "toolshubscheme",
+    "version": "2.0",
+    "icon": "./AppIcons/toolshub/toolshub1024.png",
+    "notification": {
+      "icon": "./AppIcons/toolshub/toolshub1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/toolshub/toolshub1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.toolshub",
+      "buildNumber": "2",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/toolshub-google-services.json",
+      "package": "com.tabex.series.toolshub",
+      "icon": "./AppIcons/toolshub/toolshub512.png",
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/toolshub/toolshub512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "6411f447938c2",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "1842a555-82d4-4f54-ad1e-c9189d1fa168"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

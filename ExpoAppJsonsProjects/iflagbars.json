@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "iFLAG BARS",
+    "slug": "iflagbarsappslug",
+    "scheme": "iflagbarsappscheme",
+    "version": "2.0",
+    "icon": "./AppIcons/iflagbars/iflagbars1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/iflagbars/iflagbars1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/iflagbars/iflagbars1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.iflagbars",
+      "buildNumber": "2",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/iflagbarsapp-google-services.json",
+      "package": "com.tabex.series.iflagbarsapp",
+      "icon": "./AppIcons/iflagbars/iflagbars512.png",
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/iflagbars/iflagbars512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65dda497ea553",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "devitabex2@gmail.com",
+      "eas": {
+        "projectId": "3f6ef11f-f583-445a-a1c8-56054bea12d2"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/3f6ef11f-f583-445a-a1c8-56054bea12d2"
+    }
+  }
+}

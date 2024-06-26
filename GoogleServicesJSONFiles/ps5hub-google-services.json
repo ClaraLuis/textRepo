@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "944367836737",
+    "project_id": "ps5hub-b8fc2",
+    "storage_bucket": "ps5hub-b8fc2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944367836737:android:18d093dae1fdea9ce370c0",
+        "android_client_info": {
+          "package_name": "com.tabex.series.ps5hub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCmzWZqP70BuDh91ZnPu16xFpNXMGqzqs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

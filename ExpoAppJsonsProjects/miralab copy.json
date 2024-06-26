@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "Miralab",
+    "slug": "miralabslug",
+    "scheme": "miralabscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/miralab/miralab1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/miralab/miralab1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/miralab/miralablogo.png",
+      "backgroundColor": "#10406F",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.miralab",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/miralab-google-services.json",
+      "package": "com.tabex.series.miralab",
+      "icon": "./AppIcons/miralab/miralab512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/miralab/miralab512.png",
+        "backgroundColor": "#10406F"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65b25c6112734",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "tabexdevinfo25@gmail.com",
+      "eas": {
+        "projectId": "d29a884e-a996-4cde-90a7-cdf77f0fa3ac"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/d29a884e-a996-4cde-90a7-cdf77f0fa3ac"
+    }
+  }
+}

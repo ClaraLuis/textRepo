@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "411953590722",
+    "project_id": "es7bly",
+    "storage_bucket": "es7bly.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411953590722:android:8a386d90f083716472665b",
+        "android_client_info": {
+          "package_name": "com.tabex.series.es7bly"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDxiRP0CO_ZJdptz1_ejgZLLS-QOSWYI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

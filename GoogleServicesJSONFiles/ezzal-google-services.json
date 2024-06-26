@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "662756198621",
+    "project_id": "ezzal-4a87c",
+    "storage_bucket": "ezzal-4a87c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662756198621:android:b1a6d2e22459a5df3b7334",
+        "android_client_info": {
+          "package_name": "com.tabex.series.ezzal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz8k08r7buY_TekjijFMJO1sJdHJDV9Zc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

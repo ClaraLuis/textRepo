@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "Flower Empire",
+    "slug": "flowerempireslug",
+    "scheme": "flowerempirescheme",
+    "version": "1.0",
+    "icon": "./AppIcons/flowerempire/flowerempire1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/flowerempire/flowerempire1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/flowerempire/flowerempire1024.png",
+      "backgroundColor": "#FBFAFA",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.flowerempire",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/flowerempire-google-services.json",
+      "package": "com.tabex.series.flowerempire",
+      "icon": "./AppIcons/flowerempire/flowerempire512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/flowerempire/flowerempire512.png",
+        "backgroundColor": "#FBFAFA"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65e0451fb90d2",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "devitabex2@gmail.com",
+      "eas": {
+        "projectId": "532b5289-e857-4827-8a3b-6c94943940b0"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/532b5289-e857-4827-8a3b-6c94943940b0"
+    }
+  }
+}

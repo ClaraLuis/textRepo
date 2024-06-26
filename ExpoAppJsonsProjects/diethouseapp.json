@@ -1,0 +1,78 @@
+{
+  "expo": {
+    "name": "Diet House",
+    "slug": "diethousecappslug",
+    "scheme": "diethousecappscheme",
+    "version": "5.0",
+    "icon": "./AppIcons/diethouse/diethouse1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/diethouse/diethouse1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/diethouse/diethousesplashscreen.png",
+      "backgroundColor": "#A5A3C8",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.diethouse",
+      "buildNumber": "5",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/diethouseccapp-google-services.json",
+      "package": "com.tabex.series.diethouseccapp",
+      "icon": "./AppIcons/diethouse/diethouse512.png",
+      "versionCode": 5,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE",
+        "com.google.android.gms.permission.AD_ID"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/diethouse/diethouse512.png",
+        "backgroundColor": "#A5A3C8"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "664378585e113",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "cover",
+      "iossdk": "51",
+      "androidsdk": "51",
+      "expoaccountwhoami": "youssefriaadsobhy1@gmail.com",
+      "firebaseaccount": "10tbdex@gmail.com",
+      "firebaseaccount2": "14tbdex@gmail.com",
+      "eas": {
+        "projectId": "98642723-5a41-496f-92d1-e422a264e3f0"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/98642723-5a41-496f-92d1-e422a264e3f0"
+    }
+  }
+}

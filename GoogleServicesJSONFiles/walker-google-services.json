@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "687748549332",
+    "project_id": "walker-c662c",
+    "storage_bucket": "walker-c662c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687748549332:android:6437260e6ecf17851ac941",
+        "android_client_info": {
+          "package_name": "com.tabex.series.walker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "687748549332-rocm68lv0808ih9i6ap211ve164f6ggf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGH08tGFYLWCzWgKM3fgGkhuFfYg00tDc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "687748549332-rocm68lv0808ih9i6ap211ve164f6ggf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

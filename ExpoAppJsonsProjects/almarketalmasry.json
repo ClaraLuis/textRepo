@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "Almarket",
+    "slug": "almarketalmasryslug",
+    "scheme": "almarketalmasryscheme",
+    "version": "3.0",
+    "icon": "./AppIcons/almarketalmasry/almarketalmasry1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/almarketalmasry/almarketalmasry1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/almarketalmasry/almarketalmasrysplashscreen.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.almarketalmasry",
+      "buildNumber": "3",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/almarketalmasry-google-services.json",
+      "package": "com.tabex.series.almarketalmasry",
+      "icon": "./AppIcons/almarketalmasry/almarketalmasry512.png",
+      "versionCode": 3,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/almarketalmasry/almarketalmasry512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65538731e4fc0",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain":"cover",
+      "iossdk": "51",
+      "androidsdk": "51",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "eas": {
+        "projectId": "1aa9ab35-96d5-423b-a060-bdd800bd66b2"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/1aa9ab35-96d5-423b-a060-bdd800bd66b2"
+    }
+  }
+}

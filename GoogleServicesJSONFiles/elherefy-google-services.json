@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "445808536268",
+    "project_id": "elherefy",
+    "storage_bucket": "elherefy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445808536268:android:1a12e13e50ad84d39fb069",
+        "android_client_info": {
+          "package_name": "com.tabex.series.elherefy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBelVdWYLbxYoUutgbgmm7Go7k6xp5pDt0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

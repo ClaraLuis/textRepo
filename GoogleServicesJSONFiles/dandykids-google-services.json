@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "101589388267",
+    "project_id": "dandy-kids",
+    "storage_bucket": "dandy-kids.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101589388267:android:eb4de7326a6ecb963fe7ae",
+        "android_client_info": {
+          "package_name": "com.tabex.series.dandykids"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF72ywxkLpO4z8f6UZ2fS36BWbAUONpxI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

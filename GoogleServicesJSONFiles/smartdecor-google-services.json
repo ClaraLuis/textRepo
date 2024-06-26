@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "155388617133",
+    "project_id": "smartdecor-25007",
+    "storage_bucket": "smartdecor-25007.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155388617133:android:55403873358a862320c124",
+        "android_client_info": {
+          "package_name": "com.tabex.series.smartdecor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "155388617133-qh813l9ptf0mkh9ijrdu81v6k2h66pkq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSkNp3FLmCZ0xpjQn__dkFx7kYQavFMZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "155388617133-qh813l9ptf0mkh9ijrdu81v6k2h66pkq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

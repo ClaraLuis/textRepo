@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "745664889792",
+    "project_id": "tagirletagir",
+    "storage_bucket": "tagirletagir.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745664889792:android:9894b6076911d80d49be25",
+        "android_client_info": {
+          "package_name": "com.tabex.series.tagirletagir"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAe4RSEVT3iWrDspnhDYeXH6E8sGwVzQlo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

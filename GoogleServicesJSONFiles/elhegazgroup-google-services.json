@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "94266948378",
+    "project_id": "el-hegaz-group",
+    "storage_bucket": "el-hegaz-group.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94266948378:android:20d3933b077d0455fb4aa3",
+        "android_client_info": {
+          "package_name": "com.tabex.series.elhegazgroup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxrwXH9hhOwdX3kqDuJzhrdXh_SwGDYrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

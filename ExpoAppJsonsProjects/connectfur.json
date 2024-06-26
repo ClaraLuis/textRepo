@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "Connect-Fur",
+    "slug": "connectfurslug",
+    "scheme": "connectfurscheme",
+    "version": "2.0",
+    "icon": "./AppIcons/connectfur/connectfur1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/connectfur/connectfur1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/connectfur/connectfursplashscreen.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.connectfur",
+      "buildNumber": "2",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/connectfur-google-services.json",
+      "package": "com.tabex.series.connectfur",
+      "icon": "./AppIcons/connectfur/connectfur512.png",
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/connectfur/connectfur512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "660afb3e6c08b",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "cover",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "devitabex6@gmail.com",
+      "eas": {
+        "projectId": "f8a3529e-304f-4261-8006-5f225e82e278"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/f8a3529e-304f-4261-8006-5f225e82e278"
+    }
+  }
+}

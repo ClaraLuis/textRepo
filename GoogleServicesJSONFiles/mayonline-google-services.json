@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1091254368022",
+    "project_id": "project-3090003979727757168",
+    "storage_bucket": "project-3090003979727757168.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1091254368022:android:97290de53446957c5c8237",
+        "android_client_info": {
+          "package_name": "com.tabex.series.mayonline"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAa-6Vmpy1xEKPe2bT_2RXTb8YLdyFzTao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1049918410083",
+    "project_id": "partmotives",
+    "storage_bucket": "partmotives.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049918410083:android:2d0291fd60a02a23d2d756",
+        "android_client_info": {
+          "package_name": "com.tabex.series.partmotives"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkB_kw6vnJ5Amk5uEsMz4aNqrraugonoE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

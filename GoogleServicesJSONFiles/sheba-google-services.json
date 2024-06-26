@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "28855472974",
+    "project_id": "sheba-1082b",
+    "storage_bucket": "sheba-1082b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:28855472974:android:fcee4f1e95dc7a941bc41f",
+        "android_client_info": {
+          "package_name": "com.tabex.series.sheba"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAe8xb-3lEAHJy12ECPCE7mA3DA8d8RafM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

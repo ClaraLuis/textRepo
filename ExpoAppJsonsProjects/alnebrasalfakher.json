@@ -1,0 +1,77 @@
+{
+  "expo": {
+    "name": "النبراس الفاخر للعود و العطور",
+    "slug": "alnebrasalfakherslug",
+    "scheme": "alnebrasalfakherscheme",
+    "version": "2.0",
+    "icon": "./AppIcons/alnebrasalfakher/alnebrasalfakher1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/alnebrasalfakher/alnebrasalfakher1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/alnebrasalfakher/alnebrasalfakhersplashscreen.png",
+      "backgroundColor": "#010001",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.alnebrasalfakher",
+      "buildNumber": "2",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/alnebrasalfakher-google-services.json",
+      "package": "com.tabex.series.alnebrasalfakher",
+      "icon": "./AppIcons/alnebrasalfakher/alnebrasalfakher512.png",
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE",
+        "com.google.android.gms.permission.AD_ID"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/alnebrasalfakher/alnebrasalfakher512.png",
+        "backgroundColor": "#010001"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "66320d91e59cd",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "cover",
+      "iossdk": "51",
+      "androidsdk": "51",
+      "expoaccountwhoami": "youssefriadsobhy1@gmail.com",
+      "firebaseaccount": "8tbdex@gmail.com",
+      "eas": {
+        "projectId": "219196fa-887a-4e02-9f69-0a657fa3d330"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/219196fa-887a-4e02-9f69-0a657fa3d330"
+    }
+  }
+}

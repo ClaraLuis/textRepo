@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "242916244429",
+    "project_id": "home-care-84fb3",
+    "storage_bucket": "home-care-84fb3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242916244429:android:65ccf5b5eff471b99ae284",
+        "android_client_info": {
+          "package_name": "com.tabex.series.homecare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDUlXwxfXrR7IKwAEQ2LaxmvnKUYKm7CY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

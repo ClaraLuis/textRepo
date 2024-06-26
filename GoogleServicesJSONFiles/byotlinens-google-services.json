@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "445930848964",
+    "project_id": "byot-linens-f9686",
+    "storage_bucket": "byot-linens-f9686.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445930848964:android:7604e496e182f9bd79bf91",
+        "android_client_info": {
+          "package_name": "com.tabex.series.byotlinens"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdM6D6J6Cbd2qENQ6e9r86FBZXwPcocZ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

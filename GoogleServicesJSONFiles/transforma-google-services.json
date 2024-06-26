@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "486864928631",
+    "project_id": "transforma-a4af5",
+    "storage_bucket": "transforma-a4af5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486864928631:android:3fb7e20b39dbb1cbe7ab72",
+        "android_client_info": {
+          "package_name": "com.tabex.series.transforma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486864928631-3sj9qfq1dtlq767hc5ranvir9quu26n2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJWF-ZlQCBitIZElTApVYfFLIyFWl98GU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486864928631-3sj9qfq1dtlq767hc5ranvir9quu26n2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

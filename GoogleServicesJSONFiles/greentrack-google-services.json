@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "435821845944",
+    "project_id": "green-track-9c82b",
+    "storage_bucket": "green-track-9c82b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435821845944:android:e0f9a0b4c4282b7fd2034d",
+        "android_client_info": {
+          "package_name": "com.tabex.series.greentrack"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4VaU_GuzjYvbANM8yEx19EBi_HwyqPxM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

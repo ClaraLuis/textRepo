@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "896359755738",
+    "project_id": "planetseg-739e9",
+    "storage_bucket": "planetseg-739e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896359755738:android:4882bbd508cea2207a5ae3",
+        "android_client_info": {
+          "package_name": "com.tabex.series.planetseg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "896359755738-91cji0dbqmrn6r8c0q932bpvr8v0opfe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLwqnSBQoE-LPgfXlUadCgl9msSZgmjuI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "896359755738-91cji0dbqmrn6r8c0q932bpvr8v0opfe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

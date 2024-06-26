@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "Vettib",
+    "slug": "vettibslug",
+    "scheme": "vettibscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/vettib/vettib1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/vettib/vettib1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/vettib/vettib1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.vettib",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/vettib-google-services.json",
+      "package": "com.tabex.series.vettib",
+      "icon": "./AppIcons/vettib/vettib512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/vettib/vettib512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "659d1912d7603",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "firebaseaccount": "tabexdevinfo24@gmail.com",
+      "eas": {
+        "projectId": "d8f55235-8e23-4db9-acf5-0c0b15f82358"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/d8f55235-8e23-4db9-acf5-0c0b15f82358"
+    }
+  }
+}

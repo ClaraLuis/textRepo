@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "155917975457",
+    "project_id": "elegant-e4959",
+    "storage_bucket": "elegant-e4959.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155917975457:android:2b6e1eb75c9a217883d5e0",
+        "android_client_info": {
+          "package_name": "com.tabex.series.elegant"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSBnQkQgGZQjZs1L3idl4pbhPRQ-MXd7A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

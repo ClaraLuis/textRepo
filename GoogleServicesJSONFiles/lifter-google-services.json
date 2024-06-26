@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "11338341705",
+    "project_id": "lifter-7dc92",
+    "storage_bucket": "lifter-7dc92.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11338341705:android:a746a10c15e362864ece98",
+        "android_client_info": {
+          "package_name": "com.tabex.series.lifter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRpNY21Jrw5Y66FXCtob5QKdTQihB9058"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

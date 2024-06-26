@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1006029732139",
+    "project_id": "tadwer-83d4d",
+    "storage_bucket": "tadwer-83d4d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006029732139:android:b7b484e6bc69a5fc582d6e",
+        "android_client_info": {
+          "package_name": "com.tabex.series.tadwer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAT7mEhBuPRB4n9gvQuXgyTcxVITPepR4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

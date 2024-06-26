@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "33735579747",
+    "project_id": "vapemartegyyyapp",
+    "storage_bucket": "vapemartegyyyapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33735579747:android:1414cd98b7ca131d268056",
+        "android_client_info": {
+          "package_name": "com.tabex.series.vapemartegyyyapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoTKs4irwsrCYbf5OuKvgrB50RXTo8ynI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

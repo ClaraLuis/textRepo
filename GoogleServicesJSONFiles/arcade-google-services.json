@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "459242885577",
+    "project_id": "arcade-c1a07",
+    "storage_bucket": "arcade-c1a07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459242885577:android:80a61cca6805e06b781818",
+        "android_client_info": {
+          "package_name": "com.tabex.series.arcade"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_w4EqsdL7IWfgMaUTW1wwQFkvrsVQwYo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,72 @@
+{
+  "expo": {
+    "name": "Masa Stores",
+    "slug": "masastoresslug",
+    "scheme": "masastoresscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/masastores/masastores1024.png",
+    "notification": {
+      "icon": "./AppIcons/masastores/masastores1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/masastores/masastores1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.masastores",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/masastores-google-services.json",
+      "package": "com.tabex.series.masastores",
+      "icon": "./AppIcons/masastores/masastores512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/masastores/masastores512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "64bf83a053c14",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "946dd7b2-eae9-4fc4-99bc-280970320cab"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/946dd7b2-eae9-4fc4-99bc-280970320cab"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "887189269351",
+    "project_id": "mahakm-masr",
+    "storage_bucket": "mahakm-masr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887189269351:android:4c70f7b10978ba4cf35dc2",
+        "android_client_info": {
+          "package_name": "com.tabex.series.mahakmmasr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgL4p4ESQqYotWYbtCDRi9-Nky709SLQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

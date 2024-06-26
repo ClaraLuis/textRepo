@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "705175417000",
+    "project_id": "alsma-dedd4",
+    "storage_bucket": "alsma-dedd4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705175417000:android:17a1b68a7549af6638529d",
+        "android_client_info": {
+          "package_name": "com.tabex.series.alsma"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9Qqwf3YG-DUdk0KwKYEjYz1i6hSLkeMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

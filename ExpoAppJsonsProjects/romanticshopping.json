@@ -1,0 +1,78 @@
+{
+  "expo": {
+    "name": "Romantic Shopping",
+    "slug": "romanticshoppingslug",
+    "scheme": "romanticshoppingscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/romanticshopping/romanticshoppingsplashscreen.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/romanticshopping/romanticshoppingsplashscreen.png"
+    },
+    "splash": {
+      "image": "./AppIcons/romanticshopping/romanticshoppingsplashscreen.png",
+      "backgroundColor": "#000000",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.romanticshopping",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/romanticshopping-google-services.json",
+      "package": "com.tabex.series.romanticshopping",
+      "icon": "./AppIcons/romanticshopping/romanticshopping512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE",
+        "com.google.android.gms.permission.AD_ID"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/romanticshopping/romanticshopping512.png",
+        "backgroundColor": "#000000"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "6639df179c7fb",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "cover",
+      "haskey": "no",
+      "iossdk": "51",
+      "androidsdk": "51",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "11tbdex@gmail.com",
+      "eas": {
+        "projectId": "8ae6acd9-b230-483e-ad6c-71738a79774d"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/8ae6acd9-b230-483e-ad6c-71738a79774d"
+    }
+  }
+}

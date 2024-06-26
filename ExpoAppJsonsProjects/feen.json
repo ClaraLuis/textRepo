@@ -1,0 +1,73 @@
+{
+  "expo": {
+    "name": "Feen - فين",
+    "slug": "feenslug",
+    "scheme": "feenscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/feen/feen1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/feen/feen1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/feen/feen1024.png",
+      "backgroundColor": "#131313",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.feen",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/feen-google-services.json",
+      "package": "com.tabex.series.feen",
+      "icon": "./AppIcons/feen/feen512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/feen/feen512.png",
+        "backgroundColor": "#131313"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "64c66c17ba744",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "9613ef0c-2048-47ec-af16-3ba4669dfa6e"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/9613ef0c-2048-47ec-af16-3ba4669dfa6e"
+    }
+  }
+}

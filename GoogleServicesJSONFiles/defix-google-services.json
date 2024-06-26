@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "840280612570",
+    "project_id": "defix-d3d1a",
+    "storage_bucket": "defix-d3d1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840280612570:android:78c25b7c4eabd98a0c4fe3",
+        "android_client_info": {
+          "package_name": "com.tabex.series.defix"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzNqL-g9x3lEDOoaqjcgsbrHtr1mqFjMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

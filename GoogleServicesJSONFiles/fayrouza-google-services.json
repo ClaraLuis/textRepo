@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "539543510933",
+    "project_id": "fayrouza-c6634",
+    "storage_bucket": "fayrouza-c6634.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539543510933:android:4d466c981def5efc5e609c",
+        "android_client_info": {
+          "package_name": "com.tabex.series.fayrouza"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlyvPe1CI7SWQqEe5rjzExT9-RrJ9Aiv8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,73 @@
+{
+  "expo": {
+    "name": "تدبير لتوريد العماله المنزليه",
+    "slug": "tedbeerelmostaqbalslug",
+    "scheme": "tedbeeralmostaqbalscheme",
+    "version": "2.0",
+    "icon": "./AppIcons/tedbeeralmostaqbal/tedbeeralmostaqbal1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/tedbeeralmostaqbal/tedbeeralmostaqbal1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/tedbeeralmostaqbal/tedbeeralmostaqbal1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.tedbeeralmostaqbal",
+      "buildNumber": "2",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/tedbeeralmostaqbal-google-services.json",
+      "package": "com.tabex.series.tedbeeralmostaqbal",
+      "icon": "./AppIcons/tedbeeralmostaqbal/tedbeeralmostaqbal512.png",
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/tedbeeralmostaqbal/tedbeeralmostaqbal512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "64d9e81d9e676",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "d1e205f7-c2d6-4375-a353-0fbda4bd88a4"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/d1e205f7-c2d6-4375-a353-0fbda4bd88a4"
+    }
+  }
+}

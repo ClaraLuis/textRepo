@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "679203848532",
+    "project_id": "cultural-keys",
+    "storage_bucket": "cultural-keys.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679203848532:android:2f676496b7327c9df408c1",
+        "android_client_info": {
+          "package_name": "com.tabex.series.culturalkeys"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7-h1jUqFzc3rB6B88wgFa7dyGGmVe_Bw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

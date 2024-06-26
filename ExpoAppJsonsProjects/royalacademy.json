@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "Royal Academy",
+    "slug": "royalacademyslug",
+    "scheme": "royalacademyscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/royalacademy/royalacademy1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/royalacademy/royalacademy1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/royalacademy/royalacademy1024.png",
+      "backgroundColor": "#F6F6F5",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.royalacademy",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/royalacademy-google-services.json",
+      "package": "com.tabex.series.royalacademy",
+      "icon": "./AppIcons/royalacademy/royalacademy512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/royalacademy/royalacademy512.png",
+        "backgroundColor": "#F6F6F5"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65e0450d1c0cf",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "devitabex@gmail.com",
+      "eas": {
+        "projectId": "4de4d2e3-61f4-44c0-a4cb-6c81fffe48fd"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/4de4d2e3-61f4-44c0-a4cb-6c81fffe48fd"
+    }
+  }
+}

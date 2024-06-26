@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "389237378997",
+    "project_id": "filseka-fc1c9",
+    "storage_bucket": "filseka-fc1c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389237378997:android:c08e357897ce3a618913fc",
+        "android_client_info": {
+          "package_name": "com.tabex.series.filseka"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmOTqzP-2hlb_4cSQU9PM99Nm9NzmAFiU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

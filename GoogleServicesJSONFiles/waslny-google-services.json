@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "198578829425",
+    "project_id": "waslny-861de",
+    "storage_bucket": "waslny-861de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198578829425:android:9d98acc9f7a27f43c5c3d0",
+        "android_client_info": {
+          "package_name": "com.tabex.series.waslny"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198578829425-141jff10erurkh0r07pedrfo4o3e22p3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvAXvxUqhgJG5vqk_CQ6fghfpXE4XRdKk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "198578829425-141jff10erurkh0r07pedrfo4o3e22p3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

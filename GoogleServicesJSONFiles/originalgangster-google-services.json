@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "548605545362",
+    "project_id": "original-gangster-c0c2c",
+    "storage_bucket": "original-gangster-c0c2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548605545362:android:d414bd13967d3f5f3f8f4b",
+        "android_client_info": {
+          "package_name": "com.tabex.series.originalgangster"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0a8D3p3wvk7gEq-FXj9qvJY-oPgy7Tvg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

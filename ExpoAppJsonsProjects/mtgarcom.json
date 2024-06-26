@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "Shopcom | متجركوم",
+    "slug": "mtgarcomslug",
+    "scheme": "mtgarcomscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/mtgarcom/mtgarcom1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/mtgarcom/mtgarcom1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/mtgarcom/mtgarcom1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.mtgarcom",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/mtgarcom-google-services.json",
+      "package": "com.tabex.series.mtgarcom",
+      "icon": "./AppIcons/mtgarcom/mtgarcom512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/mtgarcom/mtgarcom512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65ba1b0b1d15c",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "tabexdevinfo26@gmail.com",
+      "eas": {
+        "projectId": "1c3c0c59-9951-475e-9d9a-90e85f886d09"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/1c3c0c59-9951-475e-9d9a-90e85f886d09"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1035971663486",
+    "project_id": "fir-card-fa796",
+    "storage_bucket": "fir-card-fa796.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035971663486:android:c8f8e7d7d659770f9cea2f",
+        "android_client_info": {
+          "package_name": "com.tabex.series.scard"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBV8dRy26otfeGkwQCfNfWovvABkTLt-2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "296499881864",
+    "project_id": "arsilan-mirror",
+    "storage_bucket": "arsilan-mirror.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296499881864:android:b6e0446809887b39983c3d",
+        "android_client_info": {
+          "package_name": "com.tabex.series.arsilanmirror"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAy1GUq4nLrc_jmCRqjBV1lyCQgvaTtzhk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "153969805064",
+    "project_id": "mushtarayatak",
+    "storage_bucket": "mushtarayatak.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153969805064:android:5ea24cb10881165ede8ebd",
+        "android_client_info": {
+          "package_name": "com.tabex.series.mushtarayatak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153969805064-tjsg39ahb7v0bmc64rjema3uabogl72r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUGtRhvWzUku2Wp1xQhor96yOhjIuLy6I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153969805064-tjsg39ahb7v0bmc64rjema3uabogl72r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

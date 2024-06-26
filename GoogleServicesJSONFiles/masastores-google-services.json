@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "66786185772",
+    "project_id": "masa-stores",
+    "storage_bucket": "masa-stores.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66786185772:android:2e911edb8a55e48a42b789",
+        "android_client_info": {
+          "package_name": "com.tabex.series.masastores"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66786185772-41vadkbn51mrn1ijighbiif37v19fkvj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApti94owwTnqzGs-9VZIQIItrULpsm2Wo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66786185772-41vadkbn51mrn1ijighbiif37v19fkvj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

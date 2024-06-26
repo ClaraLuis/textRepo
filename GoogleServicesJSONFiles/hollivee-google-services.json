@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "667524039078",
+    "project_id": "hollivee-ed320",
+    "storage_bucket": "hollivee-ed320.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667524039078:android:a0c0b06b1bf3efc0c44f67",
+        "android_client_info": {
+          "package_name": "com.tabex.series.hollivee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "667524039078-bkjq6drt4tso910ckmb4iba2f3qfrl7n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3dzEwnlct1imoU6W0mXrvYvTIN_7ldgs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "667524039078-bkjq6drt4tso910ckmb4iba2f3qfrl7n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

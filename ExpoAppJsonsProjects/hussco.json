@@ -1,0 +1,79 @@
+{
+  "expo": {
+    "name": "حديد هوسكو",
+    "slug": "husscoslug",
+    "scheme": "husscoscheme",
+    "version": "3.0",
+    "icon": "./AppIcons/hussco/hussco1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/hussco/hussco1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/hussco/husscosplashscreen.png",
+      "backgroundColor": "#fefefe",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.hussco",
+      "buildNumber": "3",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/husscoapp-google-services.json",
+      "package": "com.tabex.series.husscoapp",
+      "icon": "./AppIcons/hussco/hussco512.png",
+      "versionCode": 3,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE",
+        "com.google.android.gms.permission.AD_ID"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/hussco/hussco512.png",
+        "backgroundColor": "#fefefe"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "6649d573e1610",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "cover",
+      "iossdk": "51",
+      "androidsdk": "51",
+      "haskey": "no",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "11tbdex@gmail.com",
+      "firebaseaccount2": "13tbdex@gmail.com",
+      "eas": {
+        "projectId": "21389865-ca82-4eb8-a066-1081dae2a57b"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/21389865-ca82-4eb8-a066-1081dae2a57b"
+    }
+  }
+}

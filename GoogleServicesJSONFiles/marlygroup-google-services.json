@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1028264542211",
+    "project_id": "marly-group",
+    "storage_bucket": "marly-group.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028264542211:android:967c559df36c01573a8e36",
+        "android_client_info": {
+          "package_name": "com.tabex.series.marlygroup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW90PQVav16AnaKS09_O2Wqdl26BLmTng"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

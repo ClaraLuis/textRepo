@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "329966455996",
+    "project_id": "family-farm-a9e90",
+    "storage_bucket": "family-farm-a9e90.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329966455996:android:1117220057c7d2b6e8d4b9",
+        "android_client_info": {
+          "package_name": "com.tabex.series.familyfarm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzBPJfdQTcwzw0j7GVSNa9LGy2UyDnuWI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

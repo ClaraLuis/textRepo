@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "520851733978",
+    "project_id": "mobi-corner",
+    "storage_bucket": "mobi-corner.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520851733978:android:24f4862477e3ab41c294e3",
+        "android_client_info": {
+          "package_name": "com.tabex.series.mobicorner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFDIl3gSLOmtKdxnfkXIL2SBjgfT10Pyg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

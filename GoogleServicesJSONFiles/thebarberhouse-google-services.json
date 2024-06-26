@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "599153496107",
+    "project_id": "thebarberhouse-64001",
+    "storage_bucket": "thebarberhouse-64001.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:599153496107:android:06f77dc89c23d425d55a6e",
+        "android_client_info": {
+          "package_name": "com.tabex.series.thebarberhouse"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0-NKafwFcCiG0A4NUpQvB-ziaHCDdrn8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

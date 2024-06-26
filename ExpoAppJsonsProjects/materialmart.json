@@ -1,0 +1,72 @@
+{
+  "expo": {
+    "name": "Material Mart",
+    "slug": "materialmartslug",
+    "scheme": "materialmartscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/materialmart/materialmart1024.png",
+    "notification": {
+      "icon": "./AppIcons/materialmart/materialmart1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/materialmart/materialmart1024.png",
+      "backgroundColor": "#633B88",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.materialmart",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/materialmart-google-services.json",
+      "package": "com.tabex.series.materialmart",
+      "icon": "./AppIcons/materialmart/materialmart512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/materialmart/materialmart512.png",
+        "backgroundColor": "#633B88"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "64e210254501e",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "e25d87c9-bac4-4ddf-8c8f-a15eb1d8b467"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/e25d87c9-bac4-4ddf-8c8f-a15eb1d8b467"
+    }
+  }
+}

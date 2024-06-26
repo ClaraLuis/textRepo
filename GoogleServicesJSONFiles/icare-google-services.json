@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "682995440284",
+    "project_id": "icare-6c955",
+    "storage_bucket": "icare-6c955.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682995440284:android:a561e6d6bf4a15d839ab59",
+        "android_client_info": {
+          "package_name": "com.tabex.series.icare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtopzXk07cN-PlsaQj0rMyoQv8_JBJjcg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

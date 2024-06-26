@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "35119187871",
+    "project_id": "regatopharma",
+    "storage_bucket": "regatopharma.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35119187871:android:d43f08c6f606c7ceb39faa",
+        "android_client_info": {
+          "package_name": "com.tabex.series.regatopharma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35119187871-kl7hputfc277nirpsc9g9s48aq2g8ci7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9K8I1SZGUsdrNQIL5CkBo8PtzZfk2r9g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35119187871-kl7hputfc277nirpsc9g9s48aq2g8ci7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

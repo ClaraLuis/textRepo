@@ -1,0 +1,74 @@
+{
+  "expo": {
+    "name": "DOCANTO",
+    "slug": "docantoappslug",
+    "scheme": "docantoappscheme",
+    "version": "2.0",
+    "icon": "./AppIcons/docantoapp/docantoapp1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/docantoapp/docantoapp1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/docantoapp/docantoapplogo.png",
+      "backgroundColor": "#F7F7F6",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.docanto",
+      "buildNumber": "2",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/docantoapp-google-services.json",
+      "package": "com.tabex.series.docantoapp",
+      "icon": "./AppIcons/docantoapp/docantoapp512.png",
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/docantoapp/docantoapp512.png",
+        "backgroundColor": "#F7F7F6"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "653f74f969902",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "eas": {
+        "projectId": "f7604e06-32b5-4d1e-a872-b7b322583504"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/f7604e06-32b5-4d1e-a872-b7b322583504"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "صيدليات المغربي",
+    "slug": "elmaghrabyyslug",
+    "scheme": "elmaghrabyyscheme",
+    "version": "3.0",
+    "icon": "./AppIcons/elmaghraby/elmaghraby1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/elmaghraby/elmaghraby1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/elmaghraby/elmaghraby1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.elmaghraby",
+      "buildNumber": "3",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/elmaghrabyy-google-services.json",
+      "package": "com.tabex.series.elmaghrabyy",
+      "icon": "./AppIcons/elmaghraby/elmaghraby512.png",
+      "versionCode": 3,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/elmaghraby/elmaghraby512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65a8ff7036c00",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "49",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "tabexdevinfo25@gmail.com",
+      "firebaseaccount2": "devitabex@gmail.com",
+      "eas": {
+        "projectId": "0b686835-7b3a-4a7f-95ef-83f4f7ef0e05"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/0b686835-7b3a-4a7f-95ef-83f4f7ef0e05"
+    }
+  }
+}

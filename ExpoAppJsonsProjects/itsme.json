@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "It's Me Atelier",
+    "slug": "itsmeslug",
+    "scheme": "itsmescheme",
+    "version": "1.0",
+    "icon": "./AppIcons/itsme/itsme1024.png",
+    "notification": {
+      "icon": "./AppIcons/itsme/itsme1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/itsme/itsme1024.png",
+      "backgroundColor": "#000000",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.itsme",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/itsme-google-services.json",
+      "package": "com.tabex.series.itsme",
+      "icon": "./AppIcons/itsme/itsme512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/itsme/itsme512.png",
+        "backgroundColor": "#000000"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "646b2cbc2f58a",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "74e9cd5a-5e28-4312-82f6-1a4f6f39e1c2"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "بيتي",
+    "slug": "baityslug",
+    "scheme": "baityscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/baity/baity1024.png",
+   
+    "notification": {
+      "icon": "./AppIcons/baity/baity1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/baity/baitysplashscreen.png",
+      "backgroundColor": "#2A3271",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.baity",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/baity-google-services.json",
+      "package": "com.tabex.series.baity",
+      "icon": "./AppIcons/baity/baity512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/baity/baity512.png",
+        "backgroundColor": "#2A3271"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65f69cbba034c",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "cover",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "devitabex2@gmail.com",
+      "eas": {
+        "projectId": "27081cec-8847-49c1-8921-3efab58c6e57"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/27081cec-8847-49c1-8921-3efab58c6e57"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "497290971717",
+    "project_id": "outletters-hub",
+    "storage_bucket": "outletters-hub.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497290971717:android:6cf6db24acaaedd1a1712c",
+        "android_client_info": {
+          "package_name": "com.tabex.series.outlettershub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZbbRxNJJxogP_3GDzHiYqDeoCOFCIKCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

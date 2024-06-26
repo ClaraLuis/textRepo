@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "766914561992",
+    "project_id": "g-s-food-2de30",
+    "storage_bucket": "g-s-food-2de30.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766914561992:android:b9212df297107f22ae22fd",
+        "android_client_info": {
+          "package_name": "com.tabex.series.gsfoods"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMeg-JiT_fQuMj0pJrx-sCh4Wm4Byz0fk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

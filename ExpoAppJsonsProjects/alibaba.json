@@ -1,0 +1,67 @@
+{
+    "expo": {
+        "name": "Ali Baba Egypt",
+        "slug": "alibabaegyptslug",
+        "scheme": "alibabaegyptscheme",
+        "version": "1.0",
+        "icon": "./AppIcons/alibabaegypt/alibabaegypt1024.png",
+        "orientation": "portrait",
+        "notification": {
+            "icon": "./AppIcons/alibabaegypt/alibabaegypt1024.png"
+        },
+        "splash": {
+            "image": "./AppIcons/alibabaegypt/alibabaegyptsplashscreen.png",
+            "backgroundColor": "#F5F7FB",
+            "resizeMode": "cover"
+        },
+        "assetBundlePatterns": ["**/*"],
+        "ios": {
+            "bundleIdentifier": "com.tabex.series.alibabaegypt",
+            "buildNumber": "1",
+            "supportsTablet": true,
+            "infoPlist": {
+                "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+            }
+        },
+        "android": {
+            "softwareKeyboardLayoutMode": "pan",
+            "googleServicesFile": "./GoogleServicesJSONFiles/alibabaegypt-google-services.json",
+            "package": "com.tabex.series.alibabaegypt",
+            "icon": "./AppIcons/alibabaegypt/alibabaegypt512.png",
+            "versionCode": 1,
+            "permissions": ["INTERNET", "MODIFY_AUDIO_SETTINGS", "READ_EXTERNAL_STORAGE", "SYSTEM_ALERT_WINDOW", "VIBRATE", "WRITE_EXTERNAL_STORAGE", "com.google.android.gms.permission.AD_ID"],
+            "adaptiveIcon": {
+                "foregroundImage": "./AppIcons/alibabaegypt/alibabaegypt512.png",
+                "backgroundColor": "#F5F7FB"
+            }
+        },
+        "description": "",
+        "extra": {
+            "instapikey": "665840ee288ab",
+            "projectsrctype": "subdomain",
+            "hastrackingpermissions": "yes",
+            "loadercontain": "cover",
+            "iossdk": "51",
+            "androidsdk": "51",
+            "expoaccountwhoami": "youssefriadsobhy1@gmail.com",
+            "firebaseaccount": "12tbdex@gmail.com",
+            "eas": {
+                "projectId": "2ca95ad8-ac29-42d2-8bb0-688409b844e2"
+            }
+        },
+        "plugins": [
+            [
+                "expo-tracking-transparency",
+                {
+                    "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+                }
+            ]
+        ],
+        "runtimeVersion": {
+            "policy": "sdkVersion"
+        },
+        "updates": {
+            "url": "https://u.expo.dev/2ca95ad8-ac29-42d2-8bb0-688409b844e2"
+        }
+    }
+}

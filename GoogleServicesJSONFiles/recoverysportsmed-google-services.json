@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "362651685914",
+    "project_id": "recoverysportsmed",
+    "storage_bucket": "recoverysportsmed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362651685914:android:aad82786f31eb3cfaaeda3",
+        "android_client_info": {
+          "package_name": "com.tabex.series.recoverysportsmeds"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5b-LnmK51wRhka6j5h1CWf_kDX7nG0PA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

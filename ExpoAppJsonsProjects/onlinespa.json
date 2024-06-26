@@ -1,0 +1,72 @@
+{
+  "expo": {
+    "name": "Online Spa",
+    "slug": "onlinespaslug",
+    "scheme": "onlinespascheme",
+    "version": "3.0",
+    "icon": "./AppIcons/onlinespa/onlinespa1024.png",
+    "notification": {
+      "icon": "./AppIcons/onlinespa/onlinespa1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/onlinespa/onlinespa1024.png",
+      "backgroundColor": "#EDE1EE",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.onlinespa",
+      "buildNumber": "3",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/onlinespa-google-services.json",
+      "package": "com.tabex.series.onlinespa",
+      "icon": "./AppIcons/onlinespa/onlinespa512.png",
+      "versionCode": 3,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/onlinespa/onlinespa512.png",
+        "backgroundColor": "#EDE1EE"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "64a6785a941c8",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "894b6c22-ff6e-4f9e-8624-1c850867c9b4"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/894b6c22-ff6e-4f9e-8624-1c850867c9b4"
+    }
+  }
+}

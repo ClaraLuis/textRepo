@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "456361237528",
+    "project_id": "hatly-cc39d",
+    "storage_bucket": "hatly-cc39d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456361237528:android:6c57bc4b2df498ad93376d",
+        "android_client_info": {
+          "package_name": "com.tabex.series.hatly"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwVXZSNNxdMvL6FyUjl91Ky7mKfFdokr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

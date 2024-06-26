@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "413470984454",
+    "project_id": "kova-fashion",
+    "storage_bucket": "kova-fashion.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413470984454:android:83dba87c749ec2e20ab687",
+        "android_client_info": {
+          "package_name": "com.tabex.series.kovafashion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413470984454-ra3h52uv695kq3ri82k1ruj8idd62isv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtRO065mvzW6IwOVoId75WImmL-rmffDs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413470984454-ra3h52uv695kq3ri82k1ruj8idd62isv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

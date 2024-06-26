@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "Champions League EG",
+    "slug": "championsleagueslug",
+    "scheme": "championsleaguescheme",
+    "version": "1.0",
+    "icon": "./AppIcons/championsleague/championsleague1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/championsleague/championsleague1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/championsleague/championsleague1024.png",
+      "backgroundColor": "#171414",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.championsleague",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/championsleague-google-services.json",
+      "package": "com.tabex.series.championsleague",
+      "icon": "./AppIcons/championsleague/championsleague512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/championsleague/championsleague512.png",
+        "backgroundColor": "#171414"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "658b04b1c3cd4",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "firebaseaccount": "tabexdevinfo23@gmail.com",
+      "eas": {
+        "projectId": "f72bbd0f-3277-459a-af8f-563329a966a4"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/f72bbd0f-3277-459a-af8f-563329a966a4"
+    }
+  }
+}

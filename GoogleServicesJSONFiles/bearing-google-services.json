@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "944781339116",
+    "project_id": "bearing-a2c68",
+    "storage_bucket": "bearing-a2c68.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944781339116:android:57708f2a6df5bceb69b8c9",
+        "android_client_info": {
+          "package_name": "com.tabex.series.bearing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "944781339116-m5fe6s1knmlkrcopbou9flpusqlm4dj3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCmJyqQNjToJyhirFhWwHrA14IR4AYap0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "944781339116-m5fe6s1knmlkrcopbou9flpusqlm4dj3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

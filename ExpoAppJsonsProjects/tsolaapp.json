@@ -1,0 +1,77 @@
+{
+  "expo": {
+    "name": "T-SOLA",
+    "slug": "tsolaappslug",
+    "scheme": "tsolaappscheme",
+    "version": "2.0",
+    "icon": "./AppIcons/tsola/tsola1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/tsola/tsola1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/tsola/tsola1024.png",
+      "backgroundColor": "#F7F7F7",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.tsola",
+      "buildNumber": "2",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/tsolaapp-google-services.json",
+      "package": "com.tabex.series.tsolaapp",
+      "icon": "./AppIcons/tsola/tsola512.png",
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE",
+        "com.google.android.gms.permission.AD_ID"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/tsola/tsola512.png",
+        "backgroundColor": "#F7F7F7"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "660ae410704d8",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "contain",
+      "iossdk": "49",
+      "androidsdk": "51",
+      "expoaccountwhoami": "youssefriadsobhy1@gmail.com",
+      "firebaseaccount": "12tbdex@gmail.com",
+      "eas": {
+        "projectId": "6cd3aaae-a5d5-44b3-a5e4-aee52dbc28fd"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/6cd3aaae-a5d5-44b3-a5e4-aee52dbc28fd"
+    }
+  }
+}

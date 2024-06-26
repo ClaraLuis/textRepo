@@ -1,0 +1,67 @@
+{
+  "expo": {
+    "name": "Bekya Store",
+    "slug": "bekyaslug",
+    "scheme": "bekyascheme",
+    "version": "3.0",
+    "icon": "./AppIcons/bekya/bekya1024.png",
+    "notification": {
+      "icon": "./AppIcons/bekya/bekya1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/bekya/bekya1024.png",
+      "backgroundColor": "#2D5A7D",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      
+      "bundleIdentifier": "com.tabex.series.bekya",
+      "buildNumber": "3",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/bekya-google-services.json",
+      "package": "com.tabex.series.bekya",
+      "icon": "./AppIcons/bekya/bekya512.png",
+      "versionCode": 3,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/bekya/bekya512.png",
+        "backgroundColor": "#2D5A7D"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "64312b2d0e730",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "5e6ce348-7997-4734-90db-7f106923e26b"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

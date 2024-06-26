@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "722894132229",
+    "project_id": "royal-academy-f298a",
+    "storage_bucket": "royal-academy-f298a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722894132229:android:2b62f2abb60ba674e3b86c",
+        "android_client_info": {
+          "package_name": "com.tabex.series.royalacademy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbmrnOPjMgHibuYvRDW4DGdUziTNrywyI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1040328217901",
+    "project_id": "gold-gate-879ef",
+    "storage_bucket": "gold-gate-879ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040328217901:android:89452c3c0d836da5822fa4",
+        "android_client_info": {
+          "package_name": "com.tabex.series.goldgate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTsfaCaLwNc_tpJk5Cpa8Ux2J_j_2ufgs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

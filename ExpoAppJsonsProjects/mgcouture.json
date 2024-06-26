@@ -1,0 +1,74 @@
+{
+  "expo": {
+    "name": "M.G Couture",
+    "slug": "mgcoutureslug",
+    "scheme": "mgcouturescheme",
+    "version": "1.0",
+    "icon": "./AppIcons/mgcouture/mgcouture1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/mgcouture/mgcouture1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/mgcouture/mgcouturelogo.png",
+      "backgroundColor": "#E290BE",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.mgcouture",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/mgcouture-google-services.json",
+      "package": "com.tabex.series.mgcouture",
+      "icon": "./AppIcons/mgcouture/mgcouture512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/mgcouture/mgcouture512.png",
+        "backgroundColor": "#E290BE"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "653e6a8614848",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "eas": {
+        "projectId": "137886c0-89e6-4146-981c-2c2e94d158d6"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/137886c0-89e6-4146-981c-2c2e94d158d6"
+    }
+  }
+}

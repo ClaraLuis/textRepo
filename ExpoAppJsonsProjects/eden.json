@@ -1,0 +1,63 @@
+{
+  "expo": {
+    "name": "Eden",
+    "slug": "edenslug",
+    "scheme": "edenappscheme",
+    "version": "4.0",
+    "icon": "./AppIcons/Eden/eden1024.png",
+    "notification": {
+      "icon": "./AppIcons/Eden/eden1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/Eden/eden1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.edenbakery",
+      "buildNumber":"4",
+      "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/eden-google-services.json",
+      "package": "com.tabex.series.eden",
+      "icon": "./AppIcons/Eden/eden512.png",
+      "versionCode": 4,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/Eden/eden512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "iossdk": "48",
+      "androidsdk": "48",
+      "instapikey": "63445a7571676",
+      "projectsrctype": "subdomain",
+      "eas": {
+        "projectId": "a892cede-5164-420e-9727-95d00a0ee74a"
+      }
+    }
+    ,
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

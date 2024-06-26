@@ -1,0 +1,74 @@
+{
+  "expo": {
+    "name": "Coaches Crew",
+    "slug": "coachescrewappslug",
+    "scheme": "coachescrewscheme",
+    "version": "2.0",
+    "icon": "./AppIcons/coachescrew/coachescrew1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/coachescrew/coachescrew1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/coachescrew/coachescrewlogo.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.coachescrew",
+      "buildNumber": "2",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/coachescrewapp-google-services.json",
+      "package": "com.tabex.series.coachescrewapp",
+      "icon": "./AppIcons/coachescrew/coachescrew512.png",
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/coachescrew/coachescrew512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65672960e29b2",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "eas": {
+        "projectId": "71252b25-eb4f-4280-826d-3a86d66d5373"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/71252b25-eb4f-4280-826d-3a86d66d5373"
+    }
+  }
+}

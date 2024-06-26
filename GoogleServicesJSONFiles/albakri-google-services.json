@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "604632268130",
+    "project_id": "albakri-831b3",
+    "storage_bucket": "albakri-831b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604632268130:android:8e65921ca7f5e3fd78c03b",
+        "android_client_info": {
+          "package_name": "com.tabex.series.albakri"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604632268130-6sdqtf12ia67bvp2ikbnibsv54mj0u73.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKeLBEF1vLz8BObx2jL2LnkJvsQUXPcY4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604632268130-6sdqtf12ia67bvp2ikbnibsv54mj0u73.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

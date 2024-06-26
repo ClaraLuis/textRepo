@@ -1,0 +1,73 @@
+{
+  "expo": {
+    "name": "Shopping | شوبنق",
+    "slug": "matgrshoppingslug",
+    "scheme": "matgrshoppingscheme",
+    "version": "8.0",
+    "icon": "./AppIcons/matgrshopping/matgr1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/matgrshopping/matgr1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/matgrshopping/matgr1024.png",
+      "backgroundColor": "#272727",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.matgrshopping",
+      "buildNumber": "8",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/matgrshopping-google-services.json",
+      "package": "com.tabex.series.matgrshopping",
+      "icon": "./AppIcons/matgrshopping/matgr512.png",
+      "versionCode": 8,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/matgrshopping/matgr512.png",
+        "backgroundColor": "#272727"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "63cbe06b59e3c",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "eas": {
+        "projectId": "39d7090c-cbb1-4f39-b4c6-0c22b218d6f6"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/39d7090c-cbb1-4f39-b4c6-0c22b218d6f6"
+    }
+  }
+}

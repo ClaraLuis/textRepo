@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "485961490062",
+    "project_id": "auto-parts-634e1",
+    "storage_bucket": "auto-parts-634e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485961490062:android:6ceadd69b2da75848673df",
+        "android_client_info": {
+          "package_name": "com.tabex.series.autoparts"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyf482IO_DFUIfTWaz6jee683tNgAOi_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

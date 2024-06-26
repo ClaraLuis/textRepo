@@ -1,0 +1,72 @@
+{
+  "expo": {
+    "name": "Ticketify",
+    "slug": "ticketifyslug",
+    "scheme": "ticketifyscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/ticketify/ticketify1024.png",
+    "notification": {
+      "icon": "./AppIcons/ticketify/ticketify1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/ticketify/ticketify1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.ticketify",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/ticketify-google-services.json",
+      "package": "com.tabex.series.ticketify",
+      "icon": "./AppIcons/ticketify/ticketify512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/ticketify/ticketify512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "64da1cdd015de",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "2545c3b2-bcb9-44c3-a697-cd7973606a22"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/2545c3b2-bcb9-44c3-a697-cd7973606a22"
+    }
+  }
+}

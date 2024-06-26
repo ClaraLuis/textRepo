@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1038200035180",
+    "project_id": "hq-pro-llc",
+    "storage_bucket": "hq-pro-llc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038200035180:android:fe56c9b6a7dcd6a1ad0549",
+        "android_client_info": {
+          "package_name": "com.tabex.series.hqprollc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgFl-aY71cz3dFfiu72YriIWdEoemUrDM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

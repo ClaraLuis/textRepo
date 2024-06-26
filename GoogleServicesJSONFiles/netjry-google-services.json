@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "187460801272",
+    "project_id": "netjry-e7314",
+    "storage_bucket": "netjry-e7314.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187460801272:android:40edcc9c2334dc0e51610d",
+        "android_client_info": {
+          "package_name": "com.tabex.series.netjry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "187460801272-q6hcnjvdq94va0nvcnmr6mfs61mov0n2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOB_QJpyjeHy5y7-sff-sR-8sj3bj_mB4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "187460801272-q6hcnjvdq94va0nvcnmr6mfs61mov0n2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

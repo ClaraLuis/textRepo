@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "996557297327",
+    "project_id": "tut-tec",
+    "storage_bucket": "tut-tec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996557297327:android:b4f538981a14b155ce665a",
+        "android_client_info": {
+          "package_name": "com.tabex.series.tuttec"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8JERfumWDBm5gy3-XcAfcq_fGbXNIveM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

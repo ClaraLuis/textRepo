@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "229734322422",
+    "project_id": "elwadilighting",
+    "storage_bucket": "elwadilighting.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229734322422:android:8f15c36b9e1a1a71e41cd7",
+        "android_client_info": {
+          "package_name": "com.tabex.series.elwadilighting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "229734322422-tbhbtd34f2hdpfo3eblspetgkig965bf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa3W-uNUiyZbO4kYP_TCF-AkS2wQveC5w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "229734322422-tbhbtd34f2hdpfo3eblspetgkig965bf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

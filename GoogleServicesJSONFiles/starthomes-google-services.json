@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "824271308868",
+    "project_id": "start-homes",
+    "storage_bucket": "start-homes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824271308868:android:c5b6689a8a44a7ed3a9411",
+        "android_client_info": {
+          "package_name": "com.tabex.series.starthomes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCawC8LXoxahb-zEp3Dx4H-iRjtTEKT7oM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1069794383062",
+    "project_id": "wellness-eats",
+    "storage_bucket": "wellness-eats.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069794383062:android:27887fc34a154d412b6577",
+        "android_client_info": {
+          "package_name": "com.tabex.series.wellnesseats"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7Zq9ImkvbxbzmPi11h6RLeue48abvtO8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

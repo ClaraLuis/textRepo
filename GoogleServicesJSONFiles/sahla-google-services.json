@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1029573323384",
+    "project_id": "sahla-43a3c",
+    "storage_bucket": "sahla-43a3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1029573323384:android:263ff3195c57a78afa1b8d",
+        "android_client_info": {
+          "package_name": "com.tabex.series.sahla"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1029573323384-5gs8fgofu756q9dlrmr98hcc8fi60g89.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCofvXsRLnYdoUZS_R7lsSoLKgmHOa2oHo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1029573323384-5gs8fgofu756q9dlrmr98hcc8fi60g89.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

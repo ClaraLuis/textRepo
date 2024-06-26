@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "Walker",
+    "slug": "walkerslug",
+    "scheme": "walkerscheme",
+    "version": "4.0",
+    "icon": "./AppIcons/walker/walker1024.png",
+    "notification": {
+      "icon": "./AppIcons/walker/walker1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/walker/walker1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.walker",
+      "buildNumber":"4",
+      "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/walker-google-services.json",
+      "package": "com.tabex.series.walker",
+      "icon": "./AppIcons/walker/walker512.png",
+      "versionCode": 4,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/walker/walker512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "iossdk": "48",
+      "androidsdk": "48",
+      "instapikey": "63c65ea8c2fea",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "eas": {
+        "projectId": "7cbeb1d0-577a-4b47-a521-d644686e45b6"
+      }
+    }
+    ,
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

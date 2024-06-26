@@ -1,0 +1,73 @@
+{
+  "expo": {
+    "name": "Shamshon Club",
+    "slug": "shamshonclubappegyslug",
+    "scheme": "shamshonclubappegyscheme",
+    "version": "4.0",
+    "icon": "./AppIcons/shamshonclub/shamshonclub1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/shamshonclub/shamshonclub1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/shamshonclub/shamshonclub1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.shamshonclub",
+      "buildNumber": "4",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/shamshonclubappegy-google-services.json",
+      "package": "com.tabex.series.shamshonclubappegy",
+      "icon": "./AppIcons/shamshonclub/shamshonclub512.png",
+      "versionCode": 4,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/shamshonclub/shamshonclub512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65c376cdce1b3",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "eas": {
+        "projectId": "517d0ee6-1f61-48fb-91c7-7a53abbd41ca"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/517d0ee6-1f61-48fb-91c7-7a53abbd41ca"
+    }
+  }
+}

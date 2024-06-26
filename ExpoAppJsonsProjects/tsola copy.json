@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "T-SOLA",
+    "slug": "tsolaslug",
+    "scheme": "tsolascheme",
+    "version": "1.0",
+    "icon": "./AppIcons/tsola/tsola1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/tsola/tsola1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/tsola/tsola1024.png",
+      "backgroundColor": "#F7F7F7",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.tsola",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/tsola-google-services.json",
+      "package": "com.tabex.series.tsola",
+      "icon": "./AppIcons/tsola/tsola512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/tsola/tsola512.png",
+        "backgroundColor": "#F7F7F7"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "660ae410704d8",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "contain",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "expoaccountwhoami": "youssefriadsobhy1@gmail.com",
+      "firebaseaccount": "7tbdex@gmail.com",
+      "eas": {
+        "projectId": "a140d981-5657-498e-b6df-8830fb754a83"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/a140d981-5657-498e-b6df-8830fb754a83"
+    }
+  }
+}

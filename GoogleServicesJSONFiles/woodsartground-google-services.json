@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "525443724861",
+    "project_id": "woods-art-grounds",
+    "storage_bucket": "woods-art-grounds.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525443724861:android:b76904707d7acd1ba11c54",
+        "android_client_info": {
+          "package_name": "com.tabex.series.woodsartground"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYRSkIwKRNCHWZG3yWSr5EN2hBF99582E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

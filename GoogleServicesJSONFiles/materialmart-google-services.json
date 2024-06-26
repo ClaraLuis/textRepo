@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "174282737408",
+    "project_id": "material-mart",
+    "storage_bucket": "material-mart.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174282737408:android:96a0f152a1461a355795e5",
+        "android_client_info": {
+          "package_name": "com.tabex.series.materialmart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174282737408-9aaf4krei0bdll97e9gj8dftpt3jctel.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDL-MtxLatkmMp-L1ZONhQC6X9Eo26laPY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174282737408-9aaf4krei0bdll97e9gj8dftpt3jctel.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

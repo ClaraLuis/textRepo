@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "586954732181",
+    "project_id": "agent47-8ee1a",
+    "storage_bucket": "agent47-8ee1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586954732181:android:02d6be0fa13b519918a19c",
+        "android_client_info": {
+          "package_name": "com.tabex.series.agent47"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586954732181-7aof7nu4j50cjra0sd84070qjbgdi33b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRoN2n9IR0cG7GGBel-0xa7V6qdLCiqNk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586954732181-7aof7nu4j50cjra0sd84070qjbgdi33b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

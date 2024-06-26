@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "286939748472",
+    "project_id": "central-trading",
+    "storage_bucket": "central-trading.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286939748472:android:972f8e6bf34c440fa7358d",
+        "android_client_info": {
+          "package_name": "com.tabex.series.centraltrading"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEynE_m66GkFN7bjmpZVbqhBJ1nkhgxd4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

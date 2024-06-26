@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "91908069809",
+    "project_id": "na2la-69a72",
+    "storage_bucket": "na2la-69a72.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:91908069809:android:e8e855ca313f10c83fc590",
+        "android_client_info": {
+          "package_name": "com.tabex.series.na2la"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUW9CCZq56WwH09sRbZyIKuKbac6mfEqM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

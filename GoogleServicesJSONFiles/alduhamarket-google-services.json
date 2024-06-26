@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "373614967456",
+    "project_id": "al-duha-market",
+    "storage_bucket": "al-duha-market.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373614967456:android:dbbe35a78220e3b2b127c5",
+        "android_client_info": {
+          "package_name": "com.tabex.series.alduhamarket"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdxm8ZlxgIagLNlvVsh1_z-JYdP39Bfyg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

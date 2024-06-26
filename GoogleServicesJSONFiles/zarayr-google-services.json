@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "462390030637",
+    "project_id": "zarayr-cd01a",
+    "storage_bucket": "zarayr-cd01a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462390030637:android:4cbe3f4ea77e8313aa23a4",
+        "android_client_info": {
+          "package_name": "com.tabex.series.zarayr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462390030637-ukpjsnde6c30q375uoj6ss4t6p13ek0g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzGisTYYoIDgtMjMjy4gnMcN3gFgKB1UY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "462390030637-ukpjsnde6c30q375uoj6ss4t6p13ek0g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

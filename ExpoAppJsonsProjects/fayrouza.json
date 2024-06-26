@@ -1,0 +1,67 @@
+{
+    "expo": {
+        "name": "فيروزه",
+        "slug": "fayrouzaslug",
+        "scheme": "fayrouzascheme",
+        "version": "1.0",
+        "icon": "./AppIcons/fayrouza/fayrouza1024.png",
+        "orientation": "portrait",
+        "notification": {
+            "icon": "./AppIcons/fayrouza/fayrouza1024.png"
+        },
+        "splash": {
+            "image": "./AppIcons/fayrouza/fayrouzasplashscreen.png",
+            "backgroundColor": "#FFFFFF",
+            "resizeMode": "cover"
+        },
+        "assetBundlePatterns": ["**/*"],
+        "ios": {
+            "bundleIdentifier": "com.tabex.series.fayrouza",
+            "buildNumber": "1",
+            "supportsTablet": true,
+            "infoPlist": {
+                "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+            }
+        },
+        "android": {
+            "softwareKeyboardLayoutMode": "pan",
+            "googleServicesFile": "./GoogleServicesJSONFiles/fayrouza-google-services.json",
+            "package": "com.tabex.series.fayrouza",
+            "icon": "./AppIcons/fayrouza/fayrouza512.png",
+            "versionCode": 1,
+            "permissions": ["INTERNET", "MODIFY_AUDIO_SETTINGS", "READ_EXTERNAL_STORAGE", "SYSTEM_ALERT_WINDOW", "VIBRATE", "WRITE_EXTERNAL_STORAGE", "com.google.android.gms.permission.AD_ID"],
+            "adaptiveIcon": {
+                "foregroundImage": "./AppIcons/fayrouza/fayrouza512.png",
+                "backgroundColor": "#FFFFFF"
+            }
+        },
+        "description": "",
+        "extra": {
+            "instapikey": "666971f2d93ba",
+            "projectsrctype": "subdomain",
+            "hastrackingpermissions": "yes",
+            "loadercontain": "cover",
+            "iossdk": "51",
+            "androidsdk": "51",
+            "expoaccountwhoami": "youssefriadsobhy1@gmail.com",
+            "firebaseaccount": "15tbdex@gmail.com",
+            "eas": {
+                "projectId": "94ea6c4b-72d0-4332-948f-7ffbbacc65e5"
+            }
+        },
+        "plugins": [
+            [
+                "expo-tracking-transparency",
+                {
+                    "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+                }
+            ]
+        ],
+        "runtimeVersion": {
+            "policy": "sdkVersion"
+        },
+        "updates": {
+            "url": "https://u.expo.dev/94ea6c4b-72d0-4332-948f-7ffbbacc65e5"
+        }
+    }
+}

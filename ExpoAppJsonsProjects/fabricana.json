@@ -1,0 +1,74 @@
+{
+  "expo": {
+    "name": "Fabricana",
+    "slug": "fabricanaslug",
+    "scheme": "fabricanascheme",
+    "version": "1.0",
+    "icon": "./AppIcons/fabricana/fabricana1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/fabricana/fabricana1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/fabricana/fabricana1024.png",
+      "backgroundColor": "#FDC83A",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.fabricana",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/fabricana-google-services.json",
+      "package": "com.tabex.series.fabricana",
+      "icon": "./AppIcons/fabricana/fabricana512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/fabricana/fabricana512.png",
+        "backgroundColor": "#FDC83A"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "651e9bb80a389",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "eas": {
+        "projectId": "3c1e3761-08c0-441c-918b-51e7db5818e5"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/3c1e3761-08c0-441c-918b-51e7db5818e5"
+    }
+  }
+}

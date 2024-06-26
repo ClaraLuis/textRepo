@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "Zaraer",
+    "slug": "zarearslug",
+    "scheme": "zarearscheme",
+    "version": "4.0",
+    "icon": "./AppIcons/zarayr/zarayr1024.png",
+    "notification": {
+      "icon": "./AppIcons/zarayr/zarayr1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/zarayr/zarayr1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.zarayr",
+      "buildNumber":"4",
+      "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/zarayr-google-services.json",
+      "package": "com.tabex.series.zarayr",
+      "icon": "./AppIcons/zarayr/zarayr512.png",
+      "versionCode": 4,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/zarayr/zarayr512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "iossdk": "48",
+      "androidsdk": "48",
+      "instapikey": "63cfa2f5a4ea7",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "eas": {
+        "projectId": "b0b68fb8-a9d1-440b-a62a-74ce0ec56a43"
+      }
+    }
+    ,
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "42883446009",
+    "project_id": "marka-company",
+    "storage_bucket": "marka-company.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:42883446009:android:737a9be6007ebd62d91e28",
+        "android_client_info": {
+          "package_name": "com.tabex.series.marka"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATl_CciNljeDcwD97bQEFzaWZ-gcvzyak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "86855773918",
+    "project_id": "beesline-d624b",
+    "storage_bucket": "beesline-d624b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86855773918:android:8472267b3977ce51725c4f",
+        "android_client_info": {
+          "package_name": "com.tabex.series.beesline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "86855773918-iks2eajbvg097rf7ftep2dku9qesca4f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL2FLI9pqGwxqjM8GOcRUA7WpG4F7Nf1g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "86855773918-iks2eajbvg097rf7ftep2dku9qesca4f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

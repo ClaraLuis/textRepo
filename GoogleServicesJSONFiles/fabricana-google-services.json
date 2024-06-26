@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "277900814948",
+    "project_id": "fabricana-5d421",
+    "storage_bucket": "fabricana-5d421.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277900814948:android:6c30e170c41fef5e524d71",
+        "android_client_info": {
+          "package_name": "com.tabex.series.fabricana"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt06AMBabTDE-Lm8zDWPqMSEYig1Jfdjs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

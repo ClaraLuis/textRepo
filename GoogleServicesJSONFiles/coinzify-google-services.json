@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "54876118271",
+    "project_id": "coinzify",
+    "storage_bucket": "coinzify.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:54876118271:android:5df7f3b1b047055539c0ca",
+        "android_client_info": {
+          "package_name": "com.tabex.series.coinzify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-2DMY-OQNm6eBhVFHNKXCB3X4Tu8PoAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

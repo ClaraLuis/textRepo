@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1027707619077",
+    "project_id": "broxel-pharma",
+    "storage_bucket": "broxel-pharma.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1027707619077:android:64a4b789a4cefe913f996c",
+        "android_client_info": {
+          "package_name": "com.tabex.series.broxelpharma"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5B5BgFRyiUT0Cwy1h9v8AytFSk3gNAUQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

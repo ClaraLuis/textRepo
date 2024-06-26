@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "599062976819",
+    "project_id": "black-limo-6cd4e",
+    "storage_bucket": "black-limo-6cd4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:599062976819:android:54f6cc44631ecd7cacc646",
+        "android_client_info": {
+          "package_name": "com.tabex.series.blacklimo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKLUmW7qwxcBCl6OyWEmok9vRBH2CTB-U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "Zafa Car",
+    "slug": "zafaslug",
+    "scheme": "zafascheme",
+    "version": "1.0",
+    "icon": "./AppIcons/zafa/zafa1024.png",
+    "notification": {
+      "icon": "./AppIcons/zafa/zafa1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/zafa/zafa1024.png",
+      "backgroundColor": "#e6007e",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.zafa",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/zafa-google-services.json",
+      "package": "com.tabex.series.zafa",
+      "icon": "./AppIcons/zafa/zafa512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/zafa/zafa512.png",
+        "backgroundColor": "#e6007e"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "642161586e5d5",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "69f1ab40-c6e3-4c8c-89b0-706773e786b2"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

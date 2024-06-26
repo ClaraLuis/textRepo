@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1013983114796",
+    "project_id": "fanni-1c21a",
+    "storage_bucket": "fanni-1c21a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013983114796:android:f003e6ee1122fd0f548389",
+        "android_client_info": {
+          "package_name": "com.tabex.series.fanni"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwQVhNRwgS_TG-Ieg8UziqslP_XuHYofc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

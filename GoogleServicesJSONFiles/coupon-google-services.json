@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "981969051146",
+    "project_id": "coupon-38b09",
+    "storage_bucket": "coupon-38b09.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981969051146:android:f953050f515391179289f3",
+        "android_client_info": {
+          "package_name": "com.tabex.series.coupon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981969051146-af6nus8cm5a7s22dc3l45g3ub2qos2uv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3Y133uXDTj5mkXKbvuHZ7JT0A9ghCsmk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981969051146-af6nus8cm5a7s22dc3l45g3ub2qos2uv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

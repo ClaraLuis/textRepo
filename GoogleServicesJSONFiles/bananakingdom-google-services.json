@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "208271710465",
+    "project_id": "bananakingdom-874be",
+    "storage_bucket": "bananakingdom-874be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208271710465:android:7b23d756c07895cbc3a300",
+        "android_client_info": {
+          "package_name": "com.tabex.series.bananakingdom"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtc3Qqzt6AdSsQlnqqmNwa52Xnm74VCpk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

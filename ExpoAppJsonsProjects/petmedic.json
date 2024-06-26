@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "Pet Medic",
+    "slug": "petmedicslug",
+    "scheme": "petmedicscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/petmedic/petmedic1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/petmedic/petmedic1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/petmedic/petmedicsplashscreen.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.petmedic",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/petmedic-google-services.json",
+      "package": "com.tabex.series.petmedic",
+      "icon": "./AppIcons/petmedic/petmedic512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/petmedic/petmedic512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65f938083a16d",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "cover",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "devitabex4@gmail.com",
+      "eas": {
+        "projectId": "3506da46-05fc-4fb1-a7e1-d0cda4bfa0c9"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/3506da46-05fc-4fb1-a7e1-d0cda4bfa0c9"
+    }
+  }
+}

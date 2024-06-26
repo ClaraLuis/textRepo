@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "832364151519",
+    "project_id": "umg-medical-store",
+    "storage_bucket": "umg-medical-store.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832364151519:android:f812c325531fb2f6ee1f6a",
+        "android_client_info": {
+          "package_name": "com.tabex.series.umgmedicalstore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9M4uyHWolaJ5Z04cZLmi4p3SnPf1dJ5w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

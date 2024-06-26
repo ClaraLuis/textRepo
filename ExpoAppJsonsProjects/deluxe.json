@@ -1,0 +1,77 @@
+{
+  "expo": {
+    "name": "Deluxe Live Luxury",
+    "slug": "deluxeslug",
+    "scheme": "deluxescheme",
+    "version": "2.0",
+    "icon": "./AppIcons/deluxe/deluxe1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/deluxe/deluxe1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/deluxe/deluxesplashscreen.png",
+      "backgroundColor": "#FFFFFF",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.deluxe",
+      "buildNumber": "2",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/deluxe-google-services.json",
+      "package": "com.tabex.series.deluxe",
+      "icon": "./AppIcons/deluxe/deluxe512.png",
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE",
+        "com.google.android.gms.permission.AD_ID"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/deluxe/deluxe512.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "662e483ab2364",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "cover",
+      "iossdk": "51",
+      "androidsdk": "51",
+      "expoaccountwhoami": "youssefriadsobhy1@gmail.com",
+      "firebaseaccount": "9tbdex@gmail.com",
+      "eas": {
+        "projectId": "46b9d2c8-2cc5-4cd9-97c7-1e59e8dda89f"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/46b9d2c8-2cc5-4cd9-97c7-1e59e8dda89f"
+    }
+  }
+}

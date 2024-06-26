@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "709523017313",
+    "project_id": "soli-42e60",
+    "storage_bucket": "soli-42e60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709523017313:android:4cc76b792c8d7387cc2420",
+        "android_client_info": {
+          "package_name": "com.tabex.series.soli"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf3GKN4sfBEjTqW6Lcmlfq5SNO-9LXkZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

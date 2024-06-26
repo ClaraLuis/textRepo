@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "ilovedahab",
+    "slug": "ilovedahabslug",
+    "scheme": "ilovedahabscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/ilovedahab/ilovedahab1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/ilovedahab/ilovedahab1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/ilovedahab/ilovedahabsplashscreen.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.ilovedahab",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/ilovedahab-google-services.json",
+      "package": "com.tabex.series.ilovedahab",
+      "icon": "./AppIcons/ilovedahab/ilovedahab512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/ilovedahab/ilovedahab512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "660139fc49622",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "cover",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "devitabex4@gmail.com",
+      "eas": {
+        "projectId": "e59868c8-81e7-4f6c-b5bc-703539b8ba79"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/e59868c8-81e7-4f6c-b5bc-703539b8ba79"
+    }
+  }
+}

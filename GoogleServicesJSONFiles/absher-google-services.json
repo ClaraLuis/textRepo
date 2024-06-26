@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "392766187857",
+    "project_id": "absher-3b1f2",
+    "storage_bucket": "absher-3b1f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392766187857:android:c75ea6bd445cfc688e4b70",
+        "android_client_info": {
+          "package_name": "com.tabex.series.absher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "392766187857-4tpnlb3em7d6ercr2ctiplbhmcpbm5fo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjNsyiWWITVTyOrCW34zZMFTdZohy0-k8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "392766187857-4tpnlb3em7d6ercr2ctiplbhmcpbm5fo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

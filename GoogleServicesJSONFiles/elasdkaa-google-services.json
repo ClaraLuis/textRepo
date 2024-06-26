@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "258051239692",
+    "project_id": "elasdkaa-c96b2",
+    "storage_bucket": "elasdkaa-c96b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258051239692:android:93114d07e1b1fdb4cee329",
+        "android_client_info": {
+          "package_name": "com.tabex.series.elasdkaa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXngopZ_eDc3JakVffBH8aEhs7qnAebhk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

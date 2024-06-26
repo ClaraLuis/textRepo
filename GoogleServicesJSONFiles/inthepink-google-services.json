@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "620484071380",
+    "project_id": "in-the-pink-ea79b",
+    "storage_bucket": "in-the-pink-ea79b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620484071380:android:d191a7ac6097f7ffeed041",
+        "android_client_info": {
+          "package_name": "com.tabex.series.inthepink"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "620484071380-jimktpd2m8p7mdmcgmugvhhovmh5fji6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFJbEUR236mUbpwMuFWur0e-GEWK_DdYE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "620484071380-jimktpd2m8p7mdmcgmugvhhovmh5fji6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

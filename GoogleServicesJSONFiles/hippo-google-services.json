@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "411935439392",
+    "project_id": "hippo-1d162",
+    "storage_bucket": "hippo-1d162.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411935439392:android:ac416a17fe84b71f799a45",
+        "android_client_info": {
+          "package_name": "com.tabex.series.hippo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlQZ2SyNPVAVxbHAEM7wwYYGethTdBlPM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

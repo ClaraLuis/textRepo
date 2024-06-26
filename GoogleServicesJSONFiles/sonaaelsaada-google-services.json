@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "214667179240",
+    "project_id": "sonaa-el-saada",
+    "storage_bucket": "sonaa-el-saada.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:214667179240:android:326fd6fc7359f931df455d",
+        "android_client_info": {
+          "package_name": "com.tabex.series.sonaaelsaada"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtfoo2HK79nM5Wbvs_fg7g7eJnAXfuebA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

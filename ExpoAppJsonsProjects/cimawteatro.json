@@ -1,0 +1,74 @@
+{
+  "expo": {
+    "name": "Cima&Teatro",
+    "slug": "cimawteatroslug",
+    "scheme": "cimawteatroscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/cimawteatro/cimawteatro1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/cimawteatro/cimawteatro1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/cimawteatro/cimawteatrologo.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.cimawteatro",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/cimawteatro-google-services.json",
+      "package": "com.tabex.series.cimawteatro",
+      "icon": "./AppIcons/cimawteatro/cimawteatro512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/cimawteatro/cimawteatro512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "654373fd96469",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "eas": {
+        "projectId": "3bcee67e-28b4-400e-ba05-1b35d26fcd58"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/3bcee67e-28b4-400e-ba05-1b35d26fcd58"
+    }
+  }
+}

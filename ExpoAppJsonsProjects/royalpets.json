@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "Royal Pets",
+    "slug": "royalpetsslug",
+    "scheme": "royalpetsscheme",
+    "version": "3.0",
+    "icon": "./AppIcons/royalpets/royalpets1024.png",
+    "notification": {
+      "icon": "./AppIcons/royalpets/royalpets1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/royalpets/royalpets1024.png",
+      "backgroundColor": "#000000",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.royalpets",
+      "buildNumber":"3",
+      "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/royalpets-google-services.json",
+      "package": "com.tabex.series.royalpets",
+      "icon": "./AppIcons/royalpets/royalpets412.png",
+      "versionCode": 3,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/royalpets/royalpets412.png",
+        "backgroundColor": "#000000"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "63f34be1186fd",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "054b90b9-b1de-4662-9fb9-36e85596d314"
+      }
+    }
+    ,
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

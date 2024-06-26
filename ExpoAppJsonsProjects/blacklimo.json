@@ -1,0 +1,77 @@
+{
+  "expo": {
+    "name": "Black Limo",
+    "slug": "blacklimoslug",
+    "scheme": "blacklimoscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/blacklimo/blacklimo1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/blacklimo/blacklimo1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/blacklimo/blacklimosplashscreen.png",
+      "backgroundColor": "#000000",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.blacklimo",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/blacklimo-google-services.json",
+      "package": "com.tabex.series.blacklimo",
+      "icon": "./AppIcons/blacklimo/blacklimo512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE",
+        "com.google.android.gms.permission.AD_ID"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/blacklimo/blacklimo512.png",
+        "backgroundColor": "#000000"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "664f11108dd0a",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "cover",
+      "iossdk": "51",
+      "androidsdk": "51",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "firebaseaccount": "12tabfx@gmail.com",
+      "eas": {
+        "projectId": "5a731a19-27d1-46db-9902-bd6a7786314f"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/5a731a19-27d1-46db-9902-bd6a7786314f"
+    }
+  }
+}

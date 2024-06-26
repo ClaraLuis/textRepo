@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1083945281511",
+    "project_id": "yalla-beera",
+    "storage_bucket": "yalla-beera.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083945281511:android:64453207f1217ebd1dff42",
+        "android_client_info": {
+          "package_name": "com.tabex.series.yallabeera"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4cVNa4-XvWLrmP44V953JuRiG1lvVvKw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

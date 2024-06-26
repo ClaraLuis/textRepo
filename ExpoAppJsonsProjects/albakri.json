@@ -1,0 +1,73 @@
+{
+  "expo": {
+    "name": "Al Bakri",
+    "slug": "albakrislug",
+    "scheme": "albakrischeme",
+    "version": "1.0",
+    "icon": "./AppIcons/albakri/albakri1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/albakri/albakri1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/albakri/albakri1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.albakri",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/albakri-google-services.json",
+      "package": "com.tabex.series.albakri",
+      "icon": "./AppIcons/albakri/albakri512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/albakri/albakri512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "64d8d73e39f1e",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "a27bfa3c-f16d-424a-9c86-fe37c9d2acb3"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/a27bfa3c-f16d-424a-9c86-fe37c9d2acb3"
+    }
+  }
+}

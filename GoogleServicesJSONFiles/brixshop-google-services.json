@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "357780764700",
+    "project_id": "brix-shop",
+    "storage_bucket": "brix-shop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357780764700:android:e1eb6d308d3576ccfa87d9",
+        "android_client_info": {
+          "package_name": "com.tabex.series.brixshop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsQkA7l88V8BI0MuATh22RURyjverr8Dg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

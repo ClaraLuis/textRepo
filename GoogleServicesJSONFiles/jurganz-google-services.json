@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1012145288153",
+    "project_id": "jurganz-64ba9",
+    "storage_bucket": "jurganz-64ba9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012145288153:android:2778657078c20199d31fc8",
+        "android_client_info": {
+          "package_name": "com.tabex.series.jurganz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqk5YVoa_RVRUMPWwFybFM0B9Im9AcSX0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

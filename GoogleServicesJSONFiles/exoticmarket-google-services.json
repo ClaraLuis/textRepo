@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "162757976605",
+    "project_id": "exotic-market-18974",
+    "storage_bucket": "exotic-market-18974.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162757976605:android:0ff98cce65ed9dde5c5cf4",
+        "android_client_info": {
+          "package_name": "com.tabex.series.exoticmarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "162757976605-k2l4ugo22stf23rhqvbkurdar1tradi6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHzEFR-RxLNDCeGwoLS3CNp2osgVkxDKM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "162757976605-k2l4ugo22stf23rhqvbkurdar1tradi6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

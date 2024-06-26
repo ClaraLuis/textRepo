@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "413378260631",
+    "project_id": "details-dental-lab",
+    "storage_bucket": "details-dental-lab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413378260631:android:301d9ac0fee32d55ef43d2",
+        "android_client_info": {
+          "package_name": "com.tabex.series.detailsdentallab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413378260631-8jhlko16mqntul1jm93miij4pmm5is84.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCE296S0HeW5Zorl_eUR96g-gSVNmx5nPc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413378260631-8jhlko16mqntul1jm93miij4pmm5is84.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "227386932214",
+    "project_id": "rare-game-store",
+    "storage_bucket": "rare-game-store.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227386932214:android:6c6171cb2f177ae2ba25d7",
+        "android_client_info": {
+          "package_name": "com.tabex.series.raregamestore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5Bmbezk-Q18pHMn555xc5aegME3U5suk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

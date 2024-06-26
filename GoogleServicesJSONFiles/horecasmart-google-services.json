@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1082385197781",
+    "project_id": "horeca-smart",
+    "storage_bucket": "horeca-smart.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082385197781:android:c4c04bc48c9ab461e0905c",
+        "android_client_info": {
+          "package_name": "com.tabex.series.horecasmart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082385197781-sfkjb7om9aapqcpubbr32dgi5j2jbt10.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzXzclt3uYb0eka-cwlUmIL_UCyx8x3vQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082385197781-sfkjb7om9aapqcpubbr32dgi5j2jbt10.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

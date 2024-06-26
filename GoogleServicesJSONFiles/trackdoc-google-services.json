@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "278848185722",
+    "project_id": "trackdoc-b9e28",
+    "storage_bucket": "trackdoc-b9e28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278848185722:android:67da9692b17357d56662c3",
+        "android_client_info": {
+          "package_name": "com.tabex.series.trackdoc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_SsHHD8J4Hyl3rn0x-bO6nF5h6TfnbW4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

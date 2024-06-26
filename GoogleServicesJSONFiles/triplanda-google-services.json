@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "569986081745",
+    "project_id": "triplanda",
+    "storage_bucket": "triplanda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569986081745:android:78f9b58fe8f37d3e7236f0",
+        "android_client_info": {
+          "package_name": "com.tabex.series.triplanda"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBENyw7bVSY2z_X7AAjBb063tC8N1pTSC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

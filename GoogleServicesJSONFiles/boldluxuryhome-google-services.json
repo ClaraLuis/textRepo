@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "506458246270",
+    "project_id": "bold-luxury-home",
+    "storage_bucket": "bold-luxury-home.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506458246270:android:a8adb60cfd95abb3b15c2f",
+        "android_client_info": {
+          "package_name": "com.tabex.series.boldluxuryhome"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0NiPu9isKluuwQhJ_Uw78SKFG3azqsDc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

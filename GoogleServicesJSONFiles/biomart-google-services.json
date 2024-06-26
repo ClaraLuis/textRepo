@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "564648546190",
+    "project_id": "bio-mart-7408b",
+    "storage_bucket": "bio-mart-7408b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564648546190:android:c95ab77655e7cbc2919edf",
+        "android_client_info": {
+          "package_name": "com.tabex.series.biomart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564648546190-2qqhrb0as4d7hoscrgqaegsck1j5g2ja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHmm7jyOC5wnBtc0jd5IS3F1Ingx4Hb8U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "564648546190-2qqhrb0as4d7hoscrgqaegsck1j5g2ja.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

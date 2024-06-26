@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "132415242308",
+    "project_id": "unitedmedia-b19bd",
+    "storage_bucket": "unitedmedia-b19bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132415242308:android:075cb41558f271e7b67c11",
+        "android_client_info": {
+          "package_name": "com.tabex.series.unitedmediashop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132415242308-sngoi6otjkgbpl9j49i3fg5audfp8724.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOnAxRk2j6TorRr7kIdfOWHGHtETKg5-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132415242308-sngoi6otjkgbpl9j49i3fg5audfp8724.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

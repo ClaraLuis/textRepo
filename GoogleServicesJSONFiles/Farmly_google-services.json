@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "171397708036",
+    "project_id": "farmly-50da6",
+    "storage_bucket": "farmly-50da6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171397708036:android:0a7afcc7eb91c5f0b4b851",
+        "android_client_info": {
+          "package_name": "com.tabex.series.farmly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171397708036-fmbr2aii3g1od9m55dn20vrhk8ruieo9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA23c3uS1lqEykzostxEZ8WaRQES2LecCs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "171397708036-fmbr2aii3g1od9m55dn20vrhk8ruieo9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1041022154453",
+    "project_id": "mazagstore-573fb",
+    "storage_bucket": "mazagstore-573fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041022154453:android:91b3b7f7a63191b99bd45c",
+        "android_client_info": {
+          "package_name": "com.tabex.series.mazagstore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCV0P4O-9auc1rW0__Q8zygMkQmUHfNNGc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

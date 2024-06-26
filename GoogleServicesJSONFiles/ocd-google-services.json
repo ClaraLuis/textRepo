@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "30980445566",
+    "project_id": "ocd-car-wash",
+    "storage_bucket": "ocd-car-wash.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30980445566:android:17b312741ec481f00ecf2f",
+        "android_client_info": {
+          "package_name": "com.tabex.series.ocd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30980445566-rn76mh9l7dbjrknl3vjrnvmfsp7nfs93.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDYuDNL24SWBvZ9r4WyyFYyQxJrlqunT4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30980445566-rn76mh9l7dbjrknl3vjrnvmfsp7nfs93.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

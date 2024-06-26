@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "MedGo",
+    "slug": "medgoslug",
+    "scheme": "medgoscheme",
+    "version": "5.0",
+    "icon": "./AppIcons/medgo/medgo1024.png",
+    "notification": {
+      "icon": "./AppIcons/medgo/medgo1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/medgo/medgo1024.png",
+      "backgroundColor": "#0e3b6e",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.medgo",
+      "buildNumber": "5",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/medgo-google-services.json",
+      "package": "com.tabex.series.medgo",
+      "icon": "./AppIcons/medgo/medgo512.png",
+      "versionCode": 5,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/medgo/medgo512.png",
+        "backgroundColor": "#0e3b6e"
+      }
+    },
+    "description": "",
+    "extra": {
+      "iossdk": "48",
+      "androidsdk": "48",
+      "instapikey": "63e3891f1c0d8",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "eas": {
+        "projectId": "3a259eae-a966-4e52-8916-2b4c6d6e91ed"
+      }
+    }
+  }
+}

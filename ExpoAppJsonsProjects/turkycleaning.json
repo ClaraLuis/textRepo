@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "Turky Cleaning Services",
+    "slug": "turkycleaningslug",
+    "scheme": "turkycleaningscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/turkycleaning/turkycleaning1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/turkycleaning/turkycleaning1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/turkycleaning/turkycleaning1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.turkycleaning",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/turkycleaning-google-services.json",
+      "package": "com.tabex.series.turkycleaning",
+      "icon": "./AppIcons/turkycleaning/turkycleaning512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/turkycleaning/turkycleaning512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65d4697f8d030",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "tabexdevinfo27@gmail.com",
+      "eas": {
+        "projectId": "0f85a8da-fcb2-45af-955a-3b8f3db0def1"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/0f85a8da-fcb2-45af-955a-3b8f3db0def1"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "Viega Store",
+    "slug": "viegastoreslug",
+    "scheme": "viegastorescheme",
+    "version": "1.0",
+    "icon": "./AppIcons/viegastore/viegastore1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/viegastore/viegastore1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/viegastore/viegastore1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.viegastore",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/viegastore-google-services.json",
+      "package": "com.tabex.series.viegastore",
+      "icon": "./AppIcons/viegastore/viegastore512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/viegastore/viegastore512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65b77455f00b6",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "tabexdevinfo26@gmail.com",
+      "eas": {
+        "projectId": "e4248325-7591-4528-b7f4-74accef65f2c"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/e4248325-7591-4528-b7f4-74accef65f2c"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "46522367206",
+    "project_id": "marlys-a265c",
+    "storage_bucket": "marlys-a265c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46522367206:android:46492cbeea603e89660f27",
+        "android_client_info": {
+          "package_name": "com.tabex.series.marlys"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDv9CrXvCHQ8zUxeDvniM09q8PD2KMYet0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

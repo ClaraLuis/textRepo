@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "809668215998",
+    "project_id": "wazafny-belkhalig",
+    "storage_bucket": "wazafny-belkhalig.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:809668215998:android:9bb371fb7973e437a54aef",
+        "android_client_info": {
+          "package_name": "com.tabex.series.wazafnybelkhalig"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "809668215998-8fjp30jlturf217edl8ei3cirlgmnn5r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi47BuISmfXPTLVAGGFIG60gJxUTs_TSg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "809668215998-8fjp30jlturf217edl8ei3cirlgmnn5r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

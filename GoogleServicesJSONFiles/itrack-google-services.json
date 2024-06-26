@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "381039330655",
+    "project_id": "itrack-6191f",
+    "storage_bucket": "itrack-6191f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381039330655:android:5d056d456e34811a4f22ea",
+        "android_client_info": {
+          "package_name": "com.tabex.series.itrack"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOuqUDWB1veKiHo_ksklGV6HVFhBF_5Fk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

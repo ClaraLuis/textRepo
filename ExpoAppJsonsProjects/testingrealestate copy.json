@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "Testing Real Estate",
+    "slug": "testingrealestateslug",
+    "scheme": "testingrealestatescheme",
+    "version": "1.0",
+    "icon": "./AppIcons/testingrealestate/testingrealestate1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/testingrealestate/testingrealestate1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/testingrealestate/testingrealestate1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.testingrealestate",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/testingrealestate-google-services.json",
+      "package": "com.tabex.series.testingrealestate",
+      "icon": "./AppIcons/testingrealestate/testingrealestate512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/testingrealestate/testingrealestate512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "6610786c0056c",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "contain",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "expoaccountwhoami": "youssefriadsobhy1@gmail.com",
+      "firebaseaccount": "devitabex5@gmail.com",
+      "eas": {
+        "projectId": "fccdd636-f97e-4faf-ba25-c28c6eb44c97"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/fccdd636-f97e-4faf-ba25-c28c6eb44c97"
+    }
+  }
+}

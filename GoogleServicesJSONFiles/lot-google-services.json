@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "569829382374",
+    "project_id": "lot-eg",
+    "storage_bucket": "lot-eg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569829382374:android:51e9c8261c45cfa330c327",
+        "android_client_info": {
+          "package_name": "com.tabex.series.lot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB9y7l4ser_WYWZmkIWc1olNuKLlsF33k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

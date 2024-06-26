@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "671907836858",
+    "project_id": "nno-c778c",
+    "storage_bucket": "nno-c778c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671907836858:android:27ed163946b34ed2546383",
+        "android_client_info": {
+          "package_name": "com.tabex.series.nno"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrCzSlIenp44BPX69uW2DduSAqGMUaBTk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,74 @@
+{
+  "expo": {
+    "name": "UBA Marketing Solutions",
+    "slug": "ubamsappslug",
+    "scheme": "ubamsappscheme",
+    "version": "3.0",
+    "icon": "./AppIcons/uba/uba1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/uba/uba1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/uba/uba1024.png",
+      "backgroundColor": "#000000",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.ubaapp",
+      "buildNumber": "3",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/ubamsapp-google-services.json",
+      "package": "com.tabex.series.ubamsapp",
+      "icon": "./AppIcons/uba/uba512.png",
+      "versionCode": 3,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/uba/uba512.png",
+        "backgroundColor": "#000000"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "650ffbf69b8cc",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "eas": {
+        "projectId": "e218f1c0-bff2-431a-b1e8-75fee944bcc1"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/e218f1c0-bff2-431a-b1e8-75fee944bcc1"
+    }
+  }
+}

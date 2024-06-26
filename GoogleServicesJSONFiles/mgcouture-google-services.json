@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "518977797390",
+    "project_id": "mg-couture",
+    "storage_bucket": "mg-couture.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518977797390:android:e6dc250e01b28c9f276b5f",
+        "android_client_info": {
+          "package_name": "com.tabex.series.mgcouture"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNDKnuai-JsMN8Gw1JzgFlO0Cqznaaheo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

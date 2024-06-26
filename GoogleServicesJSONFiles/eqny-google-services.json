@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "620533563152",
+    "project_id": "eqny-900bd",
+    "storage_bucket": "eqny-900bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620533563152:android:edbd56c9b3820e26f4ef95",
+        "android_client_info": {
+          "package_name": "com.tabex.series.eqny"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBGifjK4y0Rd2OwFvMCOVMgxqYnXD82DU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

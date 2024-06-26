@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "صناع السعادة",
+    "slug": "sonaaelsaadaslug",
+    "scheme": "sonaaelsaadascheme",
+    "version": "2.0",
+    "icon": "./AppIcons/sonaaelsaada/sonaaelsaada1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/sonaaelsaada/sonaaelsaada1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/sonaaelsaada/sonaaelsaada1024.png",
+      "backgroundColor": "#000000",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.sonaaelsaada",
+      "buildNumber": "2",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/sonaaelsaada-google-services.json",
+      "package": "com.tabex.series.sonaaelsaada",
+      "icon": "./AppIcons/sonaaelsaada/sonaaelsaada512.png",
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/sonaaelsaada/sonaaelsaada512.png",
+        "backgroundColor": "#000000"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "6596d237b86a2",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "firebaseaccount": "tabexdevinfo23@gmail.com",
+      "eas": {
+        "projectId": "c1b644fd-2cc3-49cb-a861-2f495935e143"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+    ,
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/c1b644fd-2cc3-49cb-a861-2f495935e143"
+    }
+  }
+}

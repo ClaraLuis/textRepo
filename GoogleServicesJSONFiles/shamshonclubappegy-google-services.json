@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "293708723194",
+    "project_id": "shamshon-club-egy",
+    "storage_bucket": "shamshon-club-egy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293708723194:android:0d9a16e40777b3f90caa43",
+        "android_client_info": {
+          "package_name": "com.tabex.series.shamshonclubappegy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZNSS3-wevPmkZXb0kleQbV8rGLa8l1QA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

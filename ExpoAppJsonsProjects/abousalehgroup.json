@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "AbouSalehGroup",
+    "slug": "abousalehgroupslug",
+    "scheme": "abousalehgroupscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/abousalehgroup/abousalehgroup1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/abousalehgroup/abousalehgroup1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/abousalehgroup/abousalehgrouplogo.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.abousalehgroup",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/abousalehgroup-google-services.json",
+      "package": "com.tabex.series.abousalehgroup",
+      "icon": "./AppIcons/abousalehgroup/abousalehgroup512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/abousalehgroup/abousalehgroup512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65f587c03ab7a",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "tabexdevinfo28@gmail.com",
+      "eas": {
+        "projectId": "ea0e5921-bff7-4098-b743-8c4fd062e1b6"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/ea0e5921-bff7-4098-b743-8c4fd062e1b6"
+    }
+  }
+}

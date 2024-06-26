@@ -1,0 +1,72 @@
+{
+  "expo": {
+    "name": "Instahouses",
+    "slug": "instahousesslug",
+    "scheme": "instahousesscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/instahouses/instahouses1024.png",
+    "notification": {
+      "icon": "./AppIcons/instahouses/instahouses1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/instahouses/instahouseslogo.png",
+      "backgroundColor": "#AA1E29",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.instahouses",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/instahouses-google-services.json",
+      "package": "com.tabex.series.instahouses",
+      "icon": "./AppIcons/instahouses/instahouses512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/instahouses/instahouses512.png",
+        "backgroundColor": "#AA1E29"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "6540d5a317c2e",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "01c99458-921a-4ab3-9ca6-4f3bdc1837be"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/01c99458-921a-4ab3-9ca6-4f3bdc1837be"
+    }
+  }
+}

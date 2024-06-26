@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "420163225944",
+    "project_id": "winky-21a53",
+    "storage_bucket": "winky-21a53.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420163225944:android:036ea14aa019c4a036bd2d",
+        "android_client_info": {
+          "package_name": "com.tabex.series.winky"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420163225944-sn3ppo9lpv66mvdqpgmt0ed1acjpp48n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcHoHXrFipL4iy3Y0_7zS2_yUPErp9_vk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420163225944-sn3ppo9lpv66mvdqpgmt0ed1acjpp48n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "United Media Shop",
+    "slug": "unitedmediashopslug",
+    "scheme": "unitedmediashopappscheme",
+    "version": "3.0",
+    "icon": "./AppIcons/UnitedMediaShop/unitedmediashop1024.png",
+    "notification": {
+      "icon": "./AppIcons/UnitedMediaShop/unitedmediashop1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/UnitedMediaShop/unitedmediashop1024.png",
+      "backgroundColor": "#000443",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.unitedmediashop",
+      "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/unitedmediashop-google-services.json",
+      "package": "com.tabex.series.unitedmediashop",
+      "icon": "./AppIcons/UnitedMediaShop/unitedmediashop512.png",
+      "versionCode": 3,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/UnitedMediaShop/unitedmediashop512.png",
+        "backgroundColor": "#000443"
+      }
+    },
+    "description": "",
+    "extra": {
+      "iossdk": "48",
+      "androidsdk": "48",
+      "instapikey": "6370eaf20b354",
+      "projectsrctype": "subdomain",
+      "eas": {
+        "projectId": "7b72e173-fc7e-4956-8f29-44d9b2e8e688"
+      }
+    }
+  }
+}

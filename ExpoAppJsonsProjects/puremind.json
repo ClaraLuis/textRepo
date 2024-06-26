@@ -1,0 +1,72 @@
+{
+  "expo": {
+    "name": "Pure Mind Center",
+    "slug": "puremindslug",
+    "scheme": "puremindscheme",
+    "version": "4.0",
+    "icon": "./AppIcons/puremind/puremind1024.png",
+    "notification": {
+      "icon": "./AppIcons/puremind/puremind1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/puremind/puremind1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.puremind",
+      "buildNumber": "4",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/puremind-google-services.json",
+      "package": "com.tabex.series.puremind",
+      "icon": "./AppIcons/puremind/puremind512.png",
+      "versionCode": 4,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/puremind/puremind512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "64c67bf2a8e39",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "a004090f-4de6-448d-8036-d007048b011d"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/a004090f-4de6-448d-8036-d007048b011d"
+    }
+  }
+}

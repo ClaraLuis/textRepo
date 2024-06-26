@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "Mom's House",
+    "slug": "momshouseslug",
+    "scheme": "momshousescheme",
+    "version": "1.0",
+    "icon": "./AppIcons/momshouse/momshouse1024.png",
+    "notification": {
+      "icon": "./AppIcons/momshouse/momshouse1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/momshouse/momshouse1024.png",
+      "backgroundColor": "#83d8db",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.momshouse",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/momshouse-google-services.json",
+      "package": "com.tabex.series.momshouse",
+      "icon": "./AppIcons/momshouse/momshouse512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/momshouse/momshouse512.png",
+        "backgroundColor": "#83d8db"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "64157d64f39ee",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "c9b26a8d-9f10-4191-a1cd-78f9f105d25a"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

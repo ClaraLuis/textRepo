@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "362778566864",
+    "project_id": "fresa-9b6c1",
+    "storage_bucket": "fresa-9b6c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362778566864:android:f3efc463721392a00efed5",
+        "android_client_info": {
+          "package_name": "com.tabex.series.fresa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSAaGvCIozKMvAbtV1HXocQrkHirIaHrU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

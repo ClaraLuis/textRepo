@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "57720407198",
+    "project_id": "ferganytools",
+    "storage_bucket": "ferganytools.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:57720407198:android:c3c8b0ce34f49328d9678f",
+        "android_client_info": {
+          "package_name": "com.tabex.series.ferganytools"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnMUJAdIOD3gZWAMEVp3xdxAXgUOSh4rk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "Surgi Well Medical",
+    "slug": "surgiwellslug",
+    "scheme": "surgiwellscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/surgiwell/surgiwell1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/surgiwell/surgiwell1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/surgiwell/surgiwellsplashscreen.png",
+      "backgroundColor": "#FFFAEE",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.surgiwell",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/surgiwell-google-services.json",
+      "package": "com.tabex.series.surgiwell",
+      "icon": "./AppIcons/surgiwell/surgiwell512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/surgiwell/surgiwell512.png",
+        "backgroundColor": "#F4AEC9"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "661e3c86102e5",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "cover",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "expoaccountwhoami": "youssefriadsobhy1@gmail.com",
+      "firebaseaccount": "7tbdex@gmail.com",
+      "eas": {
+        "projectId": "76969b12-99de-4b0a-a273-a5176d08fba4"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/76969b12-99de-4b0a-a273-a5176d08fba4"
+    }
+  }
+}

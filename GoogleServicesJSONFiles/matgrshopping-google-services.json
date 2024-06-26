@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "862625656283",
+    "project_id": "matgrshopp",
+    "storage_bucket": "matgrshopp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862625656283:android:c505b732bd8e59e6e44bfe",
+        "android_client_info": {
+          "package_name": "com.tabex.series.matgrshopping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862625656283-f0jhf0l0tmoqd5a057un0qa3ec47k991.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgmHt7B5OTy9ZEyG520fnzihg0FgnC35A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862625656283-f0jhf0l0tmoqd5a057un0qa3ec47k991.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

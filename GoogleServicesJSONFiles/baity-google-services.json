@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "221399638856",
+    "project_id": "baity-913ac",
+    "storage_bucket": "baity-913ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221399638856:android:3a8b9e8bae59fde557c97d",
+        "android_client_info": {
+          "package_name": "com.tabex.series.baity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq5QHxhod_m-LahArMIKKh-Ua3eSw2lCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

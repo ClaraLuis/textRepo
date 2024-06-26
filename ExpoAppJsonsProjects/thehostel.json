@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "The Hostel",
+    "slug": "thehostelslug",
+    "scheme": "thehostelscheme",
+    "version": "4.0",
+    "icon": "./AppIcons/thehostel/thehostel1024.png",
+    "notification": {
+      "icon": "./AppIcons/thehostel/thehostel1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/thehostel/thehostel1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.thehostel",
+      "buildNumber": "4",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/thehostel-google-services.json",
+      "package": "com.tabex.series.thehostel",
+      "icon": "./AppIcons/thehostel/thehostel512.png",
+      "versionCode": 4,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/thehostel/thehostel512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "641c9bb83d9bc",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "93428d66-6c06-44d7-8ba5-2f3f3ee20b4b"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

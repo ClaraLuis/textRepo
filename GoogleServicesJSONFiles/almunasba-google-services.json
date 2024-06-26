@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "13818841681",
+    "project_id": "almunasba-8ac4e",
+    "storage_bucket": "almunasba-8ac4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:13818841681:android:c6e1035c43c312f63d8670",
+        "android_client_info": {
+          "package_name": "com.tabex.series.almunasba"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHZXKwWrG3_KkRZd5iGqt7svCulGEEvTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

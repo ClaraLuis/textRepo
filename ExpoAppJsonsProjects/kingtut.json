@@ -1,0 +1,74 @@
+{
+  "expo": {
+    "name": "King Tut Tours",
+    "slug": "kingtutslug",
+    "scheme": "kingtutscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/kingtut/kingtut1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/kingtut/kingtut1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/kingtut/kingtut1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.kingtut",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/kingtut-google-services.json",
+      "package": "com.tabex.series.kingtut",
+      "icon": "./AppIcons/kingtut/kingtut512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/kingtut/kingtut512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "651c0fb792ef5",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "eas": {
+        "projectId": "3107ebdc-b546-419b-96c2-20ae210272e1"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/3107ebdc-b546-419b-96c2-20ae210272e1"
+    }
+  }
+}

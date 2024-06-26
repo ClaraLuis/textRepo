@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "GK Store",
+    "slug": "gkstoreslug",
+    "scheme": "gkstorescheme",
+    "version": "1.0",
+    "icon": "./AppIcons/gkstore/gkstore1024.png",
+    "notification": {
+      "icon": "./AppIcons/gkstore/gkstore1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/gkstore/gkstore1024.png",
+      "backgroundColor": "#1a2129",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.gkstore",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/gkstore-google-services.json",
+      "package": "com.tabex.series.gkstore",
+      "icon": "./AppIcons/gkstore/gkstore512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/gkstore/gkstore512.png",
+        "backgroundColor": "#1a2129"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "6422d9a76838e",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "7ed32507-b8ee-4d1d-a988-e38dfab960bd"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

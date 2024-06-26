@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "331999204171",
+    "project_id": "fir-fdac3",
+    "storage_bucket": "fir-fdac3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331999204171:android:be407f334f281df9ae8ece",
+        "android_client_info": {
+          "package_name": "com.tabex.series.amex"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG5U3Gpe222-UPyWK3uOhaV7SfPHtpuJA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

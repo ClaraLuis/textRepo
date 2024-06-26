@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1094776747072",
+    "project_id": "al-wekala",
+    "storage_bucket": "al-wekala.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094776747072:android:28a1fb8fd7a1c45e025ba5",
+        "android_client_info": {
+          "package_name": "com.tabex.series.elwekala"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1094776747072-0a7qv6svik9b483dpuddcua0cvqof96n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiyZHCcO1fc-vB4M0wWC5eFn3SCyynOkM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1094776747072-0a7qv6svik9b483dpuddcua0cvqof96n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

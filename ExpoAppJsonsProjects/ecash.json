@@ -1,0 +1,74 @@
+{
+  "expo": {
+    "name": "E-Cash EG",
+    "slug": "ecashslug",
+    "scheme": "ecashscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/ecash/ecash1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/ecash/ecash1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/ecash/ecash1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.ecash",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/ecash-google-services.json",
+      "package": "com.tabex.series.ecash",
+      "icon": "./AppIcons/ecash/ecash512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/ecash/ecash512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "651d631e8049d",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "eas": {
+        "projectId": "03d83ebd-b95c-4bb1-b3ef-c80692e4c72d"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/03d83ebd-b95c-4bb1-b3ef-c80692e4c72d"
+    }
+  }
+}

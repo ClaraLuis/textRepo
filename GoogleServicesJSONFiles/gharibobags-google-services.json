@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1082674516074",
+    "project_id": "gharibobags-aadb3",
+    "storage_bucket": "gharibobags-aadb3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082674516074:android:04e3bdc9fe02b26d0c3a13",
+        "android_client_info": {
+          "package_name": "com.tabex.series.gharibobags"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082674516074-jd7pp6m8r3vlul7rqqnqq058ldkgld4o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtwPANuw82OLA5lBklXo6dV2rw6HI2QEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082674516074-jd7pp6m8r3vlul7rqqnqq058ldkgld4o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

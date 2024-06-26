@@ -1,0 +1,77 @@
+{
+  "expo": {
+    "name": "Marly's",
+    "slug": "marlysccappslug",
+    "scheme": "marlysccappscheme",
+    "version": "3.0",
+    "icon": "./AppIcons/marlys/marlys1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/marlys/marlys1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/marlys/marlyssplashscreen.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.marlys",
+      "buildNumber": "3",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/marlysccapp-google-services.json",
+      "package": "com.tabex.series.marlysccapp",
+      "icon": "./AppIcons/marlys/marlys512.png",
+      "versionCode": 3,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE",
+        "com.google.android.gms.permission.AD_ID"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/marlys/marlys512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "6624d475969d6",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "cover",
+      "iossdk": "51",
+      "androidsdk": "51",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "firebaseaccount": "9tbdex@gmail.com",
+      "eas": {
+        "projectId": "e9647e3f-1354-4546-8739-a02ffbc0f231"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/e9647e3f-1354-4546-8739-a02ffbc0f231"
+    }
+  }
+}

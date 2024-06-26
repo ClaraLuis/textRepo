@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "Good Stuff Only",
+    "slug": "goodstuffonlyslug",
+    "scheme": "goodstuffonlyscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/goodstuffonly/goodstuffonly1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/goodstuffonly/goodstuffonly1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/goodstuffonly/goodstuffonlysplashscreen.png",
+      "backgroundColor": "#FFFAEE",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.goodstuffonly",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/goodstuffonly-google-services.json",
+      "package": "com.tabex.series.goodstuffonly",
+      "icon": "./AppIcons/goodstuffonly/goodstuffonly512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/goodstuffonly/goodstuffonly512.png",
+        "backgroundColor": "#F4AEC9"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "660d1d207ace4",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "cover",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "expoaccountwhoami": "youssefriadsobhy1@gmail.com",
+      "firebaseaccount": "7tbdex@gmail.com",
+      "eas": {
+        "projectId": "4b33d24a-b433-49ab-ac6b-b44205689ac4"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/4b33d24a-b433-49ab-ac6b-b44205689ac4"
+    }
+  }
+}

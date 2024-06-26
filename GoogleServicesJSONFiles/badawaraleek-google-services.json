@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "941905505345",
+    "project_id": "badawar-aleek",
+    "storage_bucket": "badawar-aleek.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941905505345:android:3fc9a7f5fb397b54942ac0",
+        "android_client_info": {
+          "package_name": "com.tabex.series.badawaraleek"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0waa_T3806MkPeMz7Pk-rweHi4MYaOHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

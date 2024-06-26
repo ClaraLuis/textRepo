@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "Gharibo Bags",
+    "slug": "gharibobagsslug",
+    "scheme": "gharibobagsscheme",
+    "version": "5.0",
+    "icon": "./AppIcons/gharibobags/gharibo1024.png",
+    "notification": {
+      "icon": "./AppIcons/gharibobags/gharibo1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/gharibobags/gharibo1024.png",
+      "backgroundColor": "#000000",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.gharibobags",
+      "buildNumber":"5",
+      "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/gharibobags-google-services.json",
+      "package": "com.tabex.series.gharibobags",
+      "icon": "./AppIcons/gharibobags/gharibo512.png",
+      "versionCode": 5,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/gharibobags/gharibo512.png",
+        "backgroundColor": "#000000"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "63eb7dcd2fc77",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk":"48",
+      "androidsdk":"48",
+      "eas": {
+        "projectId": "44f49fc3-9374-4a65-9830-c7decdb3fe3b"
+      }
+    }
+    ,
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

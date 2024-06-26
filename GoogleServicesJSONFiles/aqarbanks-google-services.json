@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1050539505799",
+    "project_id": "aqar-banks",
+    "storage_bucket": "aqar-banks.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050539505799:android:47939d17d904eb9272e022",
+        "android_client_info": {
+          "package_name": "com.tabex.series.aqarbanks"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfFVbok9ZA6WyxPc99lmXJtK0L8kczDck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "Sho8l Mata3em",
+    "slug": "sho8lmata3emslug",
+    "scheme": "sho8lmata3emscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/sho8lmata3em/sho8lmata3em1024.png",
+    "notification": {
+      "icon": "./AppIcons/sho8lmata3em/sho8lmata3em1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/sho8lmata3em/sho8lmata3em1024.png",
+      "backgroundColor": "#f7c12b",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.sho8lmata3em",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/sho8lmata3em-google-services.json",
+      "package": "com.tabex.series.sho8lmata3em",
+      "icon": "./AppIcons/sho8lmata3em/sho8lmata3em512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/sho8lmata3em/sho8lmata3em512.png",
+        "backgroundColor": "#f7c12b"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "64199b3ad800d",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "3b99f993-ea37-43e4-a30b-025ab7557ee8"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

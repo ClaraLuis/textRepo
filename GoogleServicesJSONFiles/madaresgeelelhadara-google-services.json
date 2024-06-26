@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "444148203346",
+    "project_id": "madaresgeelelhadara",
+    "storage_bucket": "madaresgeelelhadara.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444148203346:android:fbea2dc52cddcb00e7048b",
+        "android_client_info": {
+          "package_name": "com.tabex.series.madaresgeelelhadara"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVltLTtD4AaAJXv2l6ZhjJXlqd0E-yeTg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

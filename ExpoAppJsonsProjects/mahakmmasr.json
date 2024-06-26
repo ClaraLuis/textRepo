@@ -1,0 +1,67 @@
+{
+    "expo": {
+        "name": "Mahakm Masr",
+        "slug": "mahakmmasrslug",
+        "scheme": "mahakmmasrscheme",
+        "version": "1.0",
+        "icon": "./AppIcons/mahakmmasr/mahakmmasr1024.png",
+        "orientation": "portrait",
+        "notification": {
+            "icon": "./AppIcons/mahakmmasr/mahakmmasr1024.png"
+        },
+        "splash": {
+            "image": "./AppIcons/mahakmmasr/mahakmmasrsplashscreen.png",
+            "backgroundColor": "#FFFFFF",
+            "resizeMode": "cover"
+        },
+        "assetBundlePatterns": ["**/*"],
+        "ios": {
+            "bundleIdentifier": "com.tabex.series.mahakmmasr",
+            "buildNumber": "1",
+            "supportsTablet": true,
+            "infoPlist": {
+                "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+            }
+        },
+        "android": {
+            "softwareKeyboardLayoutMode": "pan",
+            "googleServicesFile": "./GoogleServicesJSONFiles/mahakmmasr-google-services.json",
+            "package": "com.tabex.series.mahakmmasr",
+            "icon": "./AppIcons/mahakmmasr/mahakmmasr512.png",
+            "versionCode": 1,
+            "permissions": ["INTERNET", "MODIFY_AUDIO_SETTINGS", "READ_EXTERNAL_STORAGE", "SYSTEM_ALERT_WINDOW", "VIBRATE", "WRITE_EXTERNAL_STORAGE", "com.google.android.gms.permission.AD_ID"],
+            "adaptiveIcon": {
+                "foregroundImage": "./AppIcons/mahakmmasr/mahakmmasr512.png",
+                "backgroundColor": "#FFFFFF"
+            }
+        },
+        "description": "",
+        "extra": {
+            "instapikey": "65eeadd64d82e",
+            "projectsrctype": "subdomain",
+            "hastrackingpermissions": "yes",
+            "loadercontain": "cover",
+            "iossdk": "51",
+            "androidsdk": "51",
+            "expoaccountwhoami": "youssefriadsobhy1@gmail.com",
+            "firebaseaccount": "15tbdex@gmail.com",
+            "eas": {
+                "projectId": "61b0043c-a0bf-4c12-af63-089412438927"
+            }
+        },
+        "plugins": [
+            [
+                "expo-tracking-transparency",
+                {
+                    "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+                }
+            ]
+        ],
+        "runtimeVersion": {
+            "policy": "sdkVersion"
+        },
+        "updates": {
+            "url": "https://u.expo.dev/61b0043c-a0bf-4c12-af63-089412438927"
+        }
+    }
+}

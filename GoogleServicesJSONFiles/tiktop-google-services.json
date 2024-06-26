@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "507053316074",
+    "project_id": "tiktop-academy",
+    "storage_bucket": "tiktop-academy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:507053316074:android:5a07f1f0fc80b48c1e0493",
+        "android_client_info": {
+          "package_name": "com.tabex.series.tiktopacademy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "507053316074-e6k8d83crcpvk7duf4lvfpiq4lh49gp1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3sgdEQ1SVQs0CmM7Y8mHZYM36L1JlpCs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "507053316074-e6k8d83crcpvk7duf4lvfpiq4lh49gp1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "872675327777",
+    "project_id": "pet-medic-9ffa0",
+    "storage_bucket": "pet-medic-9ffa0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872675327777:android:363495028ec65dc1420860",
+        "android_client_info": {
+          "package_name": "com.tabex.series.petmedic"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlGmxhAxI06lTDWB6Yz5bVWGOXW9TsjHc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

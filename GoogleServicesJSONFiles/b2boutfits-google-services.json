@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "433621797039",
+    "project_id": "b2boutfits",
+    "storage_bucket": "b2boutfits.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433621797039:android:84e161376bc9852cc4ec5a",
+        "android_client_info": {
+          "package_name": "com.tabex.series.b2boutfits"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "433621797039-06amdhvsv57apijie2v2uvdpafg7didm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWbcHbJKeRNu901Fn-PyTu5VPcp84GQTw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "433621797039-06amdhvsv57apijie2v2uvdpafg7didm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

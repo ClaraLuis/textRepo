@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "Details Dental Lab",
+    "slug": "detailsdentallabslug",
+    "scheme": "detailsdentallabscheme",
+    "version": "3.0",
+    "icon": "./AppIcons/detailsdentallab/detailsdentallab1024.png",
+    "notification": {
+      "icon": "./AppIcons/detailsdentallab/detailsdentallab1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/detailsdentallab/detailsdentallab1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.detailsdentallab",
+      "buildNumber": "3",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/detailsdentallab-google-services.json",
+      "package": "com.tabex.series.detailsdentallab",
+      "icon": "./AppIcons/detailsdentallab/detailsdentallab512.png",
+      "versionCode": 3,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/detailsdentallab/detailsdentallab512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "6458afba356d5",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "cf611e9a-006f-4e3b-bb3f-10dd3e042cd0"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

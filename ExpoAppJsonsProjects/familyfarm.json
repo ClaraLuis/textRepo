@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "Family Farm EG",
+    "slug": "familyfarmslug",
+    "scheme": "familyfarmscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/familyfarm/familyfarm1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/familyfarm/familyfarm1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/familyfarm/familyfarm1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.familyfarm",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/familyfarm-google-services.json",
+      "package": "com.tabex.series.familyfarm",
+      "icon": "./AppIcons/familyfarm/familyfarm512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/familyfarm/familyfarm512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "657051ccf0ac3",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "firebaseaccount": "tabexdevinfo22@gmail.com",
+      "eas": {
+        "projectId": "8659ba19-bf93-4d7d-8be7-5069b5dee0f6"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/8659ba19-bf93-4d7d-8be7-5069b5dee0f6"
+    }
+  }
+}

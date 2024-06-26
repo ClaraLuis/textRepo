@@ -1,0 +1,73 @@
+{
+  "expo": {
+    "name": "IM Store",
+    "slug": "imstoreslug",
+    "scheme": "imstorescheme",
+    "version": "2.0",
+    "orientation": "portrait",
+    "icon": "./AppIcons/imstore/imstore1024.png",
+    "notification": {
+      "icon": "./AppIcons/imstore/imstore1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/imstore/imstore1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.imstore",
+      "buildNumber": "2",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/imstore-google-services.json",
+      "package": "com.tabex.series.imstore",
+      "icon": "./AppIcons/imstore/imstore512.png",
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/imstore/imstore512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "64f037872eab1",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "5acde8af-ac71-4380-90b8-272369f5d344"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/5acde8af-ac71-4380-90b8-272369f5d344"
+    }
+  }
+}

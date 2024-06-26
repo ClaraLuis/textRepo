@@ -1,0 +1,74 @@
+{
+  "expo": {
+    "name": "Alokaily Auto | العقيلي اوتو",
+    "slug": "alokailyautoslug",
+    "scheme": "alokailyautoscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/alokailyauto/alokailyauto1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/alokailyauto/alokailyauto1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/alokailyauto/alokailyauto1024.png",
+      "backgroundColor": "#242323",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.alokailyauto",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/alokailyauto-google-services.json",
+      "package": "com.tabex.series.alokailyauto",
+      "icon": "./AppIcons/alokailyauto/alokailyauto512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/alokailyauto/alokailyauto512.png",
+        "backgroundColor": "#242323"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "655b318996b69",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "eas": {
+        "projectId": "d47f323d-4a35-442f-9a8d-3842677afbff"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/d47f323d-4a35-442f-9a8d-3842677afbff"
+    }
+  }
+}

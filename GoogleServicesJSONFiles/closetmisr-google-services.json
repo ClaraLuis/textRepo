@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "922349353422",
+    "project_id": "closet-misr",
+    "storage_bucket": "closet-misr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922349353422:android:84452b232826ea33a0d39f",
+        "android_client_info": {
+          "package_name": "com.tabex.series.closetmisr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwYrobo13goIvH-3dHmdwAhRmdIXTyN9U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

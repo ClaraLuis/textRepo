@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "199258380073",
+    "project_id": "testing-real-estate-app",
+    "storage_bucket": "testing-real-estate-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199258380073:android:438253d2bc5f3d3f0e0938",
+        "android_client_info": {
+          "package_name": "com.tabex.series.testingrealestateapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkqIzrMOexU2rWRl93rMGgok70mlycRHY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

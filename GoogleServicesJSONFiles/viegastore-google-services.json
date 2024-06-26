@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "822644147130",
+    "project_id": "viega-store",
+    "storage_bucket": "viega-store.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822644147130:android:341406b13f6a968a8a9383",
+        "android_client_info": {
+          "package_name": "com.tabex.series.viegastore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQN_uo3RciJY_uNokLdlgKOpAg96hVFr4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

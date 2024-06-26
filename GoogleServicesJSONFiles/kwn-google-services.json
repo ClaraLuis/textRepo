@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "148597701444",
+    "project_id": "kwn-a5209",
+    "storage_bucket": "kwn-a5209.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148597701444:android:23e24fb0bd1fbb020b3511",
+        "android_client_info": {
+          "package_name": "com.tabex.series.kwn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5jRAr4QbIjz1QquB15EVRXx9j4Ll5dgs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "371774153153",
+    "project_id": "dentally-18b6f",
+    "storage_bucket": "dentally-18b6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371774153153:android:ecb97a531e8100ad5b8f40",
+        "android_client_info": {
+          "package_name": "com.tabex.series.dentally"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "371774153153-6pq6coe99fa2b61pb1u67h951u9f4uru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDARlTGMqabBu2-F_dsvSELyXQyAoRPRaI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "371774153153-6pq6coe99fa2b61pb1u67h951u9f4uru.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

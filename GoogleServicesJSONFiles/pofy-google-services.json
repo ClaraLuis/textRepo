@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "51512319806",
+    "project_id": "pofy-f5d46",
+    "storage_bucket": "pofy-f5d46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:51512319806:android:345d8b84b8116140e2966f",
+        "android_client_info": {
+          "package_name": "com.tabex.series.pofy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBH1_qxygXCHT2G6g5G_mZSnSFCtgfbb0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

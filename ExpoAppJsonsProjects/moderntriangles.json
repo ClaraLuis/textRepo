@@ -1,0 +1,77 @@
+{
+  "expo": {
+    "name": "MTEC",
+    "slug": "moderntrianglesslug",
+    "scheme": "moderntrianglesscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/moderntriangles/moderntriangles1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/moderntriangles/moderntriangles1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/moderntriangles/moderntrianglessplashscreen.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.moderntriangles",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/moderntriangles-google-services.json",
+      "package": "com.tabex.series.moderntriangles",
+      "icon": "./AppIcons/moderntriangles/moderntriangles512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE",
+        "com.google.android.gms.permission.AD_ID"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/moderntriangles/moderntriangles512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "662e19cc14107",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "cover",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "expoaccountwhoami": "youssefriadsobhy1@gmail.com",
+      "firebaseaccount": "8tbdex@gmail.com",
+      "eas": {
+        "projectId": "c6ca4973-e07c-4db5-ab15-3e2fb64e2a22"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/c6ca4973-e07c-4db5-ab15-3e2fb64e2a22"
+    }
+  }
+}

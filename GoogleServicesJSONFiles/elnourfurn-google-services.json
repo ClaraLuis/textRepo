@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "411963674867",
+    "project_id": "elnourfurn-3baa6",
+    "storage_bucket": "elnourfurn-3baa6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411963674867:android:2b8e4a4c14e9624c61e786",
+        "android_client_info": {
+          "package_name": "com.tabex.series.elnourfurn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDQmXOpy0vjNVJjIknl4kEpb3hLyicU4o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

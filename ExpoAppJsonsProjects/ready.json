@@ -1,0 +1,73 @@
+{
+  "expo": {
+    "name": "Ready Store",
+    "slug": "readyslug",
+    "scheme": "readyscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/ready/ready1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/ready/ready1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/ready/ready1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.ready",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/ready-google-services.json",
+      "package": "com.tabex.series.ready",
+      "icon": "./AppIcons/ready/ready512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/ready/ready512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "64f82d2b2f3a6",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "a742f3db-09c4-4625-89f4-8bc7493dbf37"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/a742f3db-09c4-4625-89f4-8bc7493dbf37"
+    }
+  }
+}

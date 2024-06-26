@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "498936661280",
+    "project_id": "alnebrasalfakher-21b70",
+    "storage_bucket": "alnebrasalfakher-21b70.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498936661280:android:0729d584ce3a20dd2d8345",
+        "android_client_info": {
+          "package_name": "com.tabex.series.alnebrasalfakher"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW9Bv8cyTI_3dKw497QAML2DSAGt9cslY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

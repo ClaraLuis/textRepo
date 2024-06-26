@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "998771572633",
+    "project_id": "neemo-8196e",
+    "storage_bucket": "neemo-8196e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:998771572633:android:0e5924a3c328ba00145d08",
+        "android_client_info": {
+          "package_name": "com.tabex.series.neemostore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "998771572633-ttl1k469u0svqtcj77ias0k33f74kj8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAA1e_vdpmbVkV-e3ujfuuSNR_Vtjyownk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "998771572633-ttl1k469u0svqtcj77ias0k33f74kj8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

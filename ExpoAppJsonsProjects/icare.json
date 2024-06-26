@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "Icare Cosmetics",
+    "slug": "icareslug",
+    "scheme": "icarescheme",
+    "version": "2.0",
+    "icon": "./AppIcons/icare/icare1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/icare/icare1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/icare/icare1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.icare",
+      "buildNumber": "2",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/icare-google-services.json",
+      "package": "com.tabex.series.icare",
+      "icon": "./AppIcons/icare/icare512.png",
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/icare/icare512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65c88e01d9687",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "tabexdevinfo27@gmail.com",
+      "eas": {
+        "projectId": "d954db1a-6a71-4948-afbb-7b825bae1745"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/d954db1a-6a71-4948-afbb-7b825bae1745"
+    }
+  }
+}

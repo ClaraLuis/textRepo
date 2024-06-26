@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "400801146542",
+    "project_id": "bend-the-trend-f4ee8",
+    "storage_bucket": "bend-the-trend-f4ee8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400801146542:android:7d82fb2d5582fc7b5eef3f",
+        "android_client_info": {
+          "package_name": "com.tabex.series.bendthetrend"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPkvObXtN2vxVccXZ2XFW7e8-54j_0pgw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

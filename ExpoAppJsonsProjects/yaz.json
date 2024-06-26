@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "Yaz Designs",
+    "slug": "yazslug",
+    "scheme": "yazscheme",
+    "version": "4.0",
+    "icon": "./AppIcons/YazDesigns/YazDesigns1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/YazDesigns/YazDesigns1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/YazDesigns/YazDesigns1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.yazdesgins",
+      "buildNumber": "4",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/yazdesignsapp-google-services.json",
+      "package": "com.tabex.series.yazdesignsapp",
+      "icon": "./AppIcons/YazDesigns/YazDesigns512.png",
+      "versionCode": 4,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE",
+        "com.google.android.gms.permission.AD_ID"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/YazDesigns/YazDesigns512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "642036575adca",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "51",
+      "expoaccountwhoami": "youssefriadsobhy1@gmail.com",
+      "firebaseaccount2": "13tbdex@gmail.com",
+      "eas": {
+        "projectId": "3dc08431-d774-40e7-b4fb-b7119dc4c484"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/3dc08431-d774-40e7-b4fb-b7119dc4c484"
+    }
+  }
+}

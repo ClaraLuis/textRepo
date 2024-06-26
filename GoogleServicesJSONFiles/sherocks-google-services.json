@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "29723182162",
+    "project_id": "sherocks-e00cc",
+    "storage_bucket": "sherocks-e00cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29723182162:android:4dc3ee2604c1a4c7f28b8b",
+        "android_client_info": {
+          "package_name": "com.tabex.series.sherocks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29723182162-ferbm2hniufucvg4i2r93kerrg2qabdm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOmCguVwiCxgUo7wP5N_dv16TeUzB81b8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "29723182162-ferbm2hniufucvg4i2r93kerrg2qabdm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "Woods Art Ground",
+    "slug": "woodsartgroundslug",
+    "scheme": "woodsartgroundscheme",
+    "version": "2.0",
+    "icon": "./AppIcons/woodsartground/woodsartground1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/woodsartground/woodsartground1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/woodsartground/woodsartgroundlogo.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.woodsartground",
+      "buildNumber": "2",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/woodsartground-google-services.json",
+      "package": "com.tabex.series.woodsartground",
+      "icon": "./AppIcons/woodsartground/woodsartground512.png",
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/woodsartground/woodsartground512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "6569a3662c517",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "firebaseaccount": "tabexdevinfo21@gmail.com",
+      "eas": {
+        "projectId": "b842fe24-75b1-43de-b27d-34e13201c4fd"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/b842fe24-75b1-43de-b27d-34e13201c4fd"
+    }
+  }
+}

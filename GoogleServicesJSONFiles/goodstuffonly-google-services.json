@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "279580714044",
+    "project_id": "good-stuff-only",
+    "storage_bucket": "good-stuff-only.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279580714044:android:a88b799865fc4d9f2f4f39",
+        "android_client_info": {
+          "package_name": "com.tabex.series.goodstuffonly"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHXp6KNx1G5m0VUhtnc9ovKqZXiuveknw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

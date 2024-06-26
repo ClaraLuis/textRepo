@@ -1,0 +1,74 @@
+{
+  "expo": {
+    "name": "Eltemsah Wpcwood",
+    "slug": "eltemsahwpcwoodslug",
+    "scheme": "eltemsahwpcwoodscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/eltemsahwpcwood/eltemsahwpcwood1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/eltemsahwpcwood/eltemsahwpcwood1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/eltemsahwpcwood/eltemsahwpcwood1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.eltemsahwpcwood",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/eltemsahwpcwood-google-services.json",
+      "package": "com.tabex.series.eltemsahwpcwood",
+      "icon": "./AppIcons/eltemsahwpcwood/eltemsahwpcwood512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/eltemsahwpcwood/eltemsahwpcwood512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "6548c1a0c03b1",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "eas": {
+        "projectId": "44f830e8-721e-42e6-9692-e341895e1412"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/44f830e8-721e-42e6-9692-e341895e1412"
+    }
+  }
+}

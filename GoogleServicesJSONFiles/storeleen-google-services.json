@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "323605164231",
+    "project_id": "store-leen",
+    "storage_bucket": "store-leen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323605164231:android:cea7fc988621738a3c8ee2",
+        "android_client_info": {
+          "package_name": "com.tabex.series.storeleen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdr-_6RlEteQMWIckp_EoXQg1iiKrScpw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

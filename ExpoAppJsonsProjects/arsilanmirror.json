@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "Arsilan Mirror",
+    "slug": "arsilanmirrorslug",
+    "scheme": "arsilanmirrorscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/arsilanmirror/arsilanmirror1024.png",
+    "notification": {
+      "icon": "./AppIcons/arsilanmirror/arsilanmirror1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/arsilanmirror/arsilanmirror1024.png",
+      "backgroundColor": "#f3f5f9",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.arsilanmirror",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/arsilanmirror-google-services.json",
+      "package": "com.tabex.series.arsilanmirror",
+      "icon": "./AppIcons/arsilanmirror/arsilanmirror512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/arsilanmirror/arsilanmirror512.png",
+        "backgroundColor": "#f3f5f9"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "646623879d03c",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "5883e88a-e86e-4a23-b340-1415b7e1c37c"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

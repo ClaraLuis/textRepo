@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "364046871049",
+    "project_id": "crvs-a96c7",
+    "storage_bucket": "crvs-a96c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364046871049:android:3c66eb9f84cf16e66c66d8",
+        "android_client_info": {
+          "package_name": "com.tabex.series.crvs"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBan2AxD0353NSHOC-e_wubDfIhI8hyIKc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

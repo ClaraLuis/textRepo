@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "19032538133",
+    "project_id": "surgiwell-79085",
+    "storage_bucket": "surgiwell-79085.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19032538133:android:4d5f1ce6714b734ead221c",
+        "android_client_info": {
+          "package_name": "com.tabex.series.surgiwell"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaV9O2uPQN74Is8sfI8Hyilh-3TuZn19I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

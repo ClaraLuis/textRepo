@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "بدور عليك",
+    "slug": "badawaraleekslug",
+    "scheme": "badawaraleekscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/badawaraleek/badawaraleek1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/badawaraleek/badawaraleek1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/badawaraleek/badawaraleek1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.badawaraleek",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/badawaraleek-google-services.json",
+      "package": "com.tabex.series.badawaraleek",
+      "icon": "./AppIcons/badawaraleek/badawaraleek512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/badawaraleek/badawaraleek512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65bace7b054a3",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "tabexdevinfo26@gmail.com",
+      "eas": {
+        "projectId": "a859ddae-9cac-428f-a1ab-0b96230aca6d"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/a859ddae-9cac-428f-a1ab-0b96230aca6d"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "514043818668",
+    "project_id": "collabplus-90b10",
+    "storage_bucket": "collabplus-90b10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514043818668:android:eb7699871ae3535f48e509",
+        "android_client_info": {
+          "package_name": "com.tabex.series.collabplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514043818668-0cb5h4hebt3hvkpb78sfjjhq4th41i6i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDk-jzyFAHMC3zHwD7mSFyMleuUp61X9PY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514043818668-0cb5h4hebt3hvkpb78sfjjhq4th41i6i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "672558969372",
+    "project_id": "dermasilk-b87c0",
+    "storage_bucket": "dermasilk-b87c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672558969372:android:1eb6c5b2f69ff709e0a5d9",
+        "android_client_info": {
+          "package_name": "com.tabex.series.dermasilk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAr5ARmAz1lbapJhzG4qTTY_jkYuJC3QA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

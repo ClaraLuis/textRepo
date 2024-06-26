@@ -1,0 +1,77 @@
+{
+  "expo": {
+    "name": "Hagatna - حاجاتنا",
+    "slug": "hagatnaslug",
+    "scheme": "hagatnascheme",
+    "version": "1.0",
+    "icon": "./AppIcons/hagatna/hagatna1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/hagatna/hagatna1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/hagatna/hagatnasplashscreen.png",
+      "backgroundColor": "#000000",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.hagatna",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/hagatna-google-services.json",
+      "package": "com.tabex.series.hagatna",
+      "icon": "./AppIcons/hagatna/hagatna512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE",
+        "com.google.android.gms.permission.AD_ID"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/hagatna/hagatna512.png",
+        "backgroundColor": "#000000"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "66544ab7ab173",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "cover",
+      "iossdk": "51",
+      "androidsdk": "51",
+      "expoaccountwhoami": "youssefriadsobhy1@gmail.com",
+      "firebaseaccount": "12tbdex@gmail.com",
+      "eas": {
+        "projectId": "54ebbe5d-33e1-474a-8a53-18e078458f6f"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/54ebbe5d-33e1-474a-8a53-18e078458f6f"
+    }
+  }
+}

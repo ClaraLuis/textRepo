@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1027502384681",
+    "project_id": "nice-sport",
+    "storage_bucket": "nice-sport.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1027502384681:android:bcc5be2f2e4c0681761e38",
+        "android_client_info": {
+          "package_name": "com.tabex.series.nicesport"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4TG8Y_9cdiG6eU48bixyGO8QJ7WkPuS0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

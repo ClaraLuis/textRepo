@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "12633412865",
+    "project_id": "al-okaily-auto",
+    "storage_bucket": "al-okaily-auto.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12633412865:android:83a1cbd0f6d4c48978b700",
+        "android_client_info": {
+          "package_name": "com.tabex.series.alokailyauto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH9i_4tKcYOlCOpTi5B9yTxc9uddURNPQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

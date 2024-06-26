@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "576085030804",
+    "project_id": "winx-a27da",
+    "storage_bucket": "winx-a27da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576085030804:android:845549ab7e9a18589c0181",
+        "android_client_info": {
+          "package_name": "com.tabex.series.winx"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyeQvl0U0PT2MjFRantpLEN4Fus0h0pa4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

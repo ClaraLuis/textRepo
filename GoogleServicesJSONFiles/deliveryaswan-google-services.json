@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "884275267030",
+    "project_id": "delivery-aswan",
+    "storage_bucket": "delivery-aswan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884275267030:android:90967e96533c2a9dc1d077",
+        "android_client_info": {
+          "package_name": "com.tabex.series.deliveryaswan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884275267030-dkocn5mqeu8k8jssrag3r0r4djun9966.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDIB_tcmnWiNcT8f36RLlSHsSYXy1McnM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "884275267030-dkocn5mqeu8k8jssrag3r0r4djun9966.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

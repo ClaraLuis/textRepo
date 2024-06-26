@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "6190397058",
+    "project_id": "cfseg-e8b9d",
+    "storage_bucket": "cfseg-e8b9d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6190397058:android:d0e6efbdf7bba28a07269b",
+        "android_client_info": {
+          "package_name": "com.tabex.series.cfs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6190397058-e30sefb0hss75q3sq3lnpeun5cnf1r8l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHzwX6CXF88LOK_c4oSshFuEM5muKXue8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6190397058-e30sefb0hss75q3sq3lnpeun5cnf1r8l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

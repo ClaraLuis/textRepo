@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "Al Wekala Market",
+    "slug": "elwekalaslug",
+    "scheme": "elwekalascheme",
+    "version": "2.0",
+    "icon": "./AppIcons/alwekala/alwekala1024.png",
+    "notification": {
+      "icon": "./AppIcons/alwekala/alwekala1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/alwekala/alwekala1024.png",
+      "backgroundColor": "#1f1d1c",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.elwekala",
+      "buildNumber": "2",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/alwekala-google-services.json",
+      "package": "com.tabex.series.elwekala",
+      "icon": "./AppIcons/alwekala/alwekala512.png",
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/alwekala/alwekala512.png",
+        "backgroundColor": "#1f1d1c"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "642bfe6510454",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "8b176b71-777a-44ee-bd35-dbf287311bdb"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

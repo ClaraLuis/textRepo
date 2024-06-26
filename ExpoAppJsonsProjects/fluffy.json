@@ -1,0 +1,74 @@
+{
+  "expo": {
+    "name": "Fluffy Cleaning",
+    "slug": "fluffyslug",
+    "scheme": "fluffyscheme",
+    "version": "3.0",
+    "icon": "./AppIcons/fluffy/fluffy1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/fluffy/fluffy1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/fluffy/fluffy1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.fluffy",
+      "buildNumber": "3",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/fluffy-google-services.json",
+      "package": "com.tabex.series.fluffy",
+      "icon": "./AppIcons/fluffy/fluffy512.png",
+      "versionCode": 3,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/fluffy/fluffy512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "652275da96e0e",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "eas": {
+        "projectId": "4919a604-5239-43e4-931b-4334f791ac43"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/4919a604-5239-43e4-931b-4334f791ac43"
+    }
+  }
+}

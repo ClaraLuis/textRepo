@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "150579526124",
+    "project_id": "medley-88ba1",
+    "storage_bucket": "medley-88ba1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150579526124:android:797aba4a16c1d96bb168c9",
+        "android_client_info": {
+          "package_name": "com.tabex.series.medley"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "150579526124-t0bgjd52rlimut9einjproanl7ap4pvo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkj3ekkIxZMl6EavHlndexvufkfKv_w3U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "150579526124-t0bgjd52rlimut9einjproanl7ap4pvo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

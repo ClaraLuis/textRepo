@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "739942382044",
+    "project_id": "khalsanaapp-125ae",
+    "storage_bucket": "khalsanaapp-125ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739942382044:android:82ec734564f83e4e057719",
+        "android_client_info": {
+          "package_name": "com.tabex.series.khalsanaapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN_fw3xg08a-Ze_jmE1IjTr4ZWqSSO3SU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

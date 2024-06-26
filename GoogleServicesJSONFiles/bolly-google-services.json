@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "93463234811",
+    "project_id": "bolly-55e7f",
+    "storage_bucket": "bolly-55e7f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93463234811:android:fa2f108e6221192335485e",
+        "android_client_info": {
+          "package_name": "com.tabex.series.bolly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "93463234811-g93v4i966mtnnv79ofjlrb1qv280l4fg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBC5wVtbpxyoNFe8P6zVaAblmk259hJNTw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "93463234811-g93v4i966mtnnv79ofjlrb1qv280l4fg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

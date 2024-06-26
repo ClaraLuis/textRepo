@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "Medley Fashion",
+    "slug": "medleyslug",
+    "scheme": "medleyscheme",
+    "version": "3.0",
+    "icon": "./AppIcons/medley/medley1024.png",
+    "notification": {
+      "icon": "./AppIcons/medley/medley1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/medley/medley1024.png",
+      "backgroundColor": "#c29383",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.medley",
+      "buildNumber": "3",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/medley-google-services.json",
+      "package": "com.tabex.series.medley",
+      "icon": "./AppIcons/medley/medley512.png",
+      "versionCode": 3,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/medley/medley512.png",
+        "backgroundColor": "#c29383"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "643406802a2b3",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "0204e3dd-d8c3-482a-a45e-7f2ffc28cb26"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

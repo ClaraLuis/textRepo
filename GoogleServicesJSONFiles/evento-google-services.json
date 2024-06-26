@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "597315376330",
+    "project_id": "evento-81138",
+    "storage_bucket": "evento-81138.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597315376330:android:1f1e79f1015df4f2db1033",
+        "android_client_info": {
+          "package_name": "com.tabex.series.evento"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBijxGRXpErPJLn0fLF9kucD5eyxrox1i8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

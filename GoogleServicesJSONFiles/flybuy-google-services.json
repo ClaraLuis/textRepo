@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "313382167987",
+    "project_id": "fly-buy-18579",
+    "storage_bucket": "fly-buy-18579.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313382167987:android:78676b37de7ce22131d7c6",
+        "android_client_info": {
+          "package_name": "com.tabex.series.flybuy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWRVhV2HAS5F4AiyUr4lKXfDS_7O3WvAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

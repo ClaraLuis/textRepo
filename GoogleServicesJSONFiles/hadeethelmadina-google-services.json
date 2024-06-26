@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "7999089005",
+    "project_id": "hadeethelmadina-b1716",
+    "storage_bucket": "hadeethelmadina-b1716.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:7999089005:android:9d64e756ebe51e9f389264",
+        "android_client_info": {
+          "package_name": "com.tabex.series.hadeethelmadina"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByLtnVN1_uKC3SF7noRF2b_IckwQhyIYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

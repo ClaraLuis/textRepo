@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1068505496984",
+    "project_id": "best-deal-ea612",
+    "storage_bucket": "best-deal-ea612.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1068505496984:android:5a02cf477a7d6f4e3d3fed",
+        "android_client_info": {
+          "package_name": "com.tabex.series.bestdeal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUJfPJAXjTnxr64pIVHTCAsWW-6dM-rUY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

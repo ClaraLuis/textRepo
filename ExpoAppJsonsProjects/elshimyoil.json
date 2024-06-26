@@ -1,0 +1,72 @@
+{
+  "expo": {
+    "name": "El Shimy",
+    "slug": "elshimyoilslug",
+    "scheme": "elshimyoilscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/elshimyoil/elshimyoil1024.png",
+    "notification": {
+      "icon": "./AppIcons/elshimyoil/elshimyoil1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/elshimyoil/elshimyoil1024.png",
+      "backgroundColor": "#FBFDFD",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.elshimyoil",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/elshimyoil-google-services.json",
+      "package": "com.tabex.series.elshimyoil",
+      "icon": "./AppIcons/elshimyoil/elshimyoil512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/elshimyoil/elshimyoil512.png",
+        "backgroundColor": "#FBFDFD"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "653a55c7f3b37",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "fe4a8ea2-6a3b-4424-9269-e0d66533f3fd"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/fe4a8ea2-6a3b-4424-9269-e0d66533f3fd"
+    }
+  }
+}

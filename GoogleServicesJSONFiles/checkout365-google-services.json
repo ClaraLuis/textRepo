@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "802396638305",
+    "project_id": "checkout365-1425e",
+    "storage_bucket": "checkout365-1425e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802396638305:android:fbfb75376f60101b5eee20",
+        "android_client_info": {
+          "package_name": "com.tabex.series.checkout365"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDviRMUqosIwP3UDyT-FaNCkiNALmSUufg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

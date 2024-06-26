@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "901003458632",
+    "project_id": "diethouseccapp",
+    "storage_bucket": "diethouseccapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901003458632:android:7dbbb8aa7b37becafcc07d",
+        "android_client_info": {
+          "package_name": "com.tabex.series.diethouseccapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHO3hHJ8tjE1v8Ly0xZuRgp2_snV2NHtU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

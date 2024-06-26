@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "Farsha - فرشة",
+    "slug": "farshaslug",
+    "scheme": "farshascheme",
+    "version": "3.0",
+    "icon": "./AppIcons/farsha/farsha1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/farsha/farsha1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/farsha/farshasplashscreen.png",
+      "backgroundColor": "#055d6b",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.farsha",
+      "buildNumber": "3",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/farsha-google-services.json",
+      "package": "com.tabex.series.farsha",
+      "icon": "./AppIcons/farsha/farsha512.png",
+      "versionCode": 3,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/farsha/farsha512.png",
+        "backgroundColor": "#055d6b"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65f0044a73a2d",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "cover",
+      "iossdk": "51",
+      "androidsdk": "51",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "devitabex3@gmail.com",
+      "eas": {
+        "projectId": "193baf52-2b04-445e-8416-6decb9ce9e2d"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/193baf52-2b04-445e-8416-6decb9ce9e2d"
+    }
+  }
+}

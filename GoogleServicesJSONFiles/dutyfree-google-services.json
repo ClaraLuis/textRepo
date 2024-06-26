@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1064756109810",
+    "project_id": "duty-free-e5e1f",
+    "storage_bucket": "duty-free-e5e1f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064756109810:android:dcd0d39dfa3db5b0100b6b",
+        "android_client_info": {
+          "package_name": "com.tabex.series.dutyfree"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADTZUV-fsfTygGK-nztTDDwX_dtJ2j2vM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

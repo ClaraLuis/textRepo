@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1011766131672",
+    "project_id": "kings-group-924fe",
+    "storage_bucket": "kings-group-924fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011766131672:android:47cf3b3f367b6e53fed0ad",
+        "android_client_info": {
+          "package_name": "com.tabex.series.kingsgroup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011766131672-khr66b45qli8fjmmqc7rti9k53u2175t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUBHoK5QQtadbfyxb20dqHI7ZQzisH8K8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1011766131672-khr66b45qli8fjmmqc7rti9k53u2175t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

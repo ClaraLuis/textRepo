@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "935195093458",
+    "project_id": "polavera-d634b",
+    "storage_bucket": "polavera-d634b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935195093458:android:5c4e3def9676941f9d400b",
+        "android_client_info": {
+          "package_name": "com.tabex.series.polavera"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "935195093458-evkhlcq87sofr93upkav30rlurisqlh6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXLmRT4Orqw7h10FqvtYKpGt-HuPF5Dm8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "935195093458-evkhlcq87sofr93upkav30rlurisqlh6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

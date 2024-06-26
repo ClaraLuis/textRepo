@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "53033664989",
+    "project_id": "beetpet-5ab4b",
+    "storage_bucket": "beetpet-5ab4b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53033664989:android:316b614cbbfbeb78333634",
+        "android_client_info": {
+          "package_name": "com.tabex.series.beetpet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53033664989-vo82sf4hop0b2dk52dlbderu6j26b5ke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRpT2UXP8WFPAVuaiA34BcgoX7QMV2JvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53033664989-vo82sf4hop0b2dk52dlbderu6j26b5ke.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

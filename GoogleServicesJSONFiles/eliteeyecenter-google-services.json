@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "631595967008",
+    "project_id": "elite-eye-center",
+    "storage_bucket": "elite-eye-center.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631595967008:android:cf4cb941aa77c061565245",
+        "android_client_info": {
+          "package_name": "com.tabex.series.eliteeyecenter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXE4T2PdLXDV1KXT2dv0mPL011h5N_R9I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

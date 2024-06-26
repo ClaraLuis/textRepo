@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "288804965605",
+    "project_id": "almasagold-712f1",
+    "storage_bucket": "almasagold-712f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:288804965605:android:aa84e8e1a8959d7d84180c",
+        "android_client_info": {
+          "package_name": "com.tabex.series.almasagold"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "288804965605-6gihntd9qmvijk76c02uingtp28hbl67.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBP8wY-TkPWUYf_pCFRnpPPrM9gQ3nihQA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "288804965605-6gihntd9qmvijk76c02uingtp28hbl67.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

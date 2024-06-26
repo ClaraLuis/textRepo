@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "Mazag Store",
+    "slug": "mazagstoreslug",
+    "scheme": "mazagstorescheme",
+    "version": "2.0",
+    "icon": "./AppIcons/mazagstore/mazagstore1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/mazagstore/mazagstore1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/mazagstore/mazagstoresplashscreen.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.mazagstore",
+      "buildNumber": "2",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/mazagstore-google-services.json",
+      "package": "com.tabex.series.mazagstore",
+      "icon": "./AppIcons/mazagstore/mazagstore512.png",
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/mazagstore/mazagstore512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65e507463f0e5",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "cover",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "expoaccountwhoami": "youssefriadsobhy1@gmail.com",
+      "firebaseaccount": "devitabex6@gmail.com",
+      "eas": {
+        "projectId": "6b90b26d-cd1b-4908-9afd-df12d2fe1af9"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/6b90b26d-cd1b-4908-9afd-df12d2fe1af9"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "Aqua Decorations",
+    "slug": "aquadecorationsslug",
+    "scheme": "aquadecorationsscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/aquadecorations/aquadecorations1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/aquadecorations/aquadecorations1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/aquadecorations/aquadecorations1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.aquadecorations",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/aquadecorations-google-services.json",
+      "package": "com.tabex.series.aquadecorations",
+      "icon": "./AppIcons/aquadecorations/aquadecorations512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/aquadecorations/aquadecorations512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "6592aee05bad0",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "firebaseaccount": "tabexdevinfo23@gmail.com",
+      "eas": {
+        "projectId": "08778cd5-c1f5-4e15-90b7-60717f9d3af5"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/08778cd5-c1f5-4e15-90b7-60717f9d3af5"
+    }
+  }
+}

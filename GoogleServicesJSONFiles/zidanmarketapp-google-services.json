@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "90899953695",
+    "project_id": "zidanmarketapp",
+    "storage_bucket": "zidanmarketapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90899953695:android:00327b75d3bb10b3fe7d2a",
+        "android_client_info": {
+          "package_name": "com.tabex.series.zidanmarketapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVpFnSzdBl2Wh1fP_TRHCKHHl4ZcaYyyI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

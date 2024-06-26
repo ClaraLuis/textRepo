@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "880322288880",
+    "project_id": "bagsa-cdc24",
+    "storage_bucket": "bagsa-cdc24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880322288880:android:8d150f89688f3804caf635",
+        "android_client_info": {
+          "package_name": "com.tabex.series.bagsa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "880322288880-etsfnqab26k5jerp9thgsn5usdljavn9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvg4ubmgFTIEYLBr1x3LwPe0ABHEgAJTE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "880322288880-etsfnqab26k5jerp9thgsn5usdljavn9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

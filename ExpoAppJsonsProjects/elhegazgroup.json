@@ -1,0 +1,72 @@
+{
+  "expo": {
+    "name": "El Hegaz Group",
+    "slug": "elhegazgroupslug",
+    "scheme": "elhegazgroupscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/elhegazgroup/elhegazgroup1024.png",
+    "notification": {
+      "icon": "./AppIcons/elhegazgroup/elhegazgroup1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/elhegazgroup/elhegazgroup1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.elhegazgroup",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/elhegazgroup-google-services.json",
+      "package": "com.tabex.series.elhegazgroup",
+      "icon": "./AppIcons/elhegazgroup/elhegazgroup512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/elhegazgroup/elhegazgroup512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "64f044b453f04",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "f972bbd8-997c-48dd-8faf-213d708196b2"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/f972bbd8-997c-48dd-8faf-213d708196b2"
+    }
+  }
+}

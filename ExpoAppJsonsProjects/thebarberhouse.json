@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "The Barber House",
+    "slug": "thebarberhouseslug",
+    "scheme": "thebarberhousescheme",
+    "version": "1.0",
+    "icon": "./AppIcons/thebarberhouse/thebarberhouse1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/thebarberhouse/thebarberhouse1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/thebarberhouse/thebarberhousesplashscreen.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.thebarberhouse",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/thebarberhouse-google-services.json",
+      "package": "com.tabex.series.thebarberhouse",
+      "icon": "./AppIcons/thebarberhouse/thebarberhouse512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/thebarberhouse/thebarberhouse512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65fa8d3fa6455",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "cover",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "devitabex3@gmail.com",
+      "eas": {
+        "projectId": "12e70631-f44b-4a0a-a690-f4b12ae6eb51"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/12e70631-f44b-4a0a-a690-f4b12ae6eb51"
+    }
+  }
+}

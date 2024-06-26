@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "Najd",
+    "slug": "najdslug",
+    "scheme": "najdscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/najd/najd1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/najd/najd1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/najd/najdlogo.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.najd",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/najd-google-services.json",
+      "package": "com.tabex.series.najd",
+      "icon": "./AppIcons/najd/najd512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/najd/najd512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65b77d57deb9f",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "tabexdevinfo26@gmail.com",
+      "eas": {
+        "projectId": "803a9bd5-9777-4939-add0-e1302325434a"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/803a9bd5-9777-4939-add0-e1302325434a"
+    }
+  }
+}

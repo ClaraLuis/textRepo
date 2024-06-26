@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "75142988076",
+    "project_id": "buy-joomla",
+    "storage_bucket": "buy-joomla.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:75142988076:android:c9cd52f23fe0c1883c2c89",
+        "android_client_info": {
+          "package_name": "com.tabex.series.buyjoomla"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "75142988076-4k8d37jgahrriggrfpojjml3t0lmbsc4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAARTsmwFwBYcdyWodDWqIt5n_sEOPrwoQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "75142988076-4k8d37jgahrriggrfpojjml3t0lmbsc4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

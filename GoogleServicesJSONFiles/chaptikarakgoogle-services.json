@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "636495315164",
+    "project_id": "chapatikarak-5fb0e",
+    "storage_bucket": "chapatikarak-5fb0e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636495315164:android:ed189d832c6906af983419",
+        "android_client_info": {
+          "package_name": "com.tabex.series.chapatikarak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "636495315164-e47h8qr7qi0ltg28o7jkrj3ero3212q6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZ0q63kZYR6dxui5dEle8LWPSPyUD8ivA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "636495315164-e47h8qr7qi0ltg28o7jkrj3ero3212q6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

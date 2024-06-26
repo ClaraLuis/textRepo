@@ -1,0 +1,72 @@
+{
+  "expo": {
+    "name": "ابشر",
+    "slug": "absherslug",
+    "scheme": "absherscheme",
+    "version": "2.0",
+    "icon": "./AppIcons/absher/absher1024.png",
+    "notification": {
+      "icon": "./AppIcons/absher/absher1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/absher/absher1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.absher",
+      "buildNumber": "2",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/absher-google-services.json",
+      "package": "com.tabex.series.absher",
+      "icon": "./AppIcons/absher/absher512.png",
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/absher/absher512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "64b3baab49684",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "92c4e9c9-8ec7-4b60-bb4e-f5d8ca1b04a6"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/92c4e9c9-8ec7-4b60-bb4e-f5d8ca1b04a6"
+    }
+  }
+}

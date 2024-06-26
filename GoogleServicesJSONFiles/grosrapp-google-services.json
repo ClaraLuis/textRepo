@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "349831256092",
+    "project_id": "grosrapp-ff500",
+    "storage_bucket": "grosrapp-ff500.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349831256092:android:504500a208e805dc01e7d9",
+        "android_client_info": {
+          "package_name": "com.tabex.series.grosrapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK2RaSSwF1R0UF1DnJlPhyGoZ2SqgQPEQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

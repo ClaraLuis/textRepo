@@ -1,0 +1,77 @@
+{
+  "expo": {
+    "name": "EQNY Investors",
+    "slug": "eqnyslug",
+    "scheme": "eqnyscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/eqny/eqny1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/eqny/eqny1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/eqny/eqnysplashscreen.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.eqny",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/eqny-google-services.json",
+      "package": "com.tabex.series.eqny",
+      "icon": "./AppIcons/eqny/eqny512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE",
+        "com.google.android.gms.permission.AD_ID"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/eqny/eqny512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "662ed79b64a77",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "cover",
+      "iossdk": "51",
+      "androidsdk": "51",
+      "expoaccountwhoami": "youssefriadsobhy1@gmail.com",
+      "firebaseaccount": "8tbdex@gmail.com",
+      "eas": {
+        "projectId": "d4c2ee59-fe3c-4c1e-bd40-5e3c76555171"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/d4c2ee59-fe3c-4c1e-bd40-5e3c76555171"
+    }
+  }
+}

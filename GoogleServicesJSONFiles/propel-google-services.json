@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "96900636682",
+    "project_id": "propel-2f4e2",
+    "storage_bucket": "propel-2f4e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96900636682:android:e4ff6b0a20d3809909fff3",
+        "android_client_info": {
+          "package_name": "com.tabex.series.propel"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkoGb-1LfedUlYge1X-3BYkEbOU7cOWsw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

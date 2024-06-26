@@ -1,0 +1,74 @@
+{
+  "expo": {
+    "name": "Vazn",
+    "slug": "vaznslug",
+    "scheme": "vaznscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/vazn/vazn1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/vazn/vazn1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/vazn/vazn1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.vazn",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/vazn-google-services.json",
+      "package": "com.tabex.series.vazn",
+      "icon": "./AppIcons/vazn/vazn512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/vazn/vazn512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65227ecd6ba47",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "eas": {
+        "projectId": "985f33ed-0b98-4fd9-81f2-17cfde6cb70c"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/985f33ed-0b98-4fd9-81f2-17cfde6cb70c"
+    }
+  }
+}

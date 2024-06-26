@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "Mr Muscle Store",
+    "slug": "mrmusclestoreslug",
+    "scheme": "mrmusclestorescheme",
+    "version": "4.0",
+    "icon": "./AppIcons/mrmuscle/mrmuscle1024.png",
+    "notification": {
+      "icon": "./AppIcons/mrmuscle/mrmuscle1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/mrmuscle/mrmuscle1024.png",
+      "backgroundColor": "#f5f5f5",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.mrmusclestore",
+      "buildNumber":"4",
+      "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/mrmuscle-google-services.json",
+      "package": "com.tabex.series.mrmusclestore",
+      "icon": "./AppIcons/mrmuscle/mrmuscle512.png",
+      "versionCode": 4,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/mrmuscle/mrmuscle512.png",
+        "backgroundColor": "#f5f5f5"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "63f4845fd9bf0",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "ca8cc25f-3ac9-499e-9428-a5415a9d9110"
+      }
+    }
+    ,
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

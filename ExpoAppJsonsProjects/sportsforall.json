@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "Sports For All EG",
+    "slug": "sportsforallslug",
+    "scheme": "sportsforallscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/sportsforall/sportsforall1024.png",
+    "notification": {
+      "icon": "./AppIcons/sportsforall/sportsforall1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/sportsforall/sportsforall1024.png",
+      "backgroundColor": "#096757",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.sportsforall",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/sportsforall-google-services.json",
+      "package": "com.tabex.series.sportsforall",
+      "icon": "./AppIcons/sportsforall/sportsforall512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/sportsforall/sportsforall512.png",
+        "backgroundColor": "#096757"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "64906675c69ef",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "6a8bef85-1088-46a6-a19a-6f2b660d07f2"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "Vape Mart EG",
+    "slug": "vapemartslug",
+    "scheme": "vapemartscheme",
+    "version": "2.0",
+    "icon": "./AppIcons/vapemart/vapemart1024.png",
+    "notification": {
+      "icon": "./AppIcons/vapemart/vapemart1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/vapemart/vapemart1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.vapemart",
+      "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/vapemarteg-google-services.json",
+      "package": "com.tabex.series.vapemarteg",
+      "icon": "./AppIcons/vapemart/vapemart512.png",
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/vapemart/vapemart512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "iossdk": "48",
+      "androidsdk": "48",
+      "instapikey": "63f0d7b5f1747",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "eas": {
+        "projectId": "f245826e-6383-4557-abeb-2edd5bb035ec"
+      }
+    }
+  }
+}

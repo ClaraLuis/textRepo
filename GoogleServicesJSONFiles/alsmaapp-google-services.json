@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "229582736425",
+    "project_id": "al-sma-medical-supplies",
+    "storage_bucket": "al-sma-medical-supplies.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229582736425:android:7e71a56e4b8c4ab422e038",
+        "android_client_info": {
+          "package_name": "com.tabex.series.alsmaapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpWXtKuAM1iZCP2n8WCyz3IzC4NUWgOpc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "Outletters Hub",
+    "slug": "outlettershubslug",
+    "scheme": "outlettershubscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/outlettershub/outlettershub1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/outlettershub/outlettershub1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/outlettershub/outlettershublogo.png",
+      "backgroundColor": "#154F5B",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.outlettershub",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/outlettershub-google-services.json",
+      "package": "com.tabex.series.outlettershub",
+      "icon": "./AppIcons/outlettershub/outlettershub512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/outlettershub/outlettershub512.png",
+        "backgroundColor": "#154F5B"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "658abbda73fe3",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "firebaseaccount": "tabexdevinfo23@gmail.com",
+      "eas": {
+        "projectId": "7d7024bd-b7ac-4774-8c47-a2b1747cef0f"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/7d7024bd-b7ac-4774-8c47-a2b1747cef0f"
+    }
+  }
+}

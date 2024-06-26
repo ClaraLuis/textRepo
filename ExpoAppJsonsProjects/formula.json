@@ -1,0 +1,74 @@
+{
+  "expo": {
+    "name": "Formula Store",
+    "slug": "formulaslug",
+    "scheme": "formulascheme",
+    "version": "1.0",
+    "icon": "./AppIcons/formula/formula1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/formula/formula1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/formula/formula1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.formula",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/formula-google-services.json",
+      "package": "com.tabex.series.formula",
+      "icon": "./AppIcons/formula/formula512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/formula/formula512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65240b5acfe21",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "eas": {
+        "projectId": "5c671e43-31b5-4f4c-8cd3-aa9dcb8bc1ca"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/5c671e43-31b5-4f4c-8cd3-aa9dcb8bc1ca"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "207763717570",
+    "project_id": "cima-w-teatro",
+    "storage_bucket": "cima-w-teatro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207763717570:android:fdc7d231162760a612ea5b",
+        "android_client_info": {
+          "package_name": "com.tabex.series.cimawteatro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyNvayDfX1x6NPRT44Q-Af6S8tALHrZUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

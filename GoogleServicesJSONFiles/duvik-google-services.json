@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "176044564839",
+    "project_id": "duvik-828be",
+    "storage_bucket": "duvik-828be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176044564839:android:224d7ccf82e758dfaf4fc2",
+        "android_client_info": {
+          "package_name": "com.tabex.series.duvik"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUt1eDhj9vDq4PdRCo4UWpxbiM4QiTEkI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

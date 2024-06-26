@@ -1,0 +1,74 @@
+{
+  "expo": {
+    "name": "Byot Linens",
+    "slug": "byotlinensslug",
+    "scheme": "byotlinensscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/byotlinens/byotlinens1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/byotlinens/byotlinens1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/byotlinens/byotlinens1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.byotlinens",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/byotlinens-google-services.json",
+      "package": "com.tabex.series.byotlinens",
+      "icon": "./AppIcons/byotlinens/byotlinens512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/byotlinens/byotlinens512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "652bed5c46fc8",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "eas": {
+        "projectId": "87970c12-5885-4ce4-9321-2a8b098d7acc"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/87970c12-5885-4ce4-9321-2a8b098d7acc"
+    }
+  }
+}

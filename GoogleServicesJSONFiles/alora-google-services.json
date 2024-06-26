@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "967861473621",
+    "project_id": "alora-fe535",
+    "storage_bucket": "alora-fe535.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967861473621:android:db6e75e0018be1a18d9fdc",
+        "android_client_info": {
+          "package_name": "com.tabex.series.alora"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtu__-81ivcl1bj5SHVJc1i2QlmohqI4Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

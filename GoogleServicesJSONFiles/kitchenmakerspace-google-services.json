@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "129061125858",
+    "project_id": "kitchen-maker-space",
+    "storage_bucket": "kitchen-maker-space.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129061125858:android:af9637a28b0b32cd7a28bb",
+        "android_client_info": {
+          "package_name": "com.tabex.series.kitchenmakerspace"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcsU0sBOhVIFeykvfFz6XQEumFwi_-SHQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

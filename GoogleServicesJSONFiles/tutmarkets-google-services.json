@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "117622914008",
+    "project_id": "tut-markets",
+    "storage_bucket": "tut-markets.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117622914008:android:00c948cfb5008d825890ad",
+        "android_client_info": {
+          "package_name": "com.tabex.series.tutmarkets"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAopI9wtCWTXTR81dQKIOQ_vGb5kkPH6x0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

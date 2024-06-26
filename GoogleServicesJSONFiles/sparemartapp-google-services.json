@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1015503223810",
+    "project_id": "sparemartapp",
+    "storage_bucket": "sparemartapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015503223810:android:e08142106f7a7d62e4bb1b",
+        "android_client_info": {
+          "package_name": "com.tabex.series.sparemartapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGbaaFE0TmobEYSuGc_SGwjThenjDQRCc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

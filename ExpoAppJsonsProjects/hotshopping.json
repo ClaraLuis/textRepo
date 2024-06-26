@@ -1,0 +1,74 @@
+{
+  "expo": {
+    "name": "Hot Shopping",
+    "slug": "hotshoppingslug",
+    "scheme": "hotshoppingscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/hotshopping/hotshopping1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/hotshopping/hotshopping1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/hotshopping/hotshopping1024.png",
+      "backgroundColor": "#f8f8f8",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.hotshopping",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/hotshopping-google-services.json",
+      "package": "com.tabex.series.hotshopping",
+      "icon": "./AppIcons/hotshopping/hotshopping512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/hotshopping/hotshopping512.png",
+        "backgroundColor": "#f8f8f8"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "652b96f8deb77",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "eas": {
+        "projectId": "c012a539-94dc-46ca-a7a0-179583013077"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/c012a539-94dc-46ca-a7a0-179583013077"
+    }
+  }
+}

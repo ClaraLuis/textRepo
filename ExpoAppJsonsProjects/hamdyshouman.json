@@ -1,0 +1,77 @@
+{
+  "expo": {
+    "name": "حمدي شومان - سيراميك و بورسلين",
+    "slug": "hamdyshoumanslug",
+    "scheme": "hamdyshoumanscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/hamdyshouman/hamdyshouman1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/hamdyshouman/hamdyshouman1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/hamdyshouman/hamdyshoumansplashscreen.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.hamdyshouman",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/hamdyshouman-google-services.json",
+      "package": "com.tabex.series.hamdyshouman",
+      "icon": "./AppIcons/hamdyshouman/hamdyshouman512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE",
+        "com.google.android.gms.permission.AD_ID"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/hamdyshouman/hamdyshouman512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "664f059b36544",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "cover",
+      "iossdk": "51",
+      "androidsdk": "51",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "firebaseaccount": "12tabfx@gmail.com",
+      "eas": {
+        "projectId": "b26ee40c-9dfd-4d0a-a29c-7291d568e78d"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/b26ee40c-9dfd-4d0a-a29c-7291d568e78d"
+    }
+  }
+}

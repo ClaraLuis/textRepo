@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "Crater Real Estate",
+    "slug": "craterslug",
+    "scheme": "craterscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/crater/crater1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/crater/crater1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/crater/crater1024.png",
+      "backgroundColor": "#151B3F",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.crater",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/crater-google-services.json",
+      "package": "com.tabex.series.crater",
+      "icon": "./AppIcons/crater/crater512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/crater/crater512.png",
+        "backgroundColor": "#151B3F"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65def42991c64",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "tabexdevinfo28@gmail.com",
+      "eas": {
+        "projectId": "9244aea6-d788-4961-9b3f-5de9f9ee9177"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/9244aea6-d788-4961-9b3f-5de9f9ee9177"
+    }
+  }
+}

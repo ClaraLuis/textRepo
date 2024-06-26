@@ -1,0 +1,67 @@
+{
+    "expo": {
+        "name": "haus de core",
+        "slug": "hausdecoreslug",
+        "scheme": "hausdecorescheme",
+        "version": "1.0",
+        "icon": "./AppIcons/hausdecore/hausdecore1024.png",
+        "orientation": "portrait",
+        "notification": {
+            "icon": "./AppIcons/hausdecore/hausdecore1024.png"
+        },
+        "splash": {
+            "image": "./AppIcons/hausdecore/hausdecoresplashscreen.png",
+            "backgroundColor": "#FFFFFF",
+            "resizeMode": "cover"
+        },
+        "assetBundlePatterns": ["**/*"],
+        "ios": {
+            "bundleIdentifier": "com.tabex.series.hausdecore",
+            "buildNumber": "1",
+            "supportsTablet": true,
+            "infoPlist": {
+                "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+            }
+        },
+        "android": {
+            "softwareKeyboardLayoutMode": "pan",
+            "googleServicesFile": "./GoogleServicesJSONFiles/hausdecore-google-services.json",
+            "package": "com.tabex.series.hausdecore",
+            "icon": "./AppIcons/hausdecore/hausdecore512.png",
+            "versionCode": 1,
+            "permissions": ["INTERNET", "MODIFY_AUDIO_SETTINGS", "READ_EXTERNAL_STORAGE", "SYSTEM_ALERT_WINDOW", "VIBRATE", "WRITE_EXTERNAL_STORAGE", "com.google.android.gms.permission.AD_ID"],
+            "adaptiveIcon": {
+                "foregroundImage": "./AppIcons/hausdecore/hausdecore512.png",
+                "backgroundColor": "#FFFFFF"
+            }
+        },
+        "description": "",
+        "extra": {
+            "instapikey": "66618e0ed735d",
+            "projectsrctype": "subdomain",
+            "hastrackingpermissions": "yes",
+            "loadercontain": "cover",
+            "iossdk": "51",
+            "androidsdk": "51",
+            "expoaccountwhoami": "youssefriadsobhy1@gmail.com",
+            "firebaseaccount": "15tbdex@gmail.com",
+            "eas": {
+                "projectId": "c4f410e9-b404-47f5-9474-ecac182657ed"
+            }
+        },
+        "plugins": [
+            [
+                "expo-tracking-transparency",
+                {
+                    "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+                }
+            ]
+        ],
+        "runtimeVersion": {
+            "policy": "sdkVersion"
+        },
+        "updates": {
+            "url": "https://u.expo.dev/c4f410e9-b404-47f5-9474-ecac182657ed"
+        }
+    }
+}

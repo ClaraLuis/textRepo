@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "554180082935",
+    "project_id": "sica-8bd33",
+    "storage_bucket": "sica-8bd33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:554180082935:android:42370de754ee29150327f2",
+        "android_client_info": {
+          "package_name": "com.tabex.series.sica"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3xAK9j8KQDqVzdrtH3PUIZQLN9GyBYU4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

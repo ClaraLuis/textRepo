@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "541249086335",
+    "project_id": "el-maghraby",
+    "storage_bucket": "el-maghraby.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541249086335:android:e3e20c17b81fd33757704a",
+        "android_client_info": {
+          "package_name": "com.tabex.series.elmaghraby"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGWulOlK6LJxP41O9yZAu0temTmZGfvh8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

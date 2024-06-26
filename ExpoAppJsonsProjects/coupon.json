@@ -1,0 +1,62 @@
+{
+  "expo": {
+    "name": "Coupon EG",
+    "slug": "couponslug",
+    "scheme": "couponappscheme",
+    "version": "6.0",
+    "icon": "./AppIcons/Coupon/coupon1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/Coupon/coupon1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/Coupon/coupon1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.coupon",
+      "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/couponapp-google-services.json",
+      "package": "com.tabex.series.couponapp",
+      "icon": "./AppIcons/Coupon/coupon512.png",
+      "versionCode": 6,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/Coupon/coupon512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "iossdk": "48",
+      "androidsdk": "51",
+      "instapikey": "637520a028d56",
+      "projectsrctype": "subdomain",
+      "expoaccountwhoami": "youssefriadsobhy1@gmail.com",
+      "firebaseaccount": "13tbdex@gmail.com",
+      "eas": {
+        "projectId": "063e5715-15c4-4e63-8527-458bc3817d5d"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/063e5715-15c4-4e63-8527-458bc3817d5d"
+    }
+  }
+}

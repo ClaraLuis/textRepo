@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "694439003345",
+    "project_id": "elola-ll-abayat",
+    "storage_bucket": "elola-ll-abayat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694439003345:android:49a09976a52b945c78f1f0",
+        "android_client_info": {
+          "package_name": "com.tabex.series.elolallabayat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkKLpfvHl_l0OC-v4iUWM9pPeFC608jns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

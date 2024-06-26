@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "874236934804",
+    "project_id": "el-temsah",
+    "storage_bucket": "el-temsah.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874236934804:android:19a7675402209a23805281",
+        "android_client_info": {
+          "package_name": "com.tabex.series.eltemsahwpcwood"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtlDvxFZCysH_qh1IOee0U_oNOxhP35wk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "242724799715",
+    "project_id": "kababgy-el-bibany",
+    "storage_bucket": "kababgy-el-bibany.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242724799715:android:57f143e4ffca67859771d6",
+        "android_client_info": {
+          "package_name": "com.tabex.series.kababgyelbibany"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcnJght5A2enUK3yejlrX6GtGTpPeNUW0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

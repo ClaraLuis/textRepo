@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "315507291911",
+    "project_id": "gawzeenyyamama",
+    "storage_bucket": "gawzeenyyamama.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315507291911:android:49bdfbfcfb47e6dc73b7a2",
+        "android_client_info": {
+          "package_name": "com.tabex.series.gawzeenyyamama"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXgEiJbUw8U_e3cQjxZZ-po9A1m4goj4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

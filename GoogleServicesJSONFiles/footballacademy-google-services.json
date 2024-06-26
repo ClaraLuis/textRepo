@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "894279764590",
+    "project_id": "football-academy-93cd7",
+    "storage_bucket": "football-academy-93cd7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894279764590:android:f95d5b434ae8789bdef47f",
+        "android_client_info": {
+          "package_name": "com.tabex.series.footballacademy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "894279764590-evrl7oit7h2ep6gjapakp8aj12q5u9m7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHsE3Ph9umAR13x8PjCxLcs97uMjlYrxk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "894279764590-evrl7oit7h2ep6gjapakp8aj12q5u9m7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

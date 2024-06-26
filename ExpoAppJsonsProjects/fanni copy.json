@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "FANNI فني",
+    "slug": "fannislug",
+    "scheme": "fannischeme",
+    "version": "1.0",
+    "icon": "./AppIcons/fanni/fanni1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/fanni/fanni1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/fanni/fannisplashscreen.png",
+      "backgroundColor": "#F7F7F7",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.fanni",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/fanni-google-services.json",
+      "package": "com.tabex.series.fanni",
+      "icon": "./AppIcons/fanni/fanni512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/fanni/fanni512.png",
+        "backgroundColor": "#F7F7F7"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "660885132fa0e",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "cover",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "expoaccountwhoami": "youssefriadsobhy1@gmail.com",
+      "firebaseaccount": "devitabex6@gmail.com",
+      "eas": {
+        "projectId": "0ab458ce-a331-4305-9bad-b52b7cdc6224"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/0ab458ce-a331-4305-9bad-b52b7cdc6224"
+    }
+  }
+}

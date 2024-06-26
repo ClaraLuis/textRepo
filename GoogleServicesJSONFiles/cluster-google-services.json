@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "732930223895",
+    "project_id": "cluster-d37b8",
+    "storage_bucket": "cluster-d37b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732930223895:android:2804a225d87739c75ad152",
+        "android_client_info": {
+          "package_name": "com.tabex.series.cluster"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDw_UqVZl5elDeo0YxIYrbE4xXyMjDaHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

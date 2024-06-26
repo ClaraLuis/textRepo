@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "توفيقية دوت كوم",
+    "slug": "tawfeqeaslug",
+    "scheme": "tawfeqeaappscheme",
+    "version": "8.0",
+    "icon": "./AppIcons/Tawfeqea/tawfeqea1024.png",
+    "orientation": "portrait",
+    "splash": {
+      "image": "./AppIcons/Tawfeqea/tawfeqeaSplashScreen.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#004f68"
+    },
+    "notification": {
+      "icon": "./AppIcons/Tawfeqea/tawfeqea1024.png"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.tawfeqea",
+      "buildNumber": "8",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/tawfeqeaapp-google-services.json",
+      "package": "com.tabex.series.tawfeqeaapp",
+      "icon": "./AppIcons/Tawfeqea/tawfeqea512.png",
+      "versionCode": 8,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE",
+        "com.google.android.gms.permission.AD_ID"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/Tawfeqea/tawfeqea512.png",
+        "backgroundColor": "#004f68"
+      }
+    },
+    "description": "",
+    "extra": {
+      "iossdk": "51",
+      "androidsdk": "51",
+      "instapikey": "6385f700d5167",
+      "projectsrctype": "subdomain",
+      "loadercontain": "cover",
+      "expoaccountwhoami": "youssefriadsobhy1@gmail.com",
+      "firebaseaccount2": "13tbdex@gmail.com",
+      "eas": {
+        "projectId": "4488ae8c-8dc9-4c15-afbf-531bd2914644"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/4488ae8c-8dc9-4c15-afbf-531bd2914644"
+    }
+  }
+}

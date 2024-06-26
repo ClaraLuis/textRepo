@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "486688440450",
+    "project_id": "enviro-b1760",
+    "storage_bucket": "enviro-b1760.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486688440450:android:878d386ac5af72a202f49b",
+        "android_client_info": {
+          "package_name": "com.tabex.series.enviro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-Iv4P5c6Zu3u5KvC6zDha49JpuVuxVTk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

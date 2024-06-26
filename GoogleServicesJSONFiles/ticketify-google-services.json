@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "357879055645",
+    "project_id": "ticketify-2cdc6",
+    "storage_bucket": "ticketify-2cdc6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357879055645:android:04d4005ba45d3aec40cdf4",
+        "android_client_info": {
+          "package_name": "com.tabex.series.ticketify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357879055645-d3rcv1oa8djtufin0pcjuqjj7omlorg4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfTCceqX_6vf_PlRiBxWrBJUhSOoSQxtY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "357879055645-d3rcv1oa8djtufin0pcjuqjj7omlorg4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

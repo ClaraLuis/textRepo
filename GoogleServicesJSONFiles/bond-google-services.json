@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "152044550310",
+    "project_id": "bond-6f51d",
+    "storage_bucket": "bond-6f51d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152044550310:android:e3f84a29dfc0ebfd681c67",
+        "android_client_info": {
+          "package_name": "com.tabex.series.bond"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc0abnz90GVJxl8AurvMjvfJnFeKzVL84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,77 @@
+{
+  "expo": {
+    "name": "Marka Company",
+    "slug": "markaappslug",
+    "scheme": "markascheme",
+    "version": "2.0",
+    "icon": "./AppIcons/markacompany/markacompany1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/markacompany/markacompany1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/markacompany/markacompany1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.marka",
+      "buildNumber": "2",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/markaapp-google-services.json",
+      "package": "com.tabex.series.markaapp",
+      "icon": "./AppIcons/markacompany/markacompany512.png",
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE",
+        "com.google.android.gms.permission.AD_ID"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/markacompany/markacompany512.png",
+        "backgroundColor": "#F4AEC9"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "661146e4df0e1",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "contain",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "expoaccountwhoami": "youssefriadsobhy1@gmail.com",
+      "firebaseaccount": "13tbdex@gmail.com",
+      "eas": {
+        "projectId": "b89fa8fa-4ca7-4e89-a2bc-d2bdde787527"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/b89fa8fa-4ca7-4e89-a2bc-d2bdde787527"
+    }
+  }
+}

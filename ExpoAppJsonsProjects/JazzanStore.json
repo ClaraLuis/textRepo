@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Jazzan Store",
+    "slug": "jazzanstoreslug",
+    "scheme": "jazzanstoreappscheme",
+    "version": "3.0",
+    "icon": "./AppIcons/JazzanStore/jazzanstore1024.png",
+    "notification": {
+      "icon": "./AppIcons/JazzanStore/jazzanstore1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/JazzanStore/jazzanstore1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.jazzanstore",
+      "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/jazzanstore-google-services.json",
+      "package": "com.tabex.series.jazzanstore",
+      "icon": "./AppIcons/JazzanStore/jazzanstore512.png",
+      "versionCode": 3,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/JazzanStore/jazzanstore512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "iossdk": "48",
+      "androidsdk": "48",
+      "instapikey": "633e9d4867772",
+      "projectsrctype": "subdomain",
+      "eas": {
+        "projectId": "5e77546c-7b83-4946-b897-02c48bd5ab78"
+      }
+    }
+  }
+}

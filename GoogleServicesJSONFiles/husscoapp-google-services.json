@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "215532738413",
+    "project_id": "husscoapp",
+    "storage_bucket": "husscoapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215532738413:android:c50dad2948e33163676c64",
+        "android_client_info": {
+          "package_name": "com.tabex.series.husscoapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYFklB6I1fUH56L3PR5Z7U6l1skipUHCY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

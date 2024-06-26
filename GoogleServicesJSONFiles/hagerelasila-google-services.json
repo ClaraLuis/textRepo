@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "175706230449",
+    "project_id": "hager-el-asila",
+    "storage_bucket": "hager-el-asila.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175706230449:android:5ab3bb467b85fb6a951c90",
+        "android_client_info": {
+          "package_name": "com.tabex.series.hagerelasila"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5hZOPyuoc-SrtruDSQpuUX7eRSsJwRYQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

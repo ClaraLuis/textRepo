@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "280870029016",
+    "project_id": "futurepacks-c6018",
+    "storage_bucket": "futurepacks-c6018.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280870029016:android:664d7c34fe759d8d8079ad",
+        "android_client_info": {
+          "package_name": "com.tabex.series.futurepacks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280870029016-87apt797bh95ddg0q5edea41hehivb6i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn5MFxP0podT8PcWJkLh-hyuDo0kGSZac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280870029016-87apt797bh95ddg0q5edea41hehivb6i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

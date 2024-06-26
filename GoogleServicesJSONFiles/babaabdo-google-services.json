@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "642074909389",
+    "project_id": "babaabdo-5ecbb",
+    "storage_bucket": "babaabdo-5ecbb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642074909389:android:2c15a424bffb0ef1426784",
+        "android_client_info": {
+          "package_name": "com.tabex.series.babaabdo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "642074909389-9jk5313hr958kep0r4cv1m88vk4ku90g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApxqvqhf5qHugTWT6wdaX4OdYfP3-1qdk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "642074909389-9jk5313hr958kep0r4cv1m88vk4ku90g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

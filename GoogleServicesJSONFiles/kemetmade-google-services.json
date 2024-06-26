@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "618743925993",
+    "project_id": "kemet-made",
+    "storage_bucket": "kemet-made.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618743925993:android:86910d4ce0d84dd01db478",
+        "android_client_info": {
+          "package_name": "com.tabex.series.kemetmade"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSIChUjdAO1iJBWYoZzDkW0xuk4diDRKc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

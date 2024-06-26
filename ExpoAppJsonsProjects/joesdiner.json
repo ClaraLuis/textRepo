@@ -1,0 +1,73 @@
+{
+  "expo": {
+    "name": "Joe's Diner Egypt",
+    "slug": "joesdinerslug",
+    "scheme": "joesdinerscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/joesdiner/joesdiner1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/joesdiner/joesdiner1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/joesdiner/joesdiner1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.joesdiner",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/joesdiner-google-services.json",
+      "package": "com.tabex.series.joesdiner",
+      "icon": "./AppIcons/joesdiner/joesdiner512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/joesdiner/joesdiner512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "64e4bf00da39a",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "08a9c1ef-04ab-4574-982d-84c9eeb6cd0c"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/08a9c1ef-04ab-4574-982d-84c9eeb6cd0c"
+    }
+  }
+}

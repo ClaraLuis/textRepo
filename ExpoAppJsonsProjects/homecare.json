@@ -1,0 +1,67 @@
+{
+  "expo": {
+    "name": "Home Care",
+    "slug": "homecareslug",
+    "scheme": "homecarescheme",
+    "version": "1.0",
+    "icon": "./AppIcons/homecare/homecare1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/homecare/homecare1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/homecare/homecaresplashscreen.png",
+      "backgroundColor": "#010101",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.homecare",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/homecare-google-services.json",
+      "package": "com.tabex.series.homecare",
+      "icon": "./AppIcons/homecare/homecare512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/homecare/homecare512.png",
+        "backgroundColor": "#010101"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65eeb069832d1",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "cover",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "devitabex2@gmail.com"
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

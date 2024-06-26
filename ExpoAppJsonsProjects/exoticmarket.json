@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "Exotic Markets",
+    "slug": "exoticmarketslug",
+    "scheme": "exoticmarketscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/exoticmarket/exoticmarket1024.png",
+    "notification": {
+      "icon": "./AppIcons/exoticmarket/exoticmarket1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/exoticmarket/exoticmarket1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.exoticmarket",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/exoticmarket-google-services.json",
+      "package": "com.tabex.series.exoticmarket",
+      "icon": "./AppIcons/exoticmarket/exoticmarket512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/exoticmarket/exoticmarket512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "6486cd61d9552",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "cb877ec9-dd45-43bc-8196-1afe7117c81b"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

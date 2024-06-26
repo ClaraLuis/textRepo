@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "Elite Eye Center",
+    "slug": "eliteeyecenterslug",
+    "scheme": "eliteeyecenterscheme",
+    "version": "2.0",
+    "icon": "./AppIcons/eliteeyecenter/eliteeyecenter1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/eliteeyecenter/eliteeyecenter1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/eliteeyecenter/eliteeyecenter1024.png",
+      "backgroundColor": "#020101",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.eliteeyecenterapp",
+      "buildNumber": "2",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/eliteeyecenter-google-services.json",
+      "package": "com.tabex.series.eliteeyecenter",
+      "icon": "./AppIcons/eliteeyecenter/eliteeyecenter512.png",
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/eliteeyecenter/eliteeyecenter512.png",
+        "backgroundColor": "#020101"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "656ae660b41c7",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "firebaseaccount": "tabexdevinfo22@gmail.com",
+      "eas": {
+        "projectId": "c17bbd34-374c-4dae-97e9-5f5803acaf69"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/c17bbd34-374c-4dae-97e9-5f5803acaf69"
+    }
+  }
+}

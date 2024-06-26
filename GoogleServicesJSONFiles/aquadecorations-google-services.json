@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1056833357811",
+    "project_id": "aqua-decorations",
+    "storage_bucket": "aqua-decorations.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056833357811:android:29a2bd2df7038c95ad7486",
+        "android_client_info": {
+          "package_name": "com.tabex.series.aquadecorations"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAewSuEN7g1F_HlM40tjhUPFslWkjxON4c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

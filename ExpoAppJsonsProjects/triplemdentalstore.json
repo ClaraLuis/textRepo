@@ -1,0 +1,65 @@
+{
+  "expo": {
+    "name": "Triple M",
+    "slug": "triplemslug",
+    "scheme": "triplemappscheme",
+    "version": "6.0",
+    "icon": "./AppIcons/TripleM/triplem1024.png",
+    "notification": {
+      "icon": "./AppIcons/TripleM/triplem1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/TripleM/triplem1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.triplemm",
+      "buildNumber": "6",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/triplemapp-google-services.json",
+      "package": "com.tabex.series.triplemapp",
+      "icon": "./AppIcons/TripleM/triplem512.png",
+      "versionCode": 6,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/TripleM/triplem512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "iossdk": "48",
+      "androidsdk": "51",
+      "instapikey": "638f043a4dc74",
+      "projectsrctype": "subdomain",
+      "expoaccountwhoami": "youssefriaadsobhy1@gmail.com",
+      "firebaseaccount2": "14tbdex@gmail.com",
+      "eas": {
+        "projectId": "d1479730-7ce1-4c9a-b444-b242a06bd584"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/d1479730-7ce1-4c9a-b444-b242a06bd584"
+    }
+  }
+}

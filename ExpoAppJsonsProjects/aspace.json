@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "A-Space EG",
+    "slug": "aspaceslug",
+    "scheme": "aspacescheme",
+    "version": "6.0",
+    "icon": "./AppIcons/aspace/aspace1024.png",
+    "notification": {
+      "icon": "./AppIcons/aspace/aspace1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/aspace/aspace1024.png",
+      "backgroundColor": "#0e5a6d",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.aspaceeg",
+      "buildNumber":"6",
+      "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/aspace-google-services.json",
+      "package": "com.tabex.series.aspaceeg",
+      "icon": "./AppIcons/aspace/aspace512.png",
+      "versionCode": 6,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/aspace/aspace512.png",
+        "backgroundColor": "#0e5a6d"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "63f60dce22ad4",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "8b083275-7bf9-4fb8-8a66-111402f98504"
+      }
+    }
+    ,
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

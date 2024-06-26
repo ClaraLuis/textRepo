@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "991901879754",
+    "project_id": "the-flower-market",
+    "storage_bucket": "the-flower-market.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:991901879754:android:802592f940abc1ce201333",
+        "android_client_info": {
+          "package_name": "com.tabex.series.theflowermarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "991901879754-ukk9pe3u5i0020fof839c9sshbkcqftc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANb9Un087NgAaPE4xydpaKEnBhvfsvH7c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "991901879754-ukk9pe3u5i0020fof839c9sshbkcqftc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

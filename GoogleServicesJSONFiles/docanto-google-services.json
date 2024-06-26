@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "385505735064",
+    "project_id": "docanto-666af",
+    "storage_bucket": "docanto-666af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385505735064:android:27b0ea53416d7f54ca3bed",
+        "android_client_info": {
+          "package_name": "com.tabex.series.docanto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0JwfBPBrFayPzd4Mn0k3ipku0chgIMk0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

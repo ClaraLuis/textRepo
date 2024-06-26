@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "811290865579",
+    "project_id": "systronic-e740b",
+    "storage_bucket": "systronic-e740b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811290865579:android:b3b350faa5e288c9b0ecee",
+        "android_client_info": {
+          "package_name": "com.tabex.series.systronic"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx-2GrZTygdcIFkoHss3Xp4nzOudhpElM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

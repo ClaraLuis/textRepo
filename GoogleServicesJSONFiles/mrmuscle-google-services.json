@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "651454177893",
+    "project_id": "mrmuscle-24a6c",
+    "storage_bucket": "mrmuscle-24a6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651454177893:android:9737bccaa31aa5d5e21c8c",
+        "android_client_info": {
+          "package_name": "com.tabex.series.mrmusclestore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "651454177893-ib6hu61efrarlp3qt8mdvtobjcgdu3h6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlw3UkQzL8Z3ByVsh6weq8hrqqFEzpCdg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "651454177893-ib6hu61efrarlp3qt8mdvtobjcgdu3h6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

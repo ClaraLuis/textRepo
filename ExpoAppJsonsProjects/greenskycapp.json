@@ -1,0 +1,77 @@
+{
+  "expo": {
+    "name": "Green Sky",
+    "slug": "greenskyappslug",
+    "scheme": "greenskyappscheme",
+    "version": "2.0",
+    "icon": "./AppIcons/greensky/greensky1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/greensky/greensky1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/greensky/greenskysplashscreen.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.greensky",
+      "buildNumber": "2",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/greenskyapp-google-services.json",
+      "package": "com.tabex.series.greenskyapp",
+      "icon": "./AppIcons/greensky/greensky512.png",
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE",
+        "com.google.android.gms.permission.AD_ID"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/greensky/greensky512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "662e95b4e14da",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "cover",
+      "iossdk": "51",
+      "androidsdk": "51",
+      "expoaccountwhoami": "youssefriadsobhy1@gmail.com",
+      "firebaseaccount": "8tbdex@gmail.com",
+      "eas": {
+        "projectId": "b04bf171-fcb3-45dc-80b9-211b33c1b558"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/b04bf171-fcb3-45dc-80b9-211b33c1b558"
+    }
+  }
+}

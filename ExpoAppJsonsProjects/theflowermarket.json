@@ -1,0 +1,72 @@
+{
+  "expo": {
+    "name": "The Flowers Market",
+    "slug": "theflowermarketslug",
+    "scheme": "theflowermarketscheme",
+    "version": "2.0",
+    "icon": "./AppIcons/theflowermarket/theflowermarket1024.png",
+    "notification": {
+      "icon": "./AppIcons/theflowermarket/theflowermarket1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/theflowermarket/theflowermarket1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.theflowermarket",
+      "buildNumber": "2",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/theflowermarket-google-services.json",
+      "package": "com.tabex.series.theflowermarket",
+      "icon": "./AppIcons/theflowermarket/theflowermarket512.png",
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/theflowermarket/theflowermarket512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "64c67dcca7971",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "7b138ac9-21c5-45df-92cc-498364022b96"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/7b138ac9-21c5-45df-92cc-498364022b96"
+    }
+  }
+}

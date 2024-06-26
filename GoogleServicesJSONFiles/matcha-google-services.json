@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "826314333239",
+    "project_id": "matcha-58cb0",
+    "storage_bucket": "matcha-58cb0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826314333239:android:6a75557fc434f7757633b2",
+        "android_client_info": {
+          "package_name": "com.tabex.series.matcha"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEBOtktrz-47ylNJg9vp85sC5uznTHfFg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

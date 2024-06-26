@@ -1,0 +1,77 @@
+{
+  "expo": {
+    "name": "راديو فالسكة",
+    "slug": "filsekaslug",
+    "scheme": "filsekascheme",
+    "version": "1.0",
+    "icon": "./AppIcons/filseka/filseka1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/filseka/filseka1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/filseka/filsekasplashscreen.png",
+      "backgroundColor": "#fefefe",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.filseka",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/filseka-google-services.json",
+      "package": "com.tabex.series.filseka",
+      "icon": "./AppIcons/filseka/filseka512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE",
+        "com.google.android.gms.permission.AD_ID"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/filseka/filseka512.png",
+        "backgroundColor": "#fefefe"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "6645eba81f0d8",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "cover",
+      "iossdk": "51",
+      "androidsdk": "51",
+      "expoaccountwhoami": "youssefriadsobhy1@gmail.com",
+      "firebaseaccount": "13tbdex@gmail.com",
+      "eas": {
+        "projectId": "748837c5-8e80-47a1-b298-8c85bc7e79ee"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/748837c5-8e80-47a1-b298-8c85bc7e79ee"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "482244125576",
+    "project_id": "inertiaagri",
+    "storage_bucket": "inertiaagri.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482244125576:android:f228d316a0d09be1aa903d",
+        "android_client_info": {
+          "package_name": "com.tabex.series.inertiaagri"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482244125576-ce3uemacdg4f9iba0v29a6a2ikb3if3k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe68_9QtqPVf78D2LPN-OWM1de7gUf6PI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "482244125576-ce3uemacdg4f9iba0v29a6a2ikb3if3k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

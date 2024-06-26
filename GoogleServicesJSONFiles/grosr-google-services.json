@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "449495708472",
+    "project_id": "grosr-b7a86",
+    "storage_bucket": "grosr-b7a86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449495708472:android:7d883f8cb91761ef0a47cd",
+        "android_client_info": {
+          "package_name": "com.tabex.series.grosr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6JWv8qT_KKrgoj1NeiBBwOfmItqcyMfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

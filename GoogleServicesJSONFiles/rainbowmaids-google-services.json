@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "119729998467",
+    "project_id": "rainbowmaids-4e2e3",
+    "storage_bucket": "rainbowmaids-4e2e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119729998467:android:f98b13e92f1016bd5a29b6",
+        "android_client_info": {
+          "package_name": "com.tabex.series.rainbowmaids"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119729998467-q98urk4t1a0q7qmpe6s388rqe21i02jt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_0zeDT3LuhhCO9KkYWYX363njDCWsrLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119729998467-q98urk4t1a0q7qmpe6s388rqe21i02jt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

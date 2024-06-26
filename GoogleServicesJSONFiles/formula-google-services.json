@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "98925407863",
+    "project_id": "formula-aed79",
+    "storage_bucket": "formula-aed79.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98925407863:android:e8e9fb67e21d8d8b232072",
+        "android_client_info": {
+          "package_name": "com.tabex.series.formula"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6mWcMEK53LQ1ud-edqwhBrWL-rbwzu2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

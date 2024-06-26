@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "880825008089",
+    "project_id": "triplemapp",
+    "storage_bucket": "triplemapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880825008089:android:630e8f73ed81ac0d96e3c8",
+        "android_client_info": {
+          "package_name": "com.tabex.series.triplemapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo8MPRe7ACeeJZRfyrFsppLgR5obYcFcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

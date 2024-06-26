@@ -1,0 +1,74 @@
+{
+  "expo": {
+    "name": "Siblings.eg",
+    "slug": "siblingsslug",
+    "scheme": "siblingsscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/siblings/siblings1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/siblings/siblings1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/siblings/siblings1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.siblings",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/siblings-google-services.json",
+      "package": "com.tabex.series.siblings",
+      "icon": "./AppIcons/siblings/siblings512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/siblings/siblings512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "650171a451d97",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "eas": {
+        "projectId": "1ca32bc8-5f83-41af-b081-156e6554a181"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/1ca32bc8-5f83-41af-b081-156e6554a181"
+    }
+  }
+}

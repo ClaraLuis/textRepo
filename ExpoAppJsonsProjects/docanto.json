@@ -1,0 +1,74 @@
+{
+  "expo": {
+    "name": "DOCANTO",
+    "slug": "docantoslug",
+    "scheme": "docantoscheme",
+    "version": "2.0",
+    "icon": "./AppIcons/docanto/docanto1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/docanto/docanto1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/docanto/docantologo.png",
+      "backgroundColor": "#F7F7F6",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.docanto",
+      "buildNumber": "2",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/docanto-google-services.json",
+      "package": "com.tabex.series.docanto",
+      "icon": "./AppIcons/docanto/docanto512.png",
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/docanto/docanto512.png",
+        "backgroundColor": "#F7F7F6"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "653f74f969902",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "eas": {
+        "projectId": "cd26f6ef-4526-44ef-81cb-ec6bbcf16a14"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/cd26f6ef-4526-44ef-81cb-ec6bbcf16a14"
+    }
+  }
+}

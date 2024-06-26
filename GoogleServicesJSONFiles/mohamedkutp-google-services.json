@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "986557666471",
+    "project_id": "mohamed-kotp",
+    "storage_bucket": "mohamed-kotp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986557666471:android:c7e975ce13fc3b68323782",
+        "android_client_info": {
+          "package_name": "com.tabex.series.mohamedkutp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "986557666471-f1p7282eek915l9pappf4dmko73loe5g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSSJMsnuCk9GWwAKUoLzt-lzdx5Uri4Lc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "986557666471-f1p7282eek915l9pappf4dmko73loe5g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

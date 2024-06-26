@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "Mobi Corner",
+    "slug": "mobicornerslug",
+    "scheme": "mobicornerscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/mobicorner/mobicorner1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/mobicorner/mobicorner1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/mobicorner/mobicornerlogo.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.mobicorner",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/mobicorner-google-services.json",
+      "package": "com.tabex.series.mobicorner",
+      "icon": "./AppIcons/mobicorner/mobicorner512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/mobicorner/mobicorner512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "6580d239a2840",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "firebaseaccount": "tabexdevinfo22@gmail.com",
+      "eas": {
+        "projectId": "d94e2e71-83d0-4dee-b19a-6f5af963185e"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/d94e2e71-83d0-4dee-b19a-6f5af963185e"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "She Rocks",
+    "slug": "sherocksslug",
+    "scheme": "sherocksscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/sherocks/sherocks1024.png",
+    "notification": {
+      "icon": "./AppIcons/sherocks/sherocks1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/sherocks/sherocks1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.sherocks",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/sherocks-google-services.json",
+      "package": "com.tabex.series.sherocks",
+      "icon": "./AppIcons/sherocks/sherocks512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/sherocks/sherocks512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "6410704e38f5c",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "0c745514-f8f0-4e89-ad18-d06e2e42c887"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

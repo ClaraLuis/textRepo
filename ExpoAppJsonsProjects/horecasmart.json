@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "Horeca Smart",
+    "slug": "horecasmartslug",
+    "scheme": "horecasmartscheme",
+    "version": "3.0",
+    "icon": "./AppIcons/horecasmart/horecasmart1024.png",
+    "notification": {
+      "icon": "./AppIcons/horecasmart/horecasmart1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/horecasmart/horecasmart1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.horecasmart",
+      "buildNumber": "3",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/horecasmart-google-services.json",
+      "package": "com.tabex.series.horecasmart",
+      "icon": "./AppIcons/horecasmart/horecasmart512.png",
+      "versionCode": 3,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/horecasmart/horecasmart512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "646b7926147cf",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "27d8b70f-e17a-4b52-9b85-dda63bedabfd"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

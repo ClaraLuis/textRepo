@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1090688249292",
+    "project_id": "vff-7fa6e",
+    "storage_bucket": "vff-7fa6e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090688249292:android:24178f4e155a3ff3638169",
+        "android_client_info": {
+          "package_name": "com.tabex.series.vff"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKPTZf913xVyseTmSXwK7zsiXteW8NOOo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

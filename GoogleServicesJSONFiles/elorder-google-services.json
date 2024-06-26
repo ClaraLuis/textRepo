@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "624628741764",
+    "project_id": "el-order-33e5b",
+    "storage_bucket": "el-order-33e5b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624628741764:android:06d03b891a09601f0b34d1",
+        "android_client_info": {
+          "package_name": "com.tabex.series.elorder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCi4rT2i8pZEC--_P1rCZPmDFXBnFAgkGw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

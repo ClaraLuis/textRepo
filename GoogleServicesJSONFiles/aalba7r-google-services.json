@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "12672189679",
+    "project_id": "alba7r-a4644",
+    "storage_bucket": "alba7r-a4644.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12672189679:android:46092cf78155e6fd2c871a",
+        "android_client_info": {
+          "package_name": "com.tabex.series.aalba7r"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzimihIpieR_qooIG-0pw_1CphiSS-Sa0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

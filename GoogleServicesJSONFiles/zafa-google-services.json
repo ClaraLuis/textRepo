@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "398232755937",
+    "project_id": "zafa-3cf0e",
+    "storage_bucket": "zafa-3cf0e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398232755937:android:397c85b4454636fabbe1a0",
+        "android_client_info": {
+          "package_name": "com.tabex.series.zafa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398232755937-p6oap3l5rpmbhb9ep8no2b2tkm2qmch4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDybtGnNAwSRF3LRY5Jg1m6IGGdm9f_S7g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398232755937-p6oap3l5rpmbhb9ep8no2b2tkm2qmch4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

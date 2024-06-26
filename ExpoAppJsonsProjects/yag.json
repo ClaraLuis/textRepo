@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "مجموعة مناحل اليمن",
+    "slug": "yagslug",
+    "scheme": "yagscheme",
+    "version": "3.0",
+    "icon": "./AppIcons/yag/yag1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/yag/yag1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/yag/yagsplashscreen.png",
+      "backgroundColor": "#231E1D",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.yag",
+      "buildNumber": "3",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/yag-google-services.json",
+      "package": "com.tabex.series.yag",
+      "icon": "./AppIcons/yag/yag512.png",
+      "versionCode": 3,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/yag/yag512.png",
+        "backgroundColor": "#231E1D"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65d1c68cc17c3",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain":"cover",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "tabexdevinfo26@gmail.com",
+      "eas": {
+        "projectId": "b99d0079-5421-489e-83a3-9fcf858f63ae"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/b99d0079-5421-489e-83a3-9fcf858f63ae"
+    }
+  }
+}

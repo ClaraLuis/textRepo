@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "966425197717",
+    "project_id": "siblings-8c990",
+    "storage_bucket": "siblings-8c990.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966425197717:android:07c753cb6001e75554ef9c",
+        "android_client_info": {
+          "package_name": "com.tabex.series.siblings"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcTJ9ZPP02hOEyDO35RkSnfmVE2zelxwE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "516528711241",
+    "project_id": "caregenic-81d12",
+    "storage_bucket": "caregenic-81d12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516528711241:android:04d91918e85e3946a08198",
+        "android_client_info": {
+          "package_name": "com.tabex.series.caregenic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "516528711241-2nhcnc5850vv6shbs82advhes7sqn6p1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkr2Wmp0K100aCaQWE0WrH8XZuHsn8Wyc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "516528711241-2nhcnc5850vv6shbs82advhes7sqn6p1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516528711241:android:34003fbf9de2d0faa08198",
+        "android_client_info": {
+          "package_name": "com.tabex.series.caregenicrealestate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "516528711241-2nhcnc5850vv6shbs82advhes7sqn6p1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkr2Wmp0K100aCaQWE0WrH8XZuHsn8Wyc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "516528711241-2nhcnc5850vv6shbs82advhes7sqn6p1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

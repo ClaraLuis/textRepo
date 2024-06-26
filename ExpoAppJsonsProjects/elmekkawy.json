@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "مكاوي للاجهزة الكهربائية",
+    "slug": "elmekkawyslug",
+    "scheme": "elmekkawyscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/elmekkawy/elmekkawy1024.png",
+   
+    "notification": {
+      "icon": "./AppIcons/elmekkawy/elmekkawy1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/elmekkawy/elmekkawysplashscreen.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.elmekkawy",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/elmekkawy-google-services.json",
+      "package": "com.tabex.series.elmekkawy",
+      "icon": "./AppIcons/elmekkawy/elmekkawy512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/elmekkawy/elmekkawy512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "660a8f3fdd2f9",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "cover",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "devitabex4@gmail.com",
+      "eas": {
+        "projectId": "848ed148-7b58-4305-b18d-104611b2e5a9"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/848ed148-7b58-4305-b18d-104611b2e5a9"
+    }
+  }
+}

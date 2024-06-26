@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "945980979156",
+    "project_id": "matgrenteqaa",
+    "storage_bucket": "matgrenteqaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945980979156:android:ce85984a47811b9cf88841",
+        "android_client_info": {
+          "package_name": "com.tabex.series.matgrenteqaa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD9_-NjYj3wkUJF1SiXcE5Dn587_kccg4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

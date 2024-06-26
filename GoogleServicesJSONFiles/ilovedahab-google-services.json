@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "977716151047",
+    "project_id": "ilovedahab-334e5",
+    "storage_bucket": "ilovedahab-334e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977716151047:android:ef7b20c9bc9266b312bba2",
+        "android_client_info": {
+          "package_name": "com.tabex.series.ilovedahab"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfCAUChqEysR_j182zc8TZ5ly7LeJyXTU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

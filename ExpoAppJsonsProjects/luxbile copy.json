@@ -1,0 +1,78 @@
+{
+  "expo": {
+    "name": "Luxbile",
+    "slug": "luxbileslug",
+    "scheme": "luxbilescheme",
+    "version": "2.0",
+    "icon": "./AppIcons/luxbile/luxbile1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/luxbile/luxbile1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/luxbile/luxbilesplashscreen.png",
+      "backgroundColor": "#000000",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.luxbile",
+      "buildNumber": "2",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/luxbile-google-services.json",
+      "package": "com.tabex.series.luxbile",
+      "icon": "./AppIcons/luxbile/luxbile512.png",
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE",
+        "com.google.android.gms.permission.AD_ID"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/luxbile/luxbile512.png",
+        "backgroundColor": "#000000"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "66406ef5ac28b",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "cover",
+      "iossdk": "51",
+      "androidsdk": "51",
+      "haskey": "no",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "firebaseaccount": "11tbdex@gmail.com",
+      "eas": {
+        "projectId": "85df16f2-ccf5-4d46-95e0-8fc72cf46c89"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/85df16f2-ccf5-4d46-95e0-8fc72cf46c89"
+    }
+  }
+}

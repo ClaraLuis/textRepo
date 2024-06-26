@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "689139996230",
+    "project_id": "attitude-afcbe",
+    "storage_bucket": "attitude-afcbe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689139996230:android:dd7010a390ebcb99949c47",
+        "android_client_info": {
+          "package_name": "com.tabex.series.attitude"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWBnH70t66AWigNQt9e9n37ulLGCv0Ylw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

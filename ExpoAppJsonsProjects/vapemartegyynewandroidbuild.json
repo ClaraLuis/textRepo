@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "Vape Mart",
+    "slug": "vapemartegyappslug",
+    "scheme": "vapemartegyscheme",
+    "version": "17.0",
+    "icon": "./AppIcons/vapemart/vapemart1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/vapemart/vapemart1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/vapemart/vapemart1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.vapemart1",
+      "buildNumber": "17",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/vapemartegyapp-google-services.json",
+      "package": "com.tabex.series.vapemartegyapp",
+      "icon": "./AppIcons/vapemart/vapemart512.png",
+      "versionCode": 17,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/vapemart/vapemart512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "63f0d7b5f1747",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "firebaseaccountandroid": "devitabex6@gmail.com",
+      "expoaccountwhoami": "youssefriadsobhy1@gmail.com",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "eas": {
+        "projectId": "fe0a1a7b-0bcf-450c-9550-ff55cdc6d271"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/fe0a1a7b-0bcf-450c-9550-ff55cdc6d271"
+    }
+  }
+}

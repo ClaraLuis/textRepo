@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "Smart Decor",
+    "slug": "smartdecorslug",
+    "scheme": "smartdecorappscheme",
+    "version": "3.0",
+    "icon": "./AppIcons/SmartDecor/smartdecor1024.png",
+    "notification": {
+      "icon": "./AppIcons/SmartDecor/smartdecor1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/SmartDecor/smartdecor1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.smartdecor",
+      "buildNumber":"3",
+      "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/smartdecor-google-services.json",
+      "package": "com.tabex.series.smartdecor",
+      "icon": "./AppIcons/SmartDecor/smartdecor512.png",
+      "versionCode": 3,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/SmartDecor/smartdecor512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "iossdk": "48",
+      "androidsdk": "48",
+      "instapikey": "63aad87fd7358",
+      "projectsrctype": "subdomain",
+      "eas": {
+        "projectId": "6a5d3375-6f29-471f-9d77-4abfb9f0f06a"
+      }
+    }
+    ,
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+    
+  }
+}

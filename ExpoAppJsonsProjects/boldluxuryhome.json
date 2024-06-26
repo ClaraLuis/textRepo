@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "BOLD LUXURY HOME",
+    "slug": "boldluxuryhomeslug",
+    "scheme": "boldluxuryhomescheme",
+    "version": "1.0",
+    "icon": "./AppIcons/boldluxuryhome/boldluxuryhome1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/boldluxuryhome/boldluxuryhome1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/boldluxuryhome/boldluxuryhome1024.png",
+      "backgroundColor": "#282725",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.boldluxuryhome",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/boldluxuryhome-google-services.json",
+      "package": "com.tabex.series.boldluxuryhome",
+      "icon": "./AppIcons/boldluxuryhome/boldluxuryhome512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/boldluxuryhome/boldluxuryhome512.png",
+        "backgroundColor": "#282725"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65c3b79863284",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "tabexdevinfo26@gmail.com",
+      "eas": {
+        "projectId": "7f15b3db-bb89-4584-a925-73f5e872c002"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/7f15b3db-bb89-4584-a925-73f5e872c002"
+    }
+  }
+}

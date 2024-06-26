@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "El Wadi Lighting",
+    "slug": "elwadilightingslug",
+    "scheme": "elwadischeme",
+    "version": "4.0",
+    "icon": "./AppIcons/elwadilighting/elwadi1024.png",
+    "notification": {
+      "icon": "./AppIcons/elwadilighting/elwadi1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/elwadilighting/elwadi1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.elwadilighting",
+      "buildNumber":"4",
+      "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/elwadilighting-google-services.json",
+      "package": "com.tabex.series.elwadilighting",
+      "icon": "./AppIcons/elwadilighting/elwadi512.png",
+      "versionCode": 4,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/elwadilighting/elwadi512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "iossdk": "48",
+      "androidsdk": "48",
+      "instapikey": "63bd596a2fc42",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "eas": {
+        "projectId": "1957a0b1-d1df-4f14-b4b5-0627d0be7d48"
+      }
+    }
+    ,
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "25997127211",
+    "project_id": "zaid-markets",
+    "storage_bucket": "zaid-markets.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25997127211:android:721bf337c291031d0bc46e",
+        "android_client_info": {
+          "package_name": "com.tabex.series.zaidmarkets"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25997127211-6ofi0k5vors6g8p5inb4fpjbtmu28b4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALwF7O_RKxgo8K-TiPkqKNsIaiGwdOlr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "25997127211-6ofi0k5vors6g8p5inb4fpjbtmu28b4g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

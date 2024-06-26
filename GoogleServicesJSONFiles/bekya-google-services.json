@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "355698654516",
+    "project_id": "bekya-361c9",
+    "storage_bucket": "bekya-361c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355698654516:android:c15e1af6fdf7fc61a23961",
+        "android_client_info": {
+          "package_name": "com.tabex.series.bekya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355698654516-7ph1qurln5qfh6injnevsur3pc9s2hlo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOHROIQGrhm-QBqdGGw0xQ-Tu4HRRnl80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355698654516-7ph1qurln5qfh6injnevsur3pc9s2hlo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

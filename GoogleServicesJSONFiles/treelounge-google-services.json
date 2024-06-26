@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "820369847693",
+    "project_id": "tree-lounge-db34e",
+    "storage_bucket": "tree-lounge-db34e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820369847693:android:84b38258aa1d18d788b9c4",
+        "android_client_info": {
+          "package_name": "com.tabex.series.treelounge"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMIVc2QVdAuOYl4dJpDQopwTtkJbcIgW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

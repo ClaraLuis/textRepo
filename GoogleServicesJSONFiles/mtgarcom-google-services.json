@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "984809917921",
+    "project_id": "shopcom-afb0a",
+    "storage_bucket": "shopcom-afb0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984809917921:android:3949d906f524a59a6cd6a0",
+        "android_client_info": {
+          "package_name": "com.tabex.series.mtgarcom"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeSm9Jp4VYgKEMxt7Wc0fpDRhctYui28M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

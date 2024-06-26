@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "مـتـجـر انتقاء",
+    "slug": "matgrenteqaaslug",
+    "scheme": "matgrenteqaascheme",
+    "version": "1.0",
+    "icon": "./AppIcons/matgrenteqaa/matgrenteqaa1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/matgrenteqaa/matgrenteqaa1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/matgrenteqaa/matgrenteqaa1024.png",
+      "backgroundColor": "#FAF158",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.matgrenteqaa",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/matgrenteqaa-google-services.json",
+      "package": "com.tabex.series.matgrenteqaa",
+      "icon": "./AppIcons/matgrenteqaa/matgrenteqaa512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/matgrenteqaa/matgrenteqaa512.png",
+        "backgroundColor": "#FAF158"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65dc424f85e0f",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "devitabex@gmail.com",
+      "eas": {
+        "projectId": "e280e6a6-f6a9-4224-9349-f4019a4d21a2"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/e280e6a6-f6a9-4224-9349-f4019a4d21a2"
+    }
+  }
+}

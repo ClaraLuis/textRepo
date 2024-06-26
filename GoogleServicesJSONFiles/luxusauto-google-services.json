@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "698042328883",
+    "project_id": "luxusauto-830e1",
+    "storage_bucket": "luxusauto-830e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698042328883:android:0b95bbc3d3165181cb4046",
+        "android_client_info": {
+          "package_name": "com.tabex.series.luxusauto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "698042328883-vi7d5aaua2g8amshkkpm0r8im2jkc303.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsjBy1uJpK17X9f4iyaePIFGl0YzPNOw0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "698042328883-vi7d5aaua2g8amshkkpm0r8im2jkc303.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

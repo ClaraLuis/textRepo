@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "HQ PRO LLC",
+    "slug": "hqprollcslug",
+    "scheme": "hqprollcscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/hqprollc/hqprollc1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/hqprollc/hqprollc1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/hqprollc/hqprollc1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.hqprollc",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/hqprollc-google-services.json",
+      "package": "com.tabex.series.hqprollc",
+      "icon": "./AppIcons/hqprollc/hqprollc512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/hqprollc/hqprollc512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "6613c9fc1d802",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "contain",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "expoaccountwhoami": "youssefriadsobhy1@gmail.com",
+      "firebaseaccount": "devitabex3@gmail.com",
+      "eas": {
+        "projectId": "82ecffbb-4eae-4cdf-9776-afb77f7c7c84"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/82ecffbb-4eae-4cdf-9776-afb77f7c7c84"
+    }
+  }
+}

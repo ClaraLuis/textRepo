@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "Trading Empire Academy",
+    "slug": "tradingempireslug",
+    "scheme": "tradingempirescheme",
+    "version": "1.0",
+    "icon": "./AppIcons/tradingempire/tradingempire1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/tradingempire/tradingempire1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/tradingempire/tradingempirelogo.png",
+      "backgroundColor": "#020101",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.tradingempire",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/tradingempire-google-services.json",
+      "package": "com.tabex.series.tradingempire",
+      "icon": "./AppIcons/tradingempire/tradingempire512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/tradingempire/tradingempire512.png",
+        "backgroundColor": "#020101"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "6569c0cae7f9d",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "firebaseaccount": "tabexdevinfo22@gmail.com",
+      "eas": {
+        "projectId": "0576f602-85e3-4803-b8d0-ee7d56e0fcdf"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/0576f602-85e3-4803-b8d0-ee7d56e0fcdf"
+    }
+  }
+}

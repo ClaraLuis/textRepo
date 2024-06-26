@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "57812270517",
+    "project_id": "vazn-a702d",
+    "storage_bucket": "vazn-a702d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:57812270517:android:0765c5a28862580f31edfc",
+        "android_client_info": {
+          "package_name": "com.tabex.series.vazn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNhYAKiNZkYvPluMpo5dJEowd9l0DBsCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

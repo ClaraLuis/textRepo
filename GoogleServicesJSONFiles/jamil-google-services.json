@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "147354530498",
+    "project_id": "jamil-14fcc",
+    "storage_bucket": "jamil-14fcc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147354530498:android:4f1b8f60e68a105f5bc15b",
+        "android_client_info": {
+          "package_name": "com.tabex.series.jamil"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEXKTwK7gS-LYpnhzn8iRe9hrHY_QacBI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

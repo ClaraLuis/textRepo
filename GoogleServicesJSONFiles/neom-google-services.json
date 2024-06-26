@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "820980115389",
+    "project_id": "neom-b1d06",
+    "storage_bucket": "neom-b1d06.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820980115389:android:443f5700d67dd8676494d4",
+        "android_client_info": {
+          "package_name": "com.tabex.series.neom"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCb09UNmeX9rfmSZTZNDNozoQ3U_3cQ0M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

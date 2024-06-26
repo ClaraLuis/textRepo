@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "564433032647",
+    "project_id": "ankh-5de54",
+    "storage_bucket": "ankh-5de54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564433032647:android:66d1b6891b03e8b3c7f5e2",
+        "android_client_info": {
+          "package_name": "com.tabex.series.ankh"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi6D83P371xL52Y96niEdQTfdifXt8HOs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

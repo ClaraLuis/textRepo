@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "216001317944",
+    "project_id": "elshamandy",
+    "storage_bucket": "elshamandy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216001317944:android:91216ff38b95867524aacd",
+        "android_client_info": {
+          "package_name": "com.tabex.series.elshamandy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216001317944-gu9lkqem40jo0o7outc3vgkfhk7ffn5u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqCdZCx0Xg5kA7kPHgtSJ_venK5bAZj8k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "216001317944-gu9lkqem40jo0o7outc3vgkfhk7ffn5u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

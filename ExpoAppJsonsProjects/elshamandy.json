@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "El Shamandy",
+    "slug": "elshamandyslug",
+    "scheme": "elshamandyscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/elshamandy/elshamandy1024.png",
+    "notification": {
+      "icon": "./AppIcons/elshamandy/elshamandy1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/elshamandy/elshamandy1024.png",
+      "backgroundColor": "#000000",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.elshamandy",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/elshamandy-google-services.json",
+      "package": "com.tabex.series.elshamandy",
+      "icon": "./AppIcons/elshamandy/elshamandy512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/elshamandy/elshamandy512.png",
+        "backgroundColor": "#000000"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "644aac19db963",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "984d7231-c3c2-471c-985e-016120346761"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "expo": {
+    "name": "Soma Raceway",
+    "slug": "somaracewayslug",
+    "scheme": "somaracewayscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/somaraceway/somaraceway1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/somaraceway/somaraceway1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/somaraceway/somaraceway1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.somaraceway",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/somaraceway-google-services.json",
+      "package": "com.tabex.series.somaraceway",
+      "icon": "./AppIcons/somaraceway/somaraceway512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE",
+        "com.google.android.gms.permission.AD_ID"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/somaraceway/somaraceway512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "664322a909e0e",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "contain",
+      "iossdk": "51",
+      "androidsdk": "51",
+      "haskey": "no",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "firebaseaccount": "11tbdex@gmail.com",
+      "eas": {
+        "projectId": "40e60e48-1371-48dd-8e2c-dfb5b4c03d0c"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/40e60e48-1371-48dd-8e2c-dfb5b4c03d0c"
+    }
+  }
+}

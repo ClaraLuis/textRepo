@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "EVOCARE",
+    "slug": "evocareslug",
+    "scheme": "evocarescheme",
+    "version": "1.0",
+    "icon": "./AppIcons/evocare/evocare1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/evocare/evocare1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/evocare/evocare1024.png",
+      "backgroundColor": "#000000",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.evocare",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/evocare-google-services.json",
+      "package": "com.tabex.series.evocare",
+      "icon": "./AppIcons/evocare/evocare512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/evocare/evocare512.png",
+        "backgroundColor": "#000000"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65c1f82bf0230",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "tabexdevinfo26@gmail.com",
+      "eas": {
+        "projectId": "4546eab0-7ead-4f08-a96c-c5ac933cb529"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/4546eab0-7ead-4f08-a96c-c5ac933cb529"
+    }
+  }
+}

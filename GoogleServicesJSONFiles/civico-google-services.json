@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "190437842104",
+    "project_id": "civico-bda21",
+    "storage_bucket": "civico-bda21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190437842104:android:e9115ee24a56b560b4a84d",
+        "android_client_info": {
+          "package_name": "com.tabex.series.civico"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190437842104-hh7rdi6ab7r4elr2fih6mgaa27frm5t3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBWFS9-4ujQOzkQEVts6OdL5e4uLA8COA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "190437842104-hh7rdi6ab7r4elr2fih6mgaa27frm5t3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

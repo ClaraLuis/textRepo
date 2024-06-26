@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "245211749506",
+    "project_id": "roma-car-pro-services",
+    "storage_bucket": "roma-car-pro-services.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245211749506:android:1315b49614d5ba9bb3e89b",
+        "android_client_info": {
+          "package_name": "com.tabex.series.roma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245211749506-64du1p8pa27ugtgm23iniqdegcoovg8p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeBn0lJBfSaLu9_b8jrp9uS6mp6xV_3z8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245211749506-64du1p8pa27ugtgm23iniqdegcoovg8p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "84591010406",
+    "project_id": "hagatna-df286",
+    "storage_bucket": "hagatna-df286.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84591010406:android:479696f1df9390eff243a7",
+        "android_client_info": {
+          "package_name": "com.tabex.series.hagatna"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDL4lsSc5a5kmkplmv4b41iAcqWXEVHr_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

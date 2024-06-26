@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "117378782989",
+    "project_id": "majo-fde96",
+    "storage_bucket": "majo-fde96.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117378782989:android:8372df5062d22782014244",
+        "android_client_info": {
+          "package_name": "com.tabex.series.majo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLtY19nRVaI67h71TKZlGqRIimwqJeVAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

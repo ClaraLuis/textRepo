@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "386240046703",
+    "project_id": "wood-lab",
+    "storage_bucket": "wood-lab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386240046703:android:923a39af71a9fbbac58f9a",
+        "android_client_info": {
+          "package_name": "com.tabex.series.woodlab"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-yIar3FxzIUKIW7cW_kgS4p5FiDzYrQM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

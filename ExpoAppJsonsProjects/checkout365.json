@@ -1,0 +1,78 @@
+{
+  "expo": {
+    "name": "365 Checkout",
+    "slug": "checkout365slug",
+    "scheme": "checkout365scheme",
+    "version": "1.0",
+    "icon": "./AppIcons/checkout365/checkout365_1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/checkout365/checkout365_1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/checkout365/checkout365_splashscreen.png",
+      "backgroundColor": "#FFFFFE",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.checkout365",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/checkout365-google-services.json",
+      "package": "com.tabex.series.checkout365",
+      "icon": "./AppIcons/checkout365/checkout365_512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE",
+        "com.google.android.gms.permission.AD_ID"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/checkout365/checkout365_512.png",
+        "backgroundColor": "#FFFFFE"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "6641cea6590c8",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "loadercontain": "cover",
+      "haskey": "no",
+      "iossdk": "51",
+      "androidsdk": "51",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "firebaseaccount": "10tbdex@gmail.com",
+      "eas": {
+        "projectId": "17ccb699-5d70-4b75-9aaa-05ef959bd14e"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/17ccb699-5d70-4b75-9aaa-05ef959bd14e"
+    }
+  }
+}

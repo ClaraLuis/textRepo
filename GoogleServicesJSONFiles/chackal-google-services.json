@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "450592765269",
+    "project_id": "chackalegypt",
+    "storage_bucket": "chackalegypt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450592765269:android:711f1c9d1968e9129cabdc",
+        "android_client_info": {
+          "package_name": "com.tabex.series.chackalegypt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450592765269-mnopuvdfb8tcr5drcfv7kq81iqh4hvho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrSh3P9201Ojz_RbeKodOCKGPsOcHkvNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "450592765269-mnopuvdfb8tcr5drcfv7kq81iqh4hvho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

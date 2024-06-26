@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "924483337816",
+    "project_id": "compassexport-fbe1b",
+    "storage_bucket": "compassexport-fbe1b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924483337816:android:620bda8a758fcdbdf5542d",
+        "android_client_info": {
+          "package_name": "com.tabex.series.compassexport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924483337816-ttgi7nd7iln692n0l3d03sftodg26q5v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJnnwwVUDe8IJqccqOOR7JJkZeVO5WmJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924483337816-ttgi7nd7iln692n0l3d03sftodg26q5v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

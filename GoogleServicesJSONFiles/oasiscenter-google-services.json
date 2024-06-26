@@ -1,0 +1,29 @@
+{
+    "project_info": {
+        "project_number": "619631513690",
+        "project_id": "oasis-center-1b1e6",
+        "storage_bucket": "oasis-center-1b1e6.appspot.com"
+    },
+    "client": [
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:619631513690:android:ca27f1586381e270634863",
+                "android_client_info": {
+                    "package_name": "com.tabex.series.oasiscenter"
+                }
+            },
+            "oauth_client": [],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyAMg_fOF2ZFzSyZjN1l6oZIDTeddTVahz8"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": []
+                }
+            }
+        }
+    ],
+    "configuration_version": "1"
+}

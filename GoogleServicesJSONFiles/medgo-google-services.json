@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "362939776421",
+    "project_id": "medgo-50ef7",
+    "storage_bucket": "medgo-50ef7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362939776421:android:3c383f679b9370359a3c4c",
+        "android_client_info": {
+          "package_name": "com.tabex.series.medgo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "362939776421-hojoleu508214u9v1lajhf9l36cg62n0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFGh_8wlgOEZ0b9iqQbJVrT0hjim41-qk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "362939776421-hojoleu508214u9v1lajhf9l36cg62n0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

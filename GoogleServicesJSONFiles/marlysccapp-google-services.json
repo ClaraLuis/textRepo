@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "521927206679",
+    "project_id": "marlysccapp",
+    "storage_bucket": "marlysccapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521927206679:android:4d3152c385b802041e7952",
+        "android_client_info": {
+          "package_name": "com.tabex.series.marlysccapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8GUisimHWkw82OxSXSFkdZdQMQ9i2klA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

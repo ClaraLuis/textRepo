@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "AD Store EG",
+    "slug": "adstoreslug",
+    "scheme": "adstorescheme",
+    "version": "1.0",
+    "icon": "./AppIcons/adstore/adstore1024.png",
+    "notification": {
+      "icon": "./AppIcons/adstore/adstore1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/adstore/adstore1024.png",
+      "backgroundColor": "#1D565A",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.adstore",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/adstore-google-services.json",
+      "package": "com.tabex.series.adstore",
+      "icon": "./AppIcons/adstore/adstore512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/adstore/adstore512.png",
+        "backgroundColor": "#1D565A"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "649066f552a04",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "19107cb6-59f1-439d-968c-b013213b0996"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

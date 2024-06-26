@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "B2b Outfits",
+    "slug": "b2boutfitsslug",
+    "scheme": "b2boutfitsappscheme",
+    "version": "7.0",
+    "icon": "./AppIcons/B2bOutfits/b2b1024.png",
+    "notification": {
+      "icon": "./AppIcons/B2bOutfits/b2b1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/B2bOutfits/b2b1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.b2boutfitss",
+      "buildNumber":"7",
+      "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/b2boutfits-google-services.json",
+      "package": "com.tabex.series.b2boutfits",
+      "icon": "./AppIcons/B2bOutfits/b2b512.png",
+      "versionCode": 7,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/B2bOutfits/b2b512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "iossdk": "48",
+      "androidsdk": "48",
+      "instapikey": "6373b60bd5001",
+      "hastrackingpermissions": "yes",
+      "projectsrctype": "subdomain",
+      "eas": {
+        "projectId": "193b8a9e-b6f6-4f80-93e0-23565e45d358"
+      }
+    }
+    ,
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

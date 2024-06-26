@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "564620806847",
+    "project_id": "nahrtrade-41040",
+    "storage_bucket": "nahrtrade-41040.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564620806847:android:2da75f59e7fc985b26540a",
+        "android_client_info": {
+          "package_name": "com.tabex.series.nahrtrade"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564620806847-iea04u3f4nnab4d9686g7c113n0f29tt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRlYjK9kU2X-AMuudygKpaJiUfsoD8Df8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "564620806847-iea04u3f4nnab4d9686g7c113n0f29tt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

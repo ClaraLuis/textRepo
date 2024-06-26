@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "683392115498",
+    "project_id": "al-aml",
+    "storage_bucket": "al-aml.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:683392115498:android:06d2c5ec452a27eaf77453",
+        "android_client_info": {
+          "package_name": "com.tabex.series.alaml"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoCVNM7rxI61kBKzcT6UniFfN2Ry63UlE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

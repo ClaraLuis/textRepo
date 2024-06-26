@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "21439458017",
+    "project_id": "octopus-53104",
+    "storage_bucket": "octopus-53104.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21439458017:android:eb01b52c4abfcce208a5a0",
+        "android_client_info": {
+          "package_name": "com.tabex.series.octopus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "21439458017-eb54d089i8j6om7g729cfq6paia8sp29.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9rnQyj9Kx4f-t4B7Rgjq9L9WVNO5FvRA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "21439458017-eb54d089i8j6om7g729cfq6paia8sp29.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

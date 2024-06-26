@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "420806317136",
+    "project_id": "escreena-w-bagha",
+    "storage_bucket": "escreena-w-bagha.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420806317136:android:8082d1f769bbf4f92fed55",
+        "android_client_info": {
+          "package_name": "com.tabex.series.escreenawbagha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420806317136-i9ts9nlth6rvi0m3ak4fb2jupal9hjhi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdokxFAE0Jt51w1EFhVIT1R0LdG1MLXU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420806317136-i9ts9nlth6rvi0m3ak4fb2jupal9hjhi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

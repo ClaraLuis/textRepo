@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "609322285670",
+    "project_id": "homemart-1824b",
+    "storage_bucket": "homemart-1824b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609322285670:android:c21843ed71ab7c533a0ba7",
+        "android_client_info": {
+          "package_name": "com.tabex.series.homemart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609322285670-1fjcsm8bjln1m9e2i488c18lroa7vi45.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0Jjs600DjC6af7TNAGPXoYJAxrZwEDWA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "609322285670-1fjcsm8bjln1m9e2i488c18lroa7vi45.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

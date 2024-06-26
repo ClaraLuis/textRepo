@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "235830347275",
+    "project_id": "be-chef-b9ac0",
+    "storage_bucket": "be-chef-b9ac0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235830347275:android:4fdc6f81561cf3114da90e",
+        "android_client_info": {
+          "package_name": "com.tabex.series.bechef"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7v9iXlyvyr3mOhGvgJCsFWskLFhla7Is"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

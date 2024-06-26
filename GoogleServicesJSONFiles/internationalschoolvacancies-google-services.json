@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "851783973520",
+    "project_id": "international-school-vacancies",
+    "storage_bucket": "international-school-vacancies.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851783973520:android:3554e5adfb818e336eb615",
+        "android_client_info": {
+          "package_name": "com.tabex.series.internationalschoolvacancies"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO-G56Qhrwco_24BVRxZ28IRLz07yFawQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

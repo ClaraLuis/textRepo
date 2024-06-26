@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1020766366319",
+    "project_id": "oil-store-e97c7",
+    "storage_bucket": "oil-store-e97c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020766366319:android:243479297aba8adaf5bb9a",
+        "android_client_info": {
+          "package_name": "com.tabex.series.oilstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1020766366319-9lopkemc7vkjcvkbovgodg564hsub1c8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjkot0b-HUa5CatpcnDfcFlaS9UZ-Kjso"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1020766366319-9lopkemc7vkjcvkbovgodg564hsub1c8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "197984290382",
+    "project_id": "royal-sporting-club",
+    "storage_bucket": "royal-sporting-club.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197984290382:android:625b8fd16113690fee651f",
+        "android_client_info": {
+          "package_name": "com.tabex.series.royalsportingclub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB77B5Sx3KP3MTKjHfH0wZrlrAK9Ykpc0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "858926729038",
+    "project_id": "home-and-garden-9d2e4",
+    "storage_bucket": "home-and-garden-9d2e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:858926729038:android:838a0fb30ca9674d4b401f",
+        "android_client_info": {
+          "package_name": "com.tabex.series.homeandgarden"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPpxSD08p73qF0xPvpNVtwfonqOE9GNYc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

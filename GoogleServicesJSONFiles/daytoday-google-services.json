@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "287243791754",
+    "project_id": "day-to-day-b2877",
+    "storage_bucket": "day-to-day-b2877.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287243791754:android:b05c4dd8fc5a82176bec73",
+        "android_client_info": {
+          "package_name": "com.tabex.series.daytoday"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287243791754-7qen0aea11k1ehrtdeevkq7s2m6tdd30.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2VoWvBLSut1kHBgTrplqxcCXhFcloEig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287243791754-7qen0aea11k1ehrtdeevkq7s2m6tdd30.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

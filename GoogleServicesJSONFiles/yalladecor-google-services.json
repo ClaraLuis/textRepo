@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "850960595146",
+    "project_id": "yalla-decor",
+    "storage_bucket": "yalla-decor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:850960595146:android:10bf6ec337f38948c91c33",
+        "android_client_info": {
+          "package_name": "com.tabex.series.yalladecor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "850960595146-u4o80fg1fq238d8080lhiin8of3mu4sr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuhfk_ppo-VJFLsBYXTJITznSogrolTEk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "850960595146-u4o80fg1fq238d8080lhiin8of3mu4sr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

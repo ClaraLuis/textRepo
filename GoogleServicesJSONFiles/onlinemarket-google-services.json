@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "466736037869",
+    "project_id": "online-market-bcd69",
+    "storage_bucket": "online-market-bcd69.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466736037869:android:8e1d356f9984652cad31e4",
+        "android_client_info": {
+          "package_name": "com.tabex.series.onlinemarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "466736037869-5lk94b4g8tvubjjrilna1b1bsb7si47a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEDz6IToOTnsVApfh_R0hhTCSYoX5PxLM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "466736037869-5lk94b4g8tvubjjrilna1b1bsb7si47a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

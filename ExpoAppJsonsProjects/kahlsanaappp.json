@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "5alsana",
+    "slug": "kahlsanaapppslug",
+    "scheme": "kahlsanaapppscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/kahlsanaappp/kahlsanaappp1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/kahlsanaappp/kahlsanaappp1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/kahlsanaappp/kahlsanaappp1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.khalsana",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/kahlsanaappp-google-services.json",
+      "package": "com.tabex.series.kahlsanaappp",
+      "icon": "./AppIcons/kahlsanaappp/kahlsanaappp512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/kahlsanaappp/kahlsanaappp512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65cb441a2e2f0",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "49",
+      "androidsdk": "49",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "tabexdevinfo27@gmail.com",
+      "eas": {
+        "projectId": "f215aee0-2e6a-42a9-9321-372d9edd4fdb"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/f215aee0-2e6a-42a9-9321-372d9edd4fdb"
+    }
+  }
+}

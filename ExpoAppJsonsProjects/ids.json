@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "STISHARA IDS",
+    "slug": "idsslug",
+    "scheme": "idsscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/ids/ids1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/ids/ids1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/ids/ids1024.png",
+      "backgroundColor": "#040303",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.ids",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/ids-google-services.json",
+      "package": "com.tabex.series.ids",
+      "icon": "./AppIcons/ids/ids512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/ids/ids512.png",
+        "backgroundColor": "#040303"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "6592cb2d47245",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "firebaseaccount": "tabexdevinfo24@gmail.com",
+      "eas": {
+        "projectId": "e806c60a-f5c1-4f65-8ec3-161bca999b3f"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/e806c60a-f5c1-4f65-8ec3-161bca999b3f"
+    }
+  }
+}

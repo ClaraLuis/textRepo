@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "Hypee",
+    "slug": "hypelifeegslug",
+    "scheme": "hypelifeegscheme",
+    "version": "5.0",
+    "icon": "./AppIcons/hype/hype1024.png",
+    "notification": {
+      "icon": "./AppIcons/hype/hype1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/hype/hype1024.png",
+      "backgroundColor": "#f7f7f7",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.hypelife",
+      "buildNumber":"5",
+      "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/hypelife-google-services.json",
+      "package": "com.tabex.series.hypelife",
+      "icon": "./AppIcons/hype/hype512.png",
+      "versionCode": 5,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/hype/hype512.png",
+        "backgroundColor": "#f7f7f7"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "63f4852b5c02a",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "e0fec127-1036-4760-a9d6-2a35b4da2f79"
+      }
+    }
+    ,
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

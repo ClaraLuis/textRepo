@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "562954665088",
+    "project_id": "al-market-al-masry",
+    "storage_bucket": "al-market-al-masry.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562954665088:android:9df3b2c0de2632da99fa65",
+        "android_client_info": {
+          "package_name": "com.tabex.series.almarketalmasry"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqhsQFd9B3JIXx6d92pZmKH4W1vj_IC18"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

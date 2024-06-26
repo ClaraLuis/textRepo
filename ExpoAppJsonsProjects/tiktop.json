@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "Tiktop Academy",
+    "slug": "tiktopacademyslug",
+    "scheme": "tiktopscheme",
+    "version": "5.0",
+    "icon": "./AppIcons/tiktopacademy/tiktop1024.png",
+    "notification": {
+      "icon": "./AppIcons/tiktopacademy/tiktop1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/tiktopacademy/tiktop1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.tiktopacademy",
+      "buildNumber":"5",
+      "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/tiktop-google-services.json",
+      "package": "com.tabex.series.tiktopacademy",
+      "icon": "./AppIcons/tiktopacademy/tiktop412.png",
+      "versionCode": 5,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/tiktopacademy/tiktop412.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "iossdk": "48",
+      "androidsdk": "48",
+      "instapikey": "63c3fe876e735",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "eas": {
+        "projectId": "e0b18ce3-bb8a-4aac-badc-806b4aad8b73"
+      }
+    }
+    ,
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

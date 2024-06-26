@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "467412693488",
+    "project_id": "fabric-factory",
+    "storage_bucket": "fabric-factory.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467412693488:android:4ecb7ba94ab46f0896ad35",
+        "android_client_info": {
+          "package_name": "com.tabex.series.fabricfactory"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMhHAV4LhEnfrWkk6_E9JvjDy1EAXFyRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

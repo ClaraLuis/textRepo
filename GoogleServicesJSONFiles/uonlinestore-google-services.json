@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "989432921586",
+    "project_id": "u-online-store",
+    "storage_bucket": "u-online-store.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989432921586:android:b438bcbdc03d21be0ebf6b",
+        "android_client_info": {
+          "package_name": "com.tabex.series.uonlinestore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPvLIxM6BpZi4QQZKHbbbqC2pcDrBBaGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

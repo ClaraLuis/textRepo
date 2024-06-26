@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "241576953515",
+    "project_id": "rve-acffe",
+    "storage_bucket": "rve-acffe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241576953515:android:9023476af34716379ed9ee",
+        "android_client_info": {
+          "package_name": "com.tabex.series.rve"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzMH0oxB3Pzi2zaZ8hiw93OgqtvhsPgK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

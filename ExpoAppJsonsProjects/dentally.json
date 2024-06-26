@@ -1,0 +1,73 @@
+{
+  "expo": {
+    "name": "Mediculous",
+    "slug": "dentallyslug",
+    "scheme": "dentallyscheme",
+    "version": "12.0",
+    "icon": "./AppIcons/dentally/dentally1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/dentally/dentally1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/dentally/dentallyloader.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.dentally",
+      "buildNumber": "12",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/dentally-google-services.json",
+      "package": "com.tabex.series.dentally",
+      "icon": "./AppIcons/dentally/dentally512.png",
+      "versionCode": 12,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/dentally/dentally512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "645f7c9ddac7a",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "d430d681-9808-418b-b149-0ce08cf925ae"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/d430d681-9808-418b-b149-0ce08cf925ae"
+    }
+  }
+}

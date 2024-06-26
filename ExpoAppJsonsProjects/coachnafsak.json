@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "كوتش نفسك",
+    "slug": "coachnafsakslug",
+    "scheme": "coachnafsakscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/coachnafsak/coachnafsak1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/coachnafsak/coachnafsak1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/coachnafsak/coachnafsak1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.coachnafsak",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/coachnafsak-google-services.json",
+      "package": "com.tabex.series.coachnafsak",
+      "icon": "./AppIcons/coachnafsak/coachnafsak512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/coachnafsak/coachnafsak512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "6583168293645",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo@gmail.com",
+      "firebaseaccount": "tabexdevinfo22@gmail.com",
+      "eas": {
+        "projectId": "3f76ed75-bede-4f3c-a978-619694930686"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/3f76ed75-bede-4f3c-a978-619694930686"
+    }
+  }
+}

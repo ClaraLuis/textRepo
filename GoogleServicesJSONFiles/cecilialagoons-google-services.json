@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "392412228607",
+    "project_id": "cecilia-lagoons",
+    "storage_bucket": "cecilia-lagoons.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392412228607:android:9f834d1c0210b5883315ca",
+        "android_client_info": {
+          "package_name": "com.tabex.series.cecilialagoons"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd-maHInrlgvKum1fihG7ugAZmYW0EbvM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

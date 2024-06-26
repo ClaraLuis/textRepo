@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "Almasa Gold",
+    "slug": "almasagoldslug",
+    "scheme": "almasagoldscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/almasagold/almasagold1024.png",
+    "notification": {
+      "icon": "./AppIcons/almasagold/almasagold1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/almasagold/almasagold1024.png",
+      "backgroundColor": "#1d1d1d",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.almasagold",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/almasagold-google-services.json",
+      "package": "com.tabex.series.almasagold",
+      "icon": "./AppIcons/almasagold/almasagold512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/almasagold/almasagold512.png",
+        "backgroundColor": "#1d1d1d"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "63c6b88fef275",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "8d8702f1-1417-45df-8f22-b05c48234491"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}

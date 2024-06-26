@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "804776806326",
+    "project_id": "fresh-chicken-center-6c149",
+    "storage_bucket": "fresh-chicken-center-6c149.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804776806326:android:b17156b3e7fc612d566317",
+        "android_client_info": {
+          "package_name": "com.tabex.series.freshchickencenter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAn_3T4K1D_IbHcFFG5Q8kBunjvJkHj2Sk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

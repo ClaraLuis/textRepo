@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "908426437807",
+    "project_id": "ad-store-709d1",
+    "storage_bucket": "ad-store-709d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908426437807:android:b1ad3f8cc845bf8df5205a",
+        "android_client_info": {
+          "package_name": "com.tabex.series.adstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908426437807-dftn280qlv70ikqdsiqdlpiv3otbonp6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhTRt22LyciIY_r92xdRFpz42vDA6vj6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "908426437807-dftn280qlv70ikqdsiqdlpiv3otbonp6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

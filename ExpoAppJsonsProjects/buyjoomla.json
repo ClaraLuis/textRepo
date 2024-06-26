@@ -1,0 +1,72 @@
+{
+  "expo": {
+    "name": "Buy Joomla",
+    "slug": "buyjoomlaslug",
+    "scheme": "buyjoomlascheme",
+    "version": "2.0",
+    "icon": "./AppIcons/buyjoomla/buyjoomla1024.png",
+    "notification": {
+      "icon": "./AppIcons/buyjoomla/buyjoomla1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/buyjoomla/buyjoomla1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.buyjoomla",
+      "buildNumber": "2",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/buyjoomla-google-services.json",
+      "package": "com.tabex.series.buyjoomla",
+      "icon": "./AppIcons/buyjoomla/buyjoomla512.png",
+      "versionCode": 2,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/buyjoomla/buyjoomla512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "64a683643dc50",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "73f19e1f-635f-42a9-a6e0-76657a368031"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/73f19e1f-635f-42a9-a6e0-76657a368031"
+    }
+  }
+}

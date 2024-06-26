@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "431068532583",
+    "project_id": "elagy-82cb7",
+    "storage_bucket": "elagy-82cb7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431068532583:android:b279d44f415c6d83fe69c2",
+        "android_client_info": {
+          "package_name": "com.tabex.series.elagy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA3s_Q55tfVJkuKUATwPQrbfMaB9g05Nw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

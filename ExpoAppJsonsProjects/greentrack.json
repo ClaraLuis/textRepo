@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "Green Track",
+    "slug": "greentrackslug",
+    "scheme": "greentrackscheme",
+    "version": "1.0",
+    "icon": "./AppIcons/greentrack/greentrack1024.png",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./AppIcons/greentrack/greentrack1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/greentrack/greentrack1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.greentrack",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/greentrack-google-services.json",
+      "package": "com.tabex.series.greentrack",
+      "icon": "./AppIcons/greentrack/greentrack512.png",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/greentrack/greentrack512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "65a7b598c9a6d",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "expoaccountwhoami": "tabexdevinfo24@gmail.com",
+      "firebaseaccount": "tabexdevinfo24@gmail.com",
+      "eas": {
+        "projectId": "f2e574f2-4b47-4614-8a1d-02d2fcefe6fb"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/f2e574f2-4b47-4614-8a1d-02d2fcefe6fb"
+    }
+  }
+}

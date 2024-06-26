@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1053828573227",
+    "project_id": "eco-healthy",
+    "storage_bucket": "eco-healthy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053828573227:android:9ce0db3238d965f1a4e26e",
+        "android_client_info": {
+          "package_name": "com.tabex.series.ecohealthy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053828573227-vvvpsirkfaa6mkaiflraijlqrp15o3i3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqXM0m7Xidl9c0PKu7oqxlDqLw6rNO3wA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1053828573227-vvvpsirkfaa6mkaiflraijlqrp15o3i3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

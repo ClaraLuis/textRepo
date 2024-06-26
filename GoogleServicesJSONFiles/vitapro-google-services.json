@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "985643905017",
+    "project_id": "vitapro-8b748",
+    "storage_bucket": "vitapro-8b748.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985643905017:android:e166e21ee7634ffe729728",
+        "android_client_info": {
+          "package_name": "com.tabex.series.vitapro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFcZ5zxJJt0GqQUFB4BNwO2IS2NVGYiCI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

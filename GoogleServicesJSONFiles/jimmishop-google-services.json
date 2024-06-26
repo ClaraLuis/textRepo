@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "23657790997",
+    "project_id": "jimmishop-b5188",
+    "storage_bucket": "jimmishop-b5188.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23657790997:android:954ec2ab4f00b3e7c4981c",
+        "android_client_info": {
+          "package_name": "com.tabex.series.jimmishop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "23657790997-v9cp5buqg1lgitvf0rpcvodd0gounn0f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbPofiswoWQuEcxJS6HKy-e7NPpHGUI8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "23657790997-v9cp5buqg1lgitvf0rpcvodd0gounn0f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

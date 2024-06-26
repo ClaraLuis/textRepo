@@ -1,0 +1,72 @@
+{
+  "expo": {
+    "name": "المليونير وفر و اكسب",
+    "slug": "elmillionaireslug",
+    "scheme": "elmillionairescheme",
+    "version": "6.0",
+    "icon": "./AppIcons/elmillionaire/elmillionaire1024.png",
+    "notification": {
+      "icon": "./AppIcons/elmillionaire/elmillionaire1024.png"
+    },
+    "splash": {
+      "image": "./AppIcons/elmillionaire/elmillionaire1024.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tabex.series.elmillionaire",
+      "buildNumber": "6",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./GoogleServicesJSONFiles/elmillionaire-google-services.json",
+      "package": "com.tabex.series.elmillionaire",
+      "icon": "./AppIcons/elmillionaire/elmillionaire512.png",
+      "versionCode": 6,
+      "permissions": [
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcons/elmillionaire/elmillionaire512.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "",
+    "extra": {
+      "instapikey": "647c51428849b",
+      "projectsrctype": "subdomain",
+      "hastrackingpermissions": "yes",
+      "iossdk": "48",
+      "androidsdk": "48",
+      "eas": {
+        "projectId": "68f2a9c9-8929-49bb-902c-60458f6710cc"
+      }
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/68f2a9c9-8929-49bb-902c-60458f6710cc"
+    }
+  }
+}

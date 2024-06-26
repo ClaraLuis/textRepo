@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "139499257889",
+    "project_id": "tawfeqeapp",
+    "storage_bucket": "tawfeqeapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139499257889:android:ebd05efe31090362082360",
+        "android_client_info": {
+          "package_name": "com.tabex.series.tawfeqeaapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmiNxRVueQZnuAGuvNYGBbcInBaCo5BV8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

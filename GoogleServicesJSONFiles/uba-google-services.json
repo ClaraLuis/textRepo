@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "437876564188",
+    "project_id": "uba-10567",
+    "storage_bucket": "uba-10567.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437876564188:android:0bd5af849b607a95045419",
+        "android_client_info": {
+          "package_name": "com.tabex.series.uba"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2KuGW66tEc22K_XVu1Pb0t48_b-3J7Ms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
