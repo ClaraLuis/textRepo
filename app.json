@@ -44,10 +44,7 @@
             "iossdk": "51",
             "androidsdk": "51",
             "expoaccountwhoami": "youssefriadsobhy1@gmail.com",
-            "firebaseaccount": "13tbdex@gmail.com",
-            "eas": {
-                "projectId": "748837c5-8e80-47a1-b298-8c85bc7e79ee"
-            }
+            "firebaseaccount": "13tbdex@gmail.com"
         },
         "plugins": [
             [
@@ -56,12 +53,6 @@
                     "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
                 }
             ]
-        ],
-        "runtimeVersion": {
-            "policy": "sdkVersion"
-        },
-        "updates": {
-            "url": "https://u.expo.dev/748837c5-8e80-47a1-b298-8c85bc7e79ee"
-        }
+        ]
     }
 }
