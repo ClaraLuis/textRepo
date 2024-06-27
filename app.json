@@ -1,58 +1,27 @@
 {
     "expo": {
-        "name": "راديو فالسكة",
-        "slug": "filsekaslug",
-        "scheme": "filsekascheme",
-        "version": "1.0",
-        "icon": "./AppIcons/filseka/filseka1024.png",
+        "name": "my-new-project1",
+        "slug": "my-new-project1",
+        "version": "1.0.0",
         "orientation": "portrait",
-        "notification": {
-            "icon": "./AppIcons/filseka/filseka1024.png"
-        },
+        "icon": "./assets/icon.png",
+        "userInterfaceStyle": "light",
         "splash": {
-            "image": "./AppIcons/filseka/filsekasplashscreen.png",
-            "backgroundColor": "#fefefe",
-            "resizeMode": "cover"
+            "image": "./assets/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
         },
-        "assetBundlePatterns": ["**/*"],
         "ios": {
-            "bundleIdentifier": "com.tabex.series.filseka",
-            "buildNumber": "1",
-            "supportsTablet": true,
-            "infoPlist": {
-                "NSUserTrackingUsageDescription": "This identifier email will be used to deliver personalized ads to you."
-            }
+            "supportsTablet": true
         },
         "android": {
-            "softwareKeyboardLayoutMode": "pan",
-            "googleServicesFile": "./GoogleServicesJSONFiles/filseka-google-services.json",
-            "package": "com.tabex.series.filseka",
-            "icon": "./AppIcons/filseka/filseka512.png",
-            "versionCode": 1,
-            "permissions": ["INTERNET", "MODIFY_AUDIO_SETTINGS", "READ_EXTERNAL_STORAGE", "SYSTEM_ALERT_WINDOW", "VIBRATE", "WRITE_EXTERNAL_STORAGE", "com.google.android.gms.permission.AD_ID"],
             "adaptiveIcon": {
-                "foregroundImage": "./AppIcons/filseka/filseka512.png",
-                "backgroundColor": "#fefefe"
+                "foregroundImage": "./assets/adaptive-icon.png",
+                "backgroundColor": "#ffffff"
             }
         },
-        "description": "",
-        "extra": {
-            "instapikey": "6645eba81f0d8",
-            "projectsrctype": "subdomain",
-            "hastrackingpermissions": "yes",
-            "loadercontain": "cover",
-            "iossdk": "51",
-            "androidsdk": "51",
-            "expoaccountwhoami": "youssefriadsobhy1@gmail.com",
-            "firebaseaccount": "13tbdex@gmail.com"
-        },
-        "plugins": [
-            [
-                "expo-tracking-transparency",
-                {
-                    "userTrackingPermission": "This identifier email will be used to deliver personalized ads to you."
-                }
-            ]
-        ]
+        "web": {
+            "favicon": "./assets/favicon.png"
+        }
     }
 }
